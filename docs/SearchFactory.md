@@ -14,7 +14,7 @@ This class has the following methods.
 Gets an IndexingUtil instance.
 
 ```php
-$result = $searchFactory->getIndexingUtil();
+ $result = $searchFactory->getIndexingUtil();
 ```
 
 
@@ -22,7 +22,7 @@ $result = $searchFactory->getIndexingUtil();
 Gets an IndexUtil instance.
 
 ```php
-$result = $searchFactory->getIndexUtil();
+ $result = $searchFactory->getIndexUtil();
 ```
 
 
@@ -30,7 +30,7 @@ $result = $searchFactory->getIndexUtil();
 Gets a QueryStringUtil instance.
 
 ```php
-$result = $searchFactory->getQueryStringUtil();
+ $result = $searchFactory->getQueryStringUtil();
 ```
 
 
@@ -38,7 +38,7 @@ $result = $searchFactory->getQueryStringUtil();
 Convenience method to get a SearchSortField instance.
 
 ```php
-$result = $searchFactory->getSearchSortField(aField, isDescending);
+ $result = $searchFactory->getSearchSortField(aField, isDescending);
 ```
 
 
@@ -46,6 +46,6 @@ $result = $searchFactory->getSearchSortField(aField, isDescending);
 Convenience method to get a SearchUtil instance.
 
 ```php
-$result = $searchFactory->getSearchUtil();
+ $result = $searchFactory->getSearchUtil();
 ```
 

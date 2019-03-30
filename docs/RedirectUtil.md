@@ -14,7 +14,7 @@ This class has the following methods.
 Adds a relative URI that should trigger a 301 redirect to a specific node.
 
 ```php
-$result = $redirectUtil->addRedirectURI(aNode, aRelativeURI);
+$redirectUtil->addRedirectURI(aNode, aRelativeURI);
 ```
 
 
@@ -22,7 +22,7 @@ $result = $redirectUtil->addRedirectURI(aNode, aRelativeURI);
 Adds a collection of relative URIs that should trigger 301 redirects to a specific node.
 
 ```php
-$result = $redirectUtil->addRedirectURIs(aNode, aRelativeURIs);
+$redirectUtil->addRedirectURIs(aNode, aRelativeURIs);
 ```
 
 
@@ -30,7 +30,7 @@ $result = $redirectUtil->addRedirectURIs(aNode, aRelativeURIs);
 Removes all relative 301 redirect URIs from a specific node.
 
 ```php
-$result = $redirectUtil->removeAllRedirectURIs(aNode);
+$redirectUtil->removeAllRedirectURIs(aNode);
 ```
 
 
@@ -38,6 +38,6 @@ $result = $redirectUtil->removeAllRedirectURIs(aNode);
 Removes a relative 301 redirect URI from a specific node.
 
 ```php
-$result = $redirectUtil->removeRedirectURI(aNode, aRelativeURI);
+$redirectUtil->removeRedirectURI(aNode, aRelativeURI);
 ```
 

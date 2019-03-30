@@ -14,7 +14,7 @@ This class has the following methods.
 Removes the description, i.e. executes setDescription(null)
 
 ```php
-$result = $imageRenderer->clearDescription();
+$imageRenderer->clearDescription();
 ```
 
 
@@ -22,7 +22,7 @@ $result = $imageRenderer->clearDescription();
 Utility method for executing setHoverImage(null)
 
 ```php
-$result = $imageRenderer->clearHoverImage();
+$imageRenderer->clearHoverImage();
 ```
 
 
@@ -30,7 +30,7 @@ $result = $imageRenderer->clearHoverImage();
 Removes the image scaler, i.e. executes setImageScaler(null)
 
 ```php
-$result = $imageRenderer->clearImageScaler();
+$imageRenderer->clearImageScaler();
 ```
 
 
@@ -38,7 +38,7 @@ $result = $imageRenderer->clearImageScaler();
 Utility method for executing setSourceSetMode(SourceSetMode.OFF).
 
 ```php
-$result = $imageRenderer->clearSourceSetMode();
+$imageRenderer->clearSourceSetMode();
 ```
 
 
@@ -46,7 +46,7 @@ $result = $imageRenderer->clearSourceSetMode();
 Removes the style, i.e. executes setStyle(null)
 
 ```php
-$result = $imageRenderer->clearStyle();
+$imageRenderer->clearStyle();
 ```
 
 
@@ -54,7 +54,7 @@ $result = $imageRenderer->clearStyle();
 Utility method for executing setUseAutoDescription(false)
 
 ```php
-$result = $imageRenderer->clearUseAutoDescription();
+$imageRenderer->clearUseAutoDescription();
 ```
 
 
@@ -62,7 +62,7 @@ $result = $imageRenderer->clearUseAutoDescription();
 Utility method for executing setUseAutoTitle(false)
 
 ```php
-$result = $imageRenderer->clearUseAutoTitle();
+$imageRenderer->clearUseAutoTitle();
 ```
 
 
@@ -70,7 +70,7 @@ $result = $imageRenderer->clearUseAutoTitle();
 Utility method for executing setUseEncoding(false)
 
 ```php
-$result = $imageRenderer->clearUseEncoding();
+$imageRenderer->clearUseEncoding();
 ```
 
 
@@ -78,7 +78,7 @@ $result = $imageRenderer->clearUseEncoding();
 Utility method for executing setUseImageScaler(false)
 
 ```php
-$result = $imageRenderer->clearUseImageScaler();
+$imageRenderer->clearUseImageScaler();
 ```
 
 
@@ -86,7 +86,7 @@ $result = $imageRenderer->clearUseImageScaler();
 Utility method for executing setUseTitleRendering(false)
 
 ```php
-$result = $imageRenderer->clearUseTitleRendering();
+$imageRenderer->clearUseTitleRendering();
 ```
 
 
@@ -94,7 +94,7 @@ $result = $imageRenderer->clearUseTitleRendering();
 Utility method for executing setSourceSetMode(SourceSetMode.ON).
 
 ```php
-$result = $imageRenderer->forceSourceSetMode();
+$imageRenderer->forceSourceSetMode();
 ```
 
 
@@ -102,7 +102,7 @@ $result = $imageRenderer->forceSourceSetMode();
 Utility method for executing setUseAutoDescription(true)
 
 ```php
-$result = $imageRenderer->forceUseAutoDescription();
+$imageRenderer->forceUseAutoDescription();
 ```
 
 
@@ -110,7 +110,7 @@ $result = $imageRenderer->forceUseAutoDescription();
 Utility method for executing setUseAutoTitle(true)
 
 ```php
-$result = $imageRenderer->forceUseAutoTitle();
+$imageRenderer->forceUseAutoTitle();
 ```
 
 
@@ -118,7 +118,7 @@ $result = $imageRenderer->forceUseAutoTitle();
 Utility method for executing setUseEncoding(true)
 
 ```php
-$result = $imageRenderer->forceUseEncoding();
+$imageRenderer->forceUseEncoding();
 ```
 
 
@@ -126,7 +126,7 @@ $result = $imageRenderer->forceUseEncoding();
 Utility method for executing setUseImageScaler(true)
 
 ```php
-$result = $imageRenderer->forceUseImageScaler();
+$imageRenderer->forceUseImageScaler();
 ```
 
 
@@ -134,7 +134,7 @@ $result = $imageRenderer->forceUseImageScaler();
 Utility method for executing setUseTitleRendering(true)
 
 ```php
-$result = $imageRenderer->forceUseTitleRendering();
+$imageRenderer->forceUseTitleRendering();
 ```
 
 
@@ -142,7 +142,7 @@ $result = $imageRenderer->forceUseTitleRendering();
 Whether or not a hover image is loaded.
 
 ```php
-$result = $imageRenderer->isHoverImageLoaded();
+ $result = $imageRenderer->isHoverImageLoaded();
 ```
 
 
@@ -150,7 +150,7 @@ $result = $imageRenderer->isHoverImageLoaded();
 Whether or not an image is loaded.
 
 ```php
-$result = $imageRenderer->isImageLoaded();
+ $result = $imageRenderer->isImageLoaded();
 ```
 
 
@@ -158,7 +158,7 @@ $result = $imageRenderer->isImageLoaded();
 Whether or not an image scaler is loaded.
 
 ```php
-$result = $imageRenderer->isImageScalerLoaded();
+ $result = $imageRenderer->isImageScalerLoaded();
 ```
 
 
@@ -166,7 +166,7 @@ $result = $imageRenderer->isImageScalerLoaded();
 Builds a xhtml img element based on current state.
 
 ```php
-$result = $imageRenderer->render();
+ $result = $imageRenderer->render();
 ```
 
 
@@ -174,7 +174,7 @@ $result = $imageRenderer->render();
 Utility method for executing setSourceSetMode(SourceSetMode.AUTO).
 
 ```php
-$result = $imageRenderer->resetSourceSetMode();
+$imageRenderer->resetSourceSetMode();
 ```
 
 
@@ -182,7 +182,7 @@ $result = $imageRenderer->resetSourceSetMode();
 Sets the image description (alt attribute on the img element).
 
 ```php
-$result = $imageRenderer->setDescription(aDescription);
+$imageRenderer->setDescription(aDescription);
 ```
 
 
@@ -190,7 +190,7 @@ $result = $imageRenderer->setDescription(aDescription);
 Sets a hover image that will be activated on the onmouseover javascript event.
 
 ```php
-$result = $imageRenderer->setHoverImage(anImageNode);
+$imageRenderer->setHoverImage(anImageNode);
 ```
 
 
@@ -198,7 +198,7 @@ $result = $imageRenderer->setHoverImage(anImageNode);
 Sets the image to be rendered.
 
 ```php
-$result = $imageRenderer->setImage(anImageNode);
+$imageRenderer->setImage(anImageNode);
 ```
 
 
@@ -206,7 +206,7 @@ $result = $imageRenderer->setImage(anImageNode);
 Sets the image scaler that should be used by the renderer if useImageScaler is true.
 
 ```php
-$result = $imageRenderer->setImageScaler(anImageScaler);
+$imageRenderer->setImageScaler(anImageScaler);
 ```
 
 
@@ -214,7 +214,7 @@ $result = $imageRenderer->setImageScaler(anImageScaler);
 The srcset attribute rendering strategy.
 
 ```php
-$result = $imageRenderer->setSourceSetMode(aSourceSetMode);
+$imageRenderer->setSourceSetMode(aSourceSetMode);
 ```
 
 
@@ -222,7 +222,7 @@ $result = $imageRenderer->setSourceSetMode(aSourceSetMode);
 Sets the style (style attribute on the img element).
 
 ```php
-$result = $imageRenderer->setStyle(aStyle);
+$imageRenderer->setStyle(aStyle);
 ```
 
 
@@ -230,7 +230,7 @@ $result = $imageRenderer->setStyle(aStyle);
 A description fallback strategy that makes it possible to render a description value even if no description has been set.
 
 ```php
-$result = $imageRenderer->setUseAutoDescription(useAutoDescription);
+$imageRenderer->setUseAutoDescription(useAutoDescription);
 ```
 
 
@@ -238,7 +238,7 @@ $result = $imageRenderer->setUseAutoDescription(useAutoDescription);
 A title fallback strategy that makes it possible to render a title value even if no description is available.
 
 ```php
-$result = $imageRenderer->setUseAutoTitle(useAutoTitle);
+$imageRenderer->setUseAutoTitle(useAutoTitle);
 ```
 
 
@@ -246,7 +246,7 @@ $result = $imageRenderer->setUseAutoTitle(useAutoTitle);
 Sets whether or not descriptions should be encoded.
 
 ```php
-$result = $imageRenderer->setUseEncoding(performEncoding);
+$imageRenderer->setUseEncoding(performEncoding);
 ```
 
 
@@ -254,7 +254,7 @@ $result = $imageRenderer->setUseEncoding(performEncoding);
 Decides if an image scaler should be used or not.
 
 ```php
-$result = $imageRenderer->setUseImageScaler(useImageScaler);
+$imageRenderer->setUseImageScaler(useImageScaler);
 ```
 
 
@@ -262,7 +262,7 @@ $result = $imageRenderer->setUseImageScaler(useImageScaler);
 A title strategy that makes it possible to render a title attribute with the description as value.
 
 ```php
-$result = $imageRenderer->setUseTitleRendering(useTitleRendering);
+$imageRenderer->setUseTitleRendering(useTitleRendering);
 ```
 
 
@@ -270,6 +270,6 @@ $result = $imageRenderer->setUseTitleRendering(useTitleRendering);
 Updates the renderer with a new image and a new description.
 
 ```php
-$result = $imageRenderer->update(anImageNode, aDescription);
+$imageRenderer->update(anImageNode, aDescription);
 ```
 

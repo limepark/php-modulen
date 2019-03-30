@@ -14,7 +14,7 @@ This class has the following methods.
 Gets an immutable list of all available Locales (installed Java Locales and custom ones added by SiteVision).
 
 ```php
-$result = $localeUtil->getAvailableLocales();
+ $result = $localeUtil->getAvailableLocales();
 ```
 
 
@@ -22,7 +22,7 @@ $result = $localeUtil->getAvailableLocales();
 Returns the IETF BCP 47 language tag value for a Locale.
 
 ```php
-$result = $localeUtil->getLanguageTag(aLocale);
+ $result = $localeUtil->getLanguageTag(aLocale);
 ```
 
 
@@ -30,7 +30,7 @@ $result = $localeUtil->getLanguageTag(aLocale);
 Gets the localized language name for a specified Locale.
 
 ```php
-$result = $localeUtil->getLocalizedLanguageName(aLocale, aDisplayLocale);
+ $result = $localeUtil->getLocalizedLanguageName(aLocale, aDisplayLocale);
 ```
 
 
@@ -38,7 +38,7 @@ $result = $localeUtil->getLocalizedLanguageName(aLocale, aDisplayLocale);
 Gets the localized language name for a Locale that is resolved via a specified locale string.
 
 ```php
-$result = $localeUtil->getLocalizedLanguageNameByString(aLocaleString, aDisplayLocale);
+ $result = $localeUtil->getLocalizedLanguageNameByString(aLocaleString, aDisplayLocale);
 ```
 
 
@@ -46,7 +46,7 @@ $result = $localeUtil->getLocalizedLanguageNameByString(aLocaleString, aDisplayL
 Gets the native language name for a specified Locale.
 
 ```php
-$result = $localeUtil->getNativeLanguageName(aLocale);
+ $result = $localeUtil->getNativeLanguageName(aLocale);
 ```
 
 
@@ -54,7 +54,7 @@ $result = $localeUtil->getNativeLanguageName(aLocale);
 Gets the native language name for a Locale that is resolved via a specified locale string.
 
 ```php
-$result = $localeUtil->getNativeLanguageNameByString(aLocaleString);
+ $result = $localeUtil->getNativeLanguageNameByString(aLocaleString);
 ```
 
 
@@ -62,6 +62,6 @@ $result = $localeUtil->getNativeLanguageNameByString(aLocaleString);
 Checks if a locale has writing direction Right-To-Left (RTL).
 
 ```php
-$result = $localeUtil->isRTL(aLocale);
+ $result = $localeUtil->isRTL(aLocale);
 ```
 

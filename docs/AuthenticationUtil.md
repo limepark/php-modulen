@@ -14,7 +14,7 @@ This class has the following methods.
 Authenticates a user based on username and password.
 
 ```php
-$result = $authenticationUtil->login(aPortletRequest, name, password);
+$authenticationUtil->login(aPortletRequest, name, password);
 ```
 
 
@@ -22,7 +22,7 @@ $result = $authenticationUtil->login(aPortletRequest, name, password);
 Logout current user based on a PortletRequest.
 
 ```php
-$result = $authenticationUtil->logout(aPortletRequest, invalidateHttpSession);
+$authenticationUtil->logout(aPortletRequest, invalidateHttpSession);
 ```
 
 
@@ -30,6 +30,6 @@ $result = $authenticationUtil->logout(aPortletRequest, invalidateHttpSession);
 Re-authenticates a user based on a Subject already in the session.
 
 ```php
-$result = $authenticationUtil->reLogin(aPortletRequest);
+$authenticationUtil->reLogin(aPortletRequest);
 ```
 

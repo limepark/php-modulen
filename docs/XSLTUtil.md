@@ -14,7 +14,7 @@ This class has the following methods.
 Gets the default XSL template for cleanup of HTML sources.
 
 ```php
-$result = $xSLTUtil->getDefaultCleanHtmlTemplate();
+ $result = $xSLTUtil->getDefaultCleanHtmlTemplate();
 ```
 
 
@@ -22,6 +22,6 @@ $result = $xSLTUtil->getDefaultCleanHtmlTemplate();
 Transforms a HTML/XML source using a XSL template.
 
 ```php
-$result = $xSLTUtil->transform(aSource, aXslTemplate);
+ $result = $xSLTUtil->transform(aSource, aXslTemplate);
 ```
 

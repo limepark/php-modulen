@@ -14,7 +14,7 @@ This class has the following methods.
 Gets an instance of an article utility class
 
 ```php
-$result = $webResourceFactory->getArticleUtil();
+ $result = $webResourceFactory->getArticleUtil();
 ```
 
 
@@ -22,7 +22,7 @@ $result = $webResourceFactory->getArticleUtil();
 Gets an instance of a file utility class
 
 ```php
-$result = $webResourceFactory->getFileUtil();
+ $result = $webResourceFactory->getFileUtil();
 ```
 
 
@@ -30,7 +30,7 @@ $result = $webResourceFactory->getFileUtil();
 Gets an instance of an image utility class
 
 ```php
-$result = $webResourceFactory->getImageUtil();
+ $result = $webResourceFactory->getImageUtil();
 ```
 
 
@@ -38,7 +38,7 @@ $result = $webResourceFactory->getImageUtil();
 Gets an instance of a link page utility class.
 
 ```php
-$result = $webResourceFactory->getLinkPageUtil();
+ $result = $webResourceFactory->getLinkPageUtil();
 ```
 
 
@@ -46,6 +46,6 @@ $result = $webResourceFactory->getLinkPageUtil();
 Gets an instance of a page utility class
 
 ```php
-$result = $webResourceFactory->getPageUtil();
+ $result = $webResourceFactory->getPageUtil();
 ```
 

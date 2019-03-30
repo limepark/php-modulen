@@ -14,7 +14,7 @@ This class has the following methods.
 Returns the ImageRenderer instance used by this image link renderer to control (linked) image behaviour.
 
 ```php
-$result = $imageLinkRenderer->getImageRenderer();
+ $result = $imageLinkRenderer->getImageRenderer();
 ```
 
 
@@ -22,7 +22,7 @@ $result = $imageLinkRenderer->getImageRenderer();
 Returns the LinkRenderer instance used by this image link renderer to control linking behaviour.
 
 ```php
-$result = $imageLinkRenderer->getLinkRenderer();
+ $result = $imageLinkRenderer->getLinkRenderer();
 ```
 
 
@@ -30,6 +30,6 @@ $result = $imageLinkRenderer->getLinkRenderer();
 Builds a html link based on current state of the link renderer and the image render.
 
 ```php
-$result = $imageLinkRenderer->render();
+ $result = $imageLinkRenderer->render();
 ```
 

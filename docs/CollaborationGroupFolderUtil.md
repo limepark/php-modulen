@@ -14,7 +14,7 @@ This class has the following methods.
 Whether or not a collaboration group folder already contains a named collaboration group.
 
 ```php
-$result = $collaborationGroupFolderUtil->containsCollaborationGroup(aCollaborationGroupFolder, aGroupName);
+ $result = $collaborationGroupFolderUtil->containsCollaborationGroup(aCollaborationGroupFolder, aGroupName);
 ```
 
 
@@ -22,6 +22,6 @@ $result = $collaborationGroupFolderUtil->containsCollaborationGroup(aCollaborati
 Gets the default collaboration group folder.
 
 ```php
-$result = $collaborationGroupFolderUtil->getDefaultCollaborationGroupFolder();
+ $result = $collaborationGroupFolderUtil->getDefaultCollaborationGroupFolder();
 ```
 

@@ -14,7 +14,7 @@ This class has the following methods.
 Schedules a node publish job for execution at a specified date and a node unpublish job for execution at another date.
 
 ```php
-$result = $publishingUtil->publishNode(aNode, aPublishDate, anUnpublishDate);
+$publishingUtil->publishNode(aNode, aPublishDate, anUnpublishDate);
 ```
 
 
@@ -23,7 +23,7 @@ Schedules a node publish job for execution at a specified date and a node unpubl
     date and a best before notification date.
 
 ```php
-$result = $publishingUtil->publishNodeWithNotification(aNode, aPublishDate, anUnpublishDate, aNotificationDate);
+$publishingUtil->publishNodeWithNotification(aNode, aPublishDate, anUnpublishDate, aNotificationDate);
 ```
 
 
@@ -31,6 +31,6 @@ $result = $publishingUtil->publishNodeWithNotification(aNode, aPublishDate, anUn
 Schedules a node unpublish job for execution at a specified date.
 
 ```php
-$result = $publishingUtil->unpublishNode(aNode, aDate);
+$publishingUtil->unpublishNode(aNode, aDate);
 ```
 

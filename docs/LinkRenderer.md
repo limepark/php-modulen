@@ -14,7 +14,7 @@ This class has the following methods.
 Adds an HTML5 data-* attribute to the link element.
 
 ```php
-$result = $linkRenderer->addDataAttribute(aName, aValue);
+$linkRenderer->addDataAttribute(aName, aValue);
 ```
 
 
@@ -22,7 +22,7 @@ $result = $linkRenderer->addDataAttribute(aName, aValue);
 Adds target parameters (key=value) to the link target (href attribute on the a element).
 
 ```php
-$result = $linkRenderer->addTargetParameter(key, value);
+$linkRenderer->addTargetParameter(key, value);
 ```
 
 
@@ -30,7 +30,7 @@ $result = $linkRenderer->addTargetParameter(key, value);
 Removes the accesskey, i.e. executes setAccessKey(null)
 
 ```php
-$result = $linkRenderer->clearAccessKey();
+$linkRenderer->clearAccessKey();
 ```
 
 
@@ -38,7 +38,7 @@ $result = $linkRenderer->clearAccessKey();
 Removes all optional settings.
 
 ```php
-$result = $linkRenderer->clearAllOptional();
+$linkRenderer->clearAllOptional();
 ```
 
 
@@ -46,7 +46,7 @@ $result = $linkRenderer->clearAllOptional();
 Removes all existing data attributes
 
 ```php
-$result = $linkRenderer->clearDataAttributes();
+$linkRenderer->clearDataAttributes();
 ```
 
 
@@ -54,7 +54,7 @@ $result = $linkRenderer->clearDataAttributes();
 Removes the id value, i.e executes setId(null)
 
 ```php
-$result = $linkRenderer->clearId();
+$linkRenderer->clearId();
 ```
 
 
@@ -62,7 +62,7 @@ $result = $linkRenderer->clearId();
 Removes the onclick value, i.e executes setOnclick(null)
 
 ```php
-$result = $linkRenderer->clearOnclick();
+$linkRenderer->clearOnclick();
 ```
 
 
@@ -70,7 +70,7 @@ $result = $linkRenderer->clearOnclick();
 Utility method for executing setOpenNewWindow(false)
 
 ```php
-$result = $linkRenderer->clearOpenNewWindow();
+$linkRenderer->clearOpenNewWindow();
 ```
 
 
@@ -78,7 +78,7 @@ $result = $linkRenderer->clearOpenNewWindow();
 Removes the rel value, i.e executes setRel(null)
 
 ```php
-$result = $linkRenderer->clearRel();
+$linkRenderer->clearRel();
 ```
 
 
@@ -86,7 +86,7 @@ $result = $linkRenderer->clearRel();
 Removes the style, i.e executes setStyle(null)
 
 ```php
-$result = $linkRenderer->clearStyle();
+$linkRenderer->clearStyle();
 ```
 
 
@@ -94,7 +94,7 @@ $result = $linkRenderer->clearStyle();
 Removes all existing target parameters
 
 ```php
-$result = $linkRenderer->clearTargetParameters();
+$linkRenderer->clearTargetParameters();
 ```
 
 
@@ -102,7 +102,7 @@ $result = $linkRenderer->clearTargetParameters();
 Utility method for executing setUseAutoTitle(false)
 
 ```php
-$result = $linkRenderer->clearUseAutoTitle();
+$linkRenderer->clearUseAutoTitle();
 ```
 
 
@@ -110,7 +110,7 @@ $result = $linkRenderer->clearUseAutoTitle();
 Utility method for executing seUseCrossSiteTargetChecking(false)
 
 ```php
-$result = $linkRenderer->clearUseCrossSiteTargetChecking();
+$linkRenderer->clearUseCrossSiteTargetChecking();
 ```
 
 
@@ -118,7 +118,7 @@ $result = $linkRenderer->clearUseCrossSiteTargetChecking();
 Utility method for executing setUseEncoding(false)
 
 ```php
-$result = $linkRenderer->clearUseEncoding();
+$linkRenderer->clearUseEncoding();
 ```
 
 
@@ -126,7 +126,7 @@ $result = $linkRenderer->clearUseEncoding();
 Utility method for executing setUseLinkDecorationSettings(false)
 
 ```php
-$result = $linkRenderer->clearUseLinkDecorationSettings();
+$linkRenderer->clearUseLinkDecorationSettings();
 ```
 
 
@@ -134,7 +134,7 @@ $result = $linkRenderer->clearUseLinkDecorationSettings();
 Utility method for executing setUseParameterEncoding(false)
 
 ```php
-$result = $linkRenderer->clearUseParameterEncoding();
+$linkRenderer->clearUseParameterEncoding();
 ```
 
 
@@ -142,7 +142,7 @@ $result = $linkRenderer->clearUseParameterEncoding();
 Utility method for executing setUseResourceDecorationSettings(false)
 
 ```php
-$result = $linkRenderer->clearUseResourceDecorationSettings();
+$linkRenderer->clearUseResourceDecorationSettings();
 ```
 
 
@@ -150,7 +150,7 @@ $result = $linkRenderer->clearUseResourceDecorationSettings();
 Utility method for executing setOpenNewWindow(true)
 
 ```php
-$result = $linkRenderer->forceOpenNewWindow();
+$linkRenderer->forceOpenNewWindow();
 ```
 
 
@@ -158,7 +158,7 @@ $result = $linkRenderer->forceOpenNewWindow();
 Utility method for executing setUseAutoTitle(true)
 
 ```php
-$result = $linkRenderer->forceUseAutoTitle();
+$linkRenderer->forceUseAutoTitle();
 ```
 
 
@@ -166,7 +166,7 @@ $result = $linkRenderer->forceUseAutoTitle();
 Utility method for executing setUseCrossSiteTargetChecking(true)
 
 ```php
-$result = $linkRenderer->forceUseCrossSiteTargetChecking();
+$linkRenderer->forceUseCrossSiteTargetChecking();
 ```
 
 
@@ -174,7 +174,7 @@ $result = $linkRenderer->forceUseCrossSiteTargetChecking();
 Utility method for executing setUseEncoding(true)
 
 ```php
-$result = $linkRenderer->forceUseEncoding();
+$linkRenderer->forceUseEncoding();
 ```
 
 
@@ -182,7 +182,7 @@ $result = $linkRenderer->forceUseEncoding();
 Utility method for executing setUseLinkDecorationSettings(true)
 
 ```php
-$result = $linkRenderer->forceUseLinkDecorationSettings();
+$linkRenderer->forceUseLinkDecorationSettings();
 ```
 
 
@@ -190,7 +190,7 @@ $result = $linkRenderer->forceUseLinkDecorationSettings();
 Utility method for executing setUseParameterEncoding(true)
 
 ```php
-$result = $linkRenderer->forceUseParameterEncoding();
+$linkRenderer->forceUseParameterEncoding();
 ```
 
 
@@ -198,7 +198,7 @@ $result = $linkRenderer->forceUseParameterEncoding();
 Utility method for executing setUseResourceDecorationSettings(true)
 
 ```php
-$result = $linkRenderer->forceUseResourceDecorationSettings();
+$linkRenderer->forceUseResourceDecorationSettings();
 ```
 
 
@@ -206,7 +206,7 @@ $result = $linkRenderer->forceUseResourceDecorationSettings();
 Checks if a Node is a renderable target or not (node type accepted).
 
 ```php
-$result = $linkRenderer->isRenderableTarget(aNode);
+ $result = $linkRenderer->isRenderableTarget(aNode);
 ```
 
 
@@ -214,7 +214,7 @@ $result = $linkRenderer->isRenderableTarget(aNode);
 Checks if a Node is a valid target or not (node type accepted and target is valid).
 
 ```php
-$result = $linkRenderer->isValidTarget(aNode);
+ $result = $linkRenderer->isValidTarget(aNode);
 ```
 
 
@@ -222,7 +222,7 @@ $result = $linkRenderer->isValidTarget(aNode);
 Removes the title, i.e. executes setTitle(null)
 
 ```php
-$result = $linkRenderer->removeTitle();
+$linkRenderer->removeTitle();
 ```
 
 
@@ -230,7 +230,7 @@ $result = $linkRenderer->removeTitle();
 Builds a html link based on current state.
 
 ```php
-$result = $linkRenderer->render();
+ $result = $linkRenderer->render();
 ```
 
 
@@ -239,7 +239,7 @@ Sets what access key the link should have (accesskey attribute on the a element)
  The accesskey attribute is optional when the result is rendered.
 
 ```php
-$result = $linkRenderer->setAccessKey(anAccessKey);
+$linkRenderer->setAccessKey(anAccessKey);
 ```
 
 
@@ -247,7 +247,7 @@ $result = $linkRenderer->setAccessKey(anAccessKey);
 Sets the class name the link should use (class attribute on an a element) based on a given font node.
 
 ```php
-$result = $linkRenderer->setFont(aFontNode);
+$linkRenderer->setFont(aFontNode);
 ```
 
 
@@ -255,7 +255,7 @@ $result = $linkRenderer->setFont(aFontNode);
 Sets the class name the link should use (class attribute on the a element).
 
 ```php
-$result = $linkRenderer->setFontClass(aFontClass);
+$linkRenderer->setFontClass(aFontClass);
 ```
 
 
@@ -264,7 +264,7 @@ Sets the id value (id attribute on the a element), most likely only needed if so
  rendered link via its id.
 
 ```php
-$result = $linkRenderer->setId(anId);
+$linkRenderer->setId(anId);
 ```
 
 
@@ -273,7 +273,7 @@ Sets the onclick value (onclick attribute and onkeypress attribute on the a elem
  The onclick attribute is optional when the result is rendered.
 
 ```php
-$result = $linkRenderer->setOnclick(anOnclick);
+$linkRenderer->setOnclick(anOnclick);
 ```
 
 
@@ -281,7 +281,7 @@ $result = $linkRenderer->setOnclick(anOnclick);
 Should the link target be opened in a new window or not?
 
 ```php
-$result = $linkRenderer->setOpenNewWindow(openNewWindow);
+$linkRenderer->setOpenNewWindow(openNewWindow);
 ```
 
 
@@ -290,7 +290,7 @@ Sets the rel that should be used (rel attribute on the a element)
  The rel attribute is optional when the result is rendered.
 
 ```php
-$result = $linkRenderer->setRel(aRel);
+$linkRenderer->setRel(aRel);
 ```
 
 
@@ -298,7 +298,7 @@ $result = $linkRenderer->setRel(aRel);
 Sets what the link target is, i.e "what the link links to" (href attribute on the a element).
 
 ```php
-$result = $linkRenderer->setStringTarget(aTarget);
+$linkRenderer->setStringTarget(aTarget);
 ```
 
 
@@ -306,7 +306,7 @@ $result = $linkRenderer->setStringTarget(aTarget);
 Sets the css style the link should have (style attribute on the a element).
 
 ```php
-$result = $linkRenderer->setStyle(aStyle);
+$linkRenderer->setStyle(aStyle);
 ```
 
 
@@ -314,7 +314,7 @@ $result = $linkRenderer->setStyle(aStyle);
 Sets what the link target is, i.e "what the link links to" (href attribute on the a element).
 
 ```php
-$result = $linkRenderer->setTarget(aTarget);
+$linkRenderer->setTarget(aTarget);
 ```
 
 
@@ -322,7 +322,7 @@ $result = $linkRenderer->setTarget(aTarget);
 Sets the text that the link should display, i.e.
 
 ```php
-$result = $linkRenderer->setText(aText);
+$linkRenderer->setText(aText);
 ```
 
 
@@ -330,7 +330,7 @@ $result = $linkRenderer->setText(aText);
 Sets the title the link should have (title attribute on the a element).
 
 ```php
-$result = $linkRenderer->setTitle(aTitle);
+$linkRenderer->setTitle(aTitle);
 ```
 
 
@@ -338,7 +338,7 @@ $result = $linkRenderer->setTitle(aTitle);
 Ensures title always will have a value.
 
 ```php
-$result = $linkRenderer->setUseAutoTitle(useAutoTitle);
+$linkRenderer->setUseAutoTitle(useAutoTitle);
 ```
 
 
@@ -346,7 +346,7 @@ $result = $linkRenderer->setUseAutoTitle(useAutoTitle);
 Should cross-site internal Node links be handled or not?
 
 ```php
-$result = $linkRenderer->setUseCrossSiteTargetChecking(useCrossSiteTargetChecking);
+$linkRenderer->setUseCrossSiteTargetChecking(useCrossSiteTargetChecking);
 ```
 
 
@@ -354,7 +354,7 @@ $result = $linkRenderer->setUseCrossSiteTargetChecking(useCrossSiteTargetCheckin
 Should text and attributes be properly encoded or not?
 
 ```php
-$result = $linkRenderer->setUseEncoding(performEncoding);
+$linkRenderer->setUseEncoding(performEncoding);
 ```
 
 
@@ -362,7 +362,7 @@ $result = $linkRenderer->setUseEncoding(performEncoding);
 Use icons for "external", "new window" and "new window, external" according to Site's settings or not.
 
 ```php
-$result = $linkRenderer->setUseLinkDecorationSettings(useLinkDecorationSettings);
+$linkRenderer->setUseLinkDecorationSettings(useLinkDecorationSettings);
 ```
 
 
@@ -370,7 +370,7 @@ $result = $linkRenderer->setUseLinkDecorationSettings(useLinkDecorationSettings)
 Should target parameters be URL encoded or not?
 
 ```php
-$result = $linkRenderer->setUseParameterEncoding(performParameterEncoding);
+$linkRenderer->setUseParameterEncoding(performParameterEncoding);
 ```
 
 
@@ -378,7 +378,7 @@ $result = $linkRenderer->setUseParameterEncoding(performParameterEncoding);
 Use icons/descriptions for known file types according to Site's settings or not.
 
 ```php
-$result = $linkRenderer->setUseResourceDecorationSettings(useResourceDecorationSettings);
+$linkRenderer->setUseResourceDecorationSettings(useResourceDecorationSettings);
 ```
 
 
@@ -386,7 +386,7 @@ $result = $linkRenderer->setUseResourceDecorationSettings(useResourceDecorationS
 Updates current state.
 
 ```php
-$result = $linkRenderer->update(aTarget, aFontClass, aText, aTitle);
+$linkRenderer->update(aTarget, aFontClass, aText, aTitle);
 ```
 
 
@@ -394,6 +394,6 @@ $result = $linkRenderer->update(aTarget, aFontClass, aText, aTitle);
 Updates current state and removes all optional attributes.
 
 ```php
-$result = $linkRenderer->updateClean(aTarget, aFontClass, aText, aTitle);
+$linkRenderer->updateClean(aTarget, aFontClass, aText, aTitle);
 ```
 

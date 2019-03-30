@@ -14,7 +14,7 @@ This class has the following methods.
 Perform work during the login phase as a specified user.
 
 ```php
-$result = $principalUtil->doAsDuringLogin(aUser, aAction);
+$principalUtil->doAsDuringLogin(aUser, aAction);
 ```
 
 
@@ -22,7 +22,7 @@ $result = $principalUtil->doAsDuringLogin(aUser, aAction);
 Provides access to a virtual group wrapped as a JCR node given the group name.
 
 ```php
-$result = $principalUtil->getVirtualGroupByName(aName);
+ $result = $principalUtil->getVirtualGroupByName(aName);
 ```
 
 
@@ -30,6 +30,6 @@ $result = $principalUtil->getVirtualGroupByName(aName);
 Provides access to virtual groups wrapped as a JCR node given the group name.
 
 ```php
-$result = $principalUtil->getVirtualGroupsByName(aNames);
+ $result = $principalUtil->getVirtualGroupsByName(aNames);
 ```
 

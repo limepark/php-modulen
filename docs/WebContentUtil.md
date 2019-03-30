@@ -14,7 +14,7 @@ This class has the following methods.
 Appends raw HTML (a HTML portlet is created) to the existing content of a node.
 
 ```php
-$result = $webContentUtil->appendContentWithRawHtml(aNode, content);
+$webContentUtil->appendContentWithRawHtml(aNode, content);
 ```
 
 
@@ -23,7 +23,7 @@ Resolves an unresolved URL to a resource (potentially needed for all resource re
  updated or appended as raw HTML).
 
 ```php
-$result = $webContentUtil->resolveToResourceURL(aNode, anUnresolvedURL);
+ $result = $webContentUtil->resolveToResourceURL(aNode, anUnresolvedURL);
 ```
 
 
@@ -31,7 +31,7 @@ $result = $webContentUtil->resolveToResourceURL(aNode, anUnresolvedURL);
 Alters the content of a sv:page, sv:article or a sv:template.
 
 ```php
-$result = $webContentUtil->updateContent(aNode, content);
+$webContentUtil->updateContent(aNode, content);
 ```
 
 
@@ -39,6 +39,6 @@ $result = $webContentUtil->updateContent(aNode, content);
 Alters the content of a sv:page, sv:article or a sv:template with raw HTML (a HTML portlet is created).
 
 ```php
-$result = $webContentUtil->updateContentWithRawHtml(aNode, content);
+$webContentUtil->updateContentWithRawHtml(aNode, content);
 ```
 

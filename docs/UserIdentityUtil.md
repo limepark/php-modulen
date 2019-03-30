@@ -14,7 +14,7 @@ This class has the following methods.
 Creates the corresponding sv:userIdentity Node for a specified sv:user Node.
 
 ```php
-$result = $userIdentityUtil->getOrCreateUserIdentity(aUserNode);
+ $result = $userIdentityUtil->getOrCreateUserIdentity(aUserNode);
 ```
 
 
@@ -22,6 +22,6 @@ $result = $userIdentityUtil->getOrCreateUserIdentity(aUserNode);
 Gets the corresponding sv:userIdentity Node for a specified sv:user Node.
 
 ```php
-$result = $userIdentityUtil->getUserIdentity(aUserNode);
+ $result = $userIdentityUtil->getUserIdentity(aUserNode);
 ```
 

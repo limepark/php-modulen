@@ -14,7 +14,7 @@ This class has the following methods.
 Returns a plain text user field value as html.
 
 ```php
-$result = $userFieldRenderer->getPlainUserFieldValueAsHtml(aPlainUserFieldValue);
+ $result = $userFieldRenderer->getPlainUserFieldValueAsHtml(aPlainUserFieldValue);
 ```
 
 
@@ -22,7 +22,7 @@ $result = $userFieldRenderer->getPlainUserFieldValueAsHtml(aPlainUserFieldValue)
 Whether or not this renderer contains a user identity.
 
 ```php
-$result = $userFieldRenderer->isLoaded();
+ $result = $userFieldRenderer->isLoaded();
 ```
 
 
@@ -30,7 +30,7 @@ $result = $userFieldRenderer->isLoaded();
 Helper method to check if a certain node can be rendered.
 
 ```php
-$result = $userFieldRenderer->isRenderable(aNode);
+ $result = $userFieldRenderer->isRenderable(aNode);
 ```
 
 
@@ -38,7 +38,7 @@ $result = $userFieldRenderer->isRenderable(aNode);
 Helper method to check if a named user field is available.
 
 ```php
-$result = $userFieldRenderer->isValidFieldName(aUserFieldName);
+ $result = $userFieldRenderer->isValidFieldName(aUserFieldName);
 ```
 
 
@@ -46,7 +46,7 @@ $result = $userFieldRenderer->isValidFieldName(aUserFieldName);
 Returns the value as html for a named user field for currently loaded user identity.
 
 ```php
-$result = $userFieldRenderer->render(aUserFieldName);
+ $result = $userFieldRenderer->render(aUserFieldName);
 ```
 
 
@@ -54,7 +54,7 @@ $result = $userFieldRenderer->render(aUserFieldName);
 Returns the value as plain text for a named user field for currently loaded user identity.
 
 ```php
-$result = $userFieldRenderer->renderPlain(aUserFieldName);
+ $result = $userFieldRenderer->renderPlain(aUserFieldName);
 ```
 
 
@@ -62,6 +62,6 @@ $result = $userFieldRenderer->renderPlain(aUserFieldName);
 Updates the renderer with a new user identity node.
 
 ```php
-$result = $userFieldRenderer->update(aUserIdentity);
+$userFieldRenderer->update(aUserIdentity);
 ```
 

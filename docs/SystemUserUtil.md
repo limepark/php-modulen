@@ -14,7 +14,7 @@ This class has the following methods.
 Checks if a user node is anonymous (not authenticated).
 
 ```php
-$result = $systemUserUtil->isAnonymous(aUserNode);
+ $result = $systemUserUtil->isAnonymous(aUserNode);
 ```
 
 
@@ -22,7 +22,7 @@ $result = $systemUserUtil->isAnonymous(aUserNode);
 Checks if a user node is the SiteVision Extractor.
 
 ```php
-$result = $systemUserUtil->isExtractor(aUserNode);
+ $result = $systemUserUtil->isExtractor(aUserNode);
 ```
 
 
@@ -30,7 +30,7 @@ $result = $systemUserUtil->isExtractor(aUserNode);
 Checks if a user node is the SiteVision Indexer.
 
 ```php
-$result = $systemUserUtil->isIndexer(aUserNode);
+ $result = $systemUserUtil->isIndexer(aUserNode);
 ```
 
 
@@ -38,7 +38,7 @@ $result = $systemUserUtil->isIndexer(aUserNode);
 Checks if a user node is the SiteVision System user.
 
 ```php
-$result = $systemUserUtil->isSystem(aUserNode);
+ $result = $systemUserUtil->isSystem(aUserNode);
 ```
 
 
@@ -46,6 +46,6 @@ $result = $systemUserUtil->isSystem(aUserNode);
 Checks if a user node is the SiteVision Validator.
 
 ```php
-$result = $systemUserUtil->isValidator(aUserNode);
+ $result = $systemUserUtil->isValidator(aUserNode);
 ```
 

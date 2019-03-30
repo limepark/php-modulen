@@ -14,7 +14,7 @@ This class has the following methods.
 Logs a debug message to the SiteVision server log.
 
 ```php
-$result = $logUtil->debug(aMessage, aThrowable);
+$logUtil->debug(aMessage, aThrowable);
 ```
 
 
@@ -22,7 +22,7 @@ $result = $logUtil->debug(aMessage, aThrowable);
 Logs an error message to the SiteVision server log.
 
 ```php
-$result = $logUtil->error(aMessage, aThrowable);
+$logUtil->error(aMessage, aThrowable);
 ```
 
 
@@ -30,7 +30,7 @@ $result = $logUtil->error(aMessage, aThrowable);
 Logs an info message to the SiteVision server log.
 
 ```php
-$result = $logUtil->info(aMessage, aThrowable);
+$logUtil->info(aMessage, aThrowable);
 ```
 
 
@@ -38,7 +38,7 @@ $result = $logUtil->info(aMessage, aThrowable);
 Checks if debug logging is enabled.
 
 ```php
-$result = $logUtil->isDebugEnabled();
+ $result = $logUtil->isDebugEnabled();
 ```
 
 
@@ -46,7 +46,7 @@ $result = $logUtil->isDebugEnabled();
 Checks if error logging is enabled.
 
 ```php
-$result = $logUtil->isErrorEnabled();
+ $result = $logUtil->isErrorEnabled();
 ```
 
 
@@ -54,7 +54,7 @@ $result = $logUtil->isErrorEnabled();
 Checks if info logging is enabled.
 
 ```php
-$result = $logUtil->isInfoEnabled();
+ $result = $logUtil->isInfoEnabled();
 ```
 
 
@@ -62,7 +62,7 @@ $result = $logUtil->isInfoEnabled();
 Checks if trace logging is enabled.
 
 ```php
-$result = $logUtil->isTraceEnabled();
+ $result = $logUtil->isTraceEnabled();
 ```
 
 
@@ -70,7 +70,7 @@ $result = $logUtil->isTraceEnabled();
 Checks if warn logging is enabled.
 
 ```php
-$result = $logUtil->isWarnEnabled();
+ $result = $logUtil->isWarnEnabled();
 ```
 
 
@@ -78,7 +78,7 @@ $result = $logUtil->isWarnEnabled();
 Logs a trace message to the SiteVision server log.
 
 ```php
-$result = $logUtil->trace(aMessage, aThrowable);
+$logUtil->trace(aMessage, aThrowable);
 ```
 
 
@@ -86,6 +86,6 @@ $result = $logUtil->trace(aMessage, aThrowable);
 Logs a warn message to the SiteVision server log.
 
 ```php
-$result = $logUtil->warn(aMessage, aThrowable);
+$logUtil->warn(aMessage, aThrowable);
 ```
 

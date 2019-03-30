@@ -14,7 +14,7 @@ This class has the following methods.
 Checks if a node is an application index.
 
 ```php
-$result = $nodeTypeUtil->isApplicationIndex(aNode);
+ $result = $nodeTypeUtil->isApplicationIndex(aNode);
 ```
 
 
@@ -22,7 +22,7 @@ $result = $nodeTypeUtil->isApplicationIndex(aNode);
 Checks if a node is an archive.
 
 ```php
-$result = $nodeTypeUtil->isArchive(aNode);
+ $result = $nodeTypeUtil->isArchive(aNode);
 ```
 
 
@@ -30,7 +30,7 @@ $result = $nodeTypeUtil->isArchive(aNode);
 Checks if a node is an article.
 
 ```php
-$result = $nodeTypeUtil->isArticle(aNode);
+ $result = $nodeTypeUtil->isArticle(aNode);
 ```
 
 
@@ -38,7 +38,7 @@ $result = $nodeTypeUtil->isArticle(aNode);
 Checks if a node is a collaboration group.
 
 ```php
-$result = $nodeTypeUtil->isCollaborationGroup(aNode);
+ $result = $nodeTypeUtil->isCollaborationGroup(aNode);
 ```
 
 
@@ -46,7 +46,7 @@ $result = $nodeTypeUtil->isCollaborationGroup(aNode);
 Checks if a node is a collaboration group folder.
 
 ```php
-$result = $nodeTypeUtil->isCollaborationGroupFolder(aNode);
+ $result = $nodeTypeUtil->isCollaborationGroupFolder(aNode);
 ```
 
 
@@ -54,7 +54,7 @@ $result = $nodeTypeUtil->isCollaborationGroupFolder(aNode);
 Checks if a node is a collaboration group page.
 
 ```php
-$result = $nodeTypeUtil->isCollaborationGroupPage(aNode);
+ $result = $nodeTypeUtil->isCollaborationGroupPage(aNode);
 ```
 
 
@@ -62,7 +62,7 @@ $result = $nodeTypeUtil->isCollaborationGroupPage(aNode);
 Checks if a node is a collaboration group template.
 
 ```php
-$result = $nodeTypeUtil->isCollaborationGroupTemplate(aNode);
+ $result = $nodeTypeUtil->isCollaborationGroupTemplate(aNode);
 ```
 
 
@@ -70,7 +70,7 @@ $result = $nodeTypeUtil->isCollaborationGroupTemplate(aNode);
 Checks if a node is a color.
 
 ```php
-$result = $nodeTypeUtil->isColor(aNode);
+ $result = $nodeTypeUtil->isColor(aNode);
 ```
 
 
@@ -78,7 +78,7 @@ $result = $nodeTypeUtil->isColor(aNode);
 Checks if a node is a decoration.
 
 ```php
-$result = $nodeTypeUtil->isDecoration(aNode);
+ $result = $nodeTypeUtil->isDecoration(aNode);
 ```
 
 
@@ -86,7 +86,7 @@ $result = $nodeTypeUtil->isDecoration(aNode);
 Checks if a node is a LDAP directory.
 
 ```php
-$result = $nodeTypeUtil->isDirectory(aNode);
+ $result = $nodeTypeUtil->isDirectory(aNode);
 ```
 
 
@@ -94,7 +94,7 @@ $result = $nodeTypeUtil->isDirectory(aNode);
 Checks if a node is a file.
 
 ```php
-$result = $nodeTypeUtil->isFile(aNode);
+ $result = $nodeTypeUtil->isFile(aNode);
 ```
 
 
@@ -102,7 +102,7 @@ $result = $nodeTypeUtil->isFile(aNode);
 Checks if a node is a folder.
 
 ```php
-$result = $nodeTypeUtil->isFolder(aNode);
+ $result = $nodeTypeUtil->isFolder(aNode);
 ```
 
 
@@ -110,7 +110,7 @@ $result = $nodeTypeUtil->isFolder(aNode);
 Checks if a node is a font.
 
 ```php
-$result = $nodeTypeUtil->isFont(aNode);
+ $result = $nodeTypeUtil->isFont(aNode);
 ```
 
 
@@ -118,7 +118,7 @@ $result = $nodeTypeUtil->isFont(aNode);
 Checks if a node is an image.
 
 ```php
-$result = $nodeTypeUtil->isImage(aNode);
+ $result = $nodeTypeUtil->isImage(aNode);
 ```
 
 
@@ -126,7 +126,7 @@ $result = $nodeTypeUtil->isImage(aNode);
 Checks if a node is a layout.
 
 ```php
-$result = $nodeTypeUtil->isLayout(aNode);
+ $result = $nodeTypeUtil->isLayout(aNode);
 ```
 
 
@@ -134,7 +134,7 @@ $result = $nodeTypeUtil->isLayout(aNode);
 Checks if a node is a link.
 
 ```php
-$result = $nodeTypeUtil->isLink(aNode);
+ $result = $nodeTypeUtil->isLink(aNode);
 ```
 
 
@@ -142,7 +142,7 @@ $result = $nodeTypeUtil->isLink(aNode);
 Checks if a node is a node index.
 
 ```php
-$result = $nodeTypeUtil->isNodeIndex(aNode);
+ $result = $nodeTypeUtil->isNodeIndex(aNode);
 ```
 
 
@@ -150,7 +150,7 @@ $result = $nodeTypeUtil->isNodeIndex(aNode);
 Checks if a node is a page.
 
 ```php
-$result = $nodeTypeUtil->isPage(aNode);
+ $result = $nodeTypeUtil->isPage(aNode);
 ```
 
 
@@ -158,7 +158,7 @@ $result = $nodeTypeUtil->isPage(aNode);
 Checks if a node is a portlet.
 
 ```php
-$result = $nodeTypeUtil->isPortlet(aNode);
+ $result = $nodeTypeUtil->isPortlet(aNode);
 ```
 
 
@@ -166,7 +166,7 @@ $result = $nodeTypeUtil->isPortlet(aNode);
 Checks if a node is a RSS feed.
 
 ```php
-$result = $nodeTypeUtil->isRssFeed(aNode);
+ $result = $nodeTypeUtil->isRssFeed(aNode);
 ```
 
 
@@ -174,7 +174,7 @@ $result = $nodeTypeUtil->isRssFeed(aNode);
 Checks if a node is a RSS feed item.
 
 ```php
-$result = $nodeTypeUtil->isRssFeedItem(aNode);
+ $result = $nodeTypeUtil->isRssFeedItem(aNode);
 ```
 
 
@@ -182,7 +182,7 @@ $result = $nodeTypeUtil->isRssFeedItem(aNode);
 Checks if a node is a RSS feed repository.
 
 ```php
-$result = $nodeTypeUtil->isRssFeedRepository(aNode);
+ $result = $nodeTypeUtil->isRssFeedRepository(aNode);
 ```
 
 
@@ -190,7 +190,7 @@ $result = $nodeTypeUtil->isRssFeedRepository(aNode);
 Checks if a node is a site.
 
 ```php
-$result = $nodeTypeUtil->isSite(aNode);
+ $result = $nodeTypeUtil->isSite(aNode);
 ```
 
 
@@ -198,7 +198,7 @@ $result = $nodeTypeUtil->isSite(aNode);
 Checks if a node is a site page.
 
 ```php
-$result = $nodeTypeUtil->isSitePage(aNode);
+ $result = $nodeTypeUtil->isSitePage(aNode);
 ```
 
 
@@ -206,7 +206,7 @@ $result = $nodeTypeUtil->isSitePage(aNode);
 Checks if a node is a structure folder.
 
 ```php
-$result = $nodeTypeUtil->isStructureFolder(aNode);
+ $result = $nodeTypeUtil->isStructureFolder(aNode);
 ```
 
 
@@ -214,7 +214,7 @@ $result = $nodeTypeUtil->isStructureFolder(aNode);
 Checks if a node is a structure link.
 
 ```php
-$result = $nodeTypeUtil->isStructureLink(aNode);
+ $result = $nodeTypeUtil->isStructureLink(aNode);
 ```
 
 
@@ -222,7 +222,7 @@ $result = $nodeTypeUtil->isStructureLink(aNode);
 Checks if a node is a structure page.
 
 ```php
-$result = $nodeTypeUtil->isStructurePage(aNode);
+ $result = $nodeTypeUtil->isStructurePage(aNode);
 ```
 
 
@@ -230,7 +230,7 @@ $result = $nodeTypeUtil->isStructurePage(aNode);
 Checks if a node is a template.
 
 ```php
-$result = $nodeTypeUtil->isTemplate(aNode);
+ $result = $nodeTypeUtil->isTemplate(aNode);
 ```
 
 
@@ -238,7 +238,7 @@ $result = $nodeTypeUtil->isTemplate(aNode);
 Checks if a node is a trashcan.
 
 ```php
-$result = $nodeTypeUtil->isTrashcan(aNode);
+ $result = $nodeTypeUtil->isTrashcan(aNode);
 ```
 
 
@@ -246,7 +246,7 @@ $result = $nodeTypeUtil->isTrashcan(aNode);
 Checks a node against a given node type name to see if they match.
 
 ```php
-$result = $nodeTypeUtil->isType(aNode, aPrimaryNodeType);
+ $result = $nodeTypeUtil->isType(aNode, aPrimaryNodeType);
 ```
 
 
@@ -254,7 +254,7 @@ $result = $nodeTypeUtil->isType(aNode, aPrimaryNodeType);
 Checks a node against multiple node type names to see if any of them match.
 
 ```php
-$result = $nodeTypeUtil->isTypeOf(aNode, aPrimaryNodeTypes);
+ $result = $nodeTypeUtil->isTypeOf(aNode, aPrimaryNodeTypes);
 ```
 
 
@@ -262,7 +262,7 @@ $result = $nodeTypeUtil->isTypeOf(aNode, aPrimaryNodeTypes);
 Checks if a node is a user.
 
 ```php
-$result = $nodeTypeUtil->isUser(aNode);
+ $result = $nodeTypeUtil->isUser(aNode);
 ```
 
 
@@ -270,6 +270,6 @@ $result = $nodeTypeUtil->isUser(aNode);
 Checks if a node is a user identity.
 
 ```php
-$result = $nodeTypeUtil->isUserIdentity(aNode);
+ $result = $nodeTypeUtil->isUserIdentity(aNode);
 ```
 

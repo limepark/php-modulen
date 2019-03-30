@@ -14,7 +14,7 @@ This class has the following methods.
 Removes user data.
 
 ```php
-$result = $userDataUtil->removeUserData(aUserDataKey);
+$userDataUtil->removeUserData(aUserDataKey);
 ```
 
 
@@ -22,6 +22,6 @@ $result = $userDataUtil->removeUserData(aUserDataKey);
 Sets user data for current user.
 
 ```php
-$result = $userDataUtil->setUserData(aUserDataKey, aSerializableValue);
+$userDataUtil->setUserData(aUserDataKey, aSerializableValue);
 ```
 

@@ -14,6 +14,6 @@ This class has the following methods.
 Sets the resource priority for an indexable node.
 
 ```php
-$result = $indexingUtil->setResourcePriority(aNode, aPriority);
+ $result = $indexingUtil->setResourcePriority(aNode, aPriority);
 ```
 

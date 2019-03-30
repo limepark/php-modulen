@@ -14,6 +14,6 @@ This class has the following methods.
 Moves a node from the current parent to another in the node structure.
 
 ```php
-$result = $structureUtil->moveNode(aNode, aParent);
+$structureUtil->moveNode(aNode, aParent);
 ```
 

@@ -14,7 +14,7 @@ This class has the following methods.
 Deletes a node from the site trashcan.
 
 ```php
-$result = $trashcanUtil->deleteNodeFromTrashcan(aNode);
+$trashcanUtil->deleteNodeFromTrashcan(aNode);
 ```
 
 
@@ -22,7 +22,7 @@ $result = $trashcanUtil->deleteNodeFromTrashcan(aNode);
 Puts a node in the site trashcan.
 
 ```php
-$result = $trashcanUtil->moveNodeToTrashcan(aNode);
+$trashcanUtil->moveNodeToTrashcan(aNode);
 ```
 
 
@@ -30,6 +30,6 @@ $result = $trashcanUtil->moveNodeToTrashcan(aNode);
 Restores a node from the site trashcan.
 
 ```php
-$result = $trashcanUtil->restoreNode(aNode);
+$trashcanUtil->restoreNode(aNode);
 ```
 

@@ -14,6 +14,6 @@ This class has the following methods.
 Extracts the user specific PortletPreferences for the specified portlet.
 
 ```php
-$result = $portletUtil->getPortletPreferences(portlet, user, portletPreferencesType);
+ $result = $portletUtil->getPortletPreferences(portlet, user, portletPreferencesType);
 ```
 

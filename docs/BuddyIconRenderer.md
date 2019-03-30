@@ -14,7 +14,7 @@ This class has the following methods.
 Utility method for executing setLinkBuddyIcon(false)
 
 ```php
-$result = $buddyIconRenderer->clearUseLinkBuddyIcon();
+$buddyIconRenderer->clearUseLinkBuddyIcon();
 ```
 
 
@@ -22,7 +22,7 @@ $result = $buddyIconRenderer->clearUseLinkBuddyIcon();
 Utility method for executing setBuddyIconSize(BuddyIconSize.LARGE)
 
 ```php
-$result = $buddyIconRenderer->forceUseLargeBuddyIconSize();
+$buddyIconRenderer->forceUseLargeBuddyIconSize();
 ```
 
 
@@ -30,7 +30,7 @@ $result = $buddyIconRenderer->forceUseLargeBuddyIconSize();
 Utility method for executing setLinkBuddyIcon(true)
 
 ```php
-$result = $buddyIconRenderer->forceUseLinkBuddyIcon();
+$buddyIconRenderer->forceUseLinkBuddyIcon();
 ```
 
 
@@ -38,7 +38,7 @@ $result = $buddyIconRenderer->forceUseLinkBuddyIcon();
 Utility method for executing setBuddyIconSize(BuddyIconSize.SMALL)
 
 ```php
-$result = $buddyIconRenderer->forceUseSmallBuddyIconSize();
+$buddyIconRenderer->forceUseSmallBuddyIconSize();
 ```
 
 
@@ -46,7 +46,7 @@ $result = $buddyIconRenderer->forceUseSmallBuddyIconSize();
 Whether or not this renderer contains a node that can be rendered.
 
 ```php
-$result = $buddyIconRenderer->isLoaded();
+ $result = $buddyIconRenderer->isLoaded();
 ```
 
 
@@ -54,7 +54,7 @@ $result = $buddyIconRenderer->isLoaded();
 Helper method to check if a certain node can be rendered as a buddy icon.
 
 ```php
-$result = $buddyIconRenderer->isRenderable(aNode);
+ $result = $buddyIconRenderer->isRenderable(aNode);
 ```
 
 
@@ -62,7 +62,7 @@ $result = $buddyIconRenderer->isRenderable(aNode);
 Builds a html string based on current state.
 
 ```php
-$result = $buddyIconRenderer->render();
+ $result = $buddyIconRenderer->render();
 ```
 
 
@@ -70,7 +70,7 @@ $result = $buddyIconRenderer->render();
 Sets the size for rendered buddy icons.
 
 ```php
-$result = $buddyIconRenderer->setBuddyIconSize(aBuddyIconSize);
+$buddyIconRenderer->setBuddyIconSize(aBuddyIconSize);
 ```
 
 
@@ -78,7 +78,7 @@ $result = $buddyIconRenderer->setBuddyIconSize(aBuddyIconSize);
 Whether or not rendered buddy icons should be linked.
 
 ```php
-$result = $buddyIconRenderer->setLinkBuddyIcon(aLinkBuddyIcon);
+$buddyIconRenderer->setLinkBuddyIcon(aLinkBuddyIcon);
 ```
 
 
@@ -86,6 +86,6 @@ $result = $buddyIconRenderer->setLinkBuddyIcon(aLinkBuddyIcon);
 Updates the renderer with a new buddy icon supported node.
 
 ```php
-$result = $buddyIconRenderer->update(aBuddyIconNode);
+$buddyIconRenderer->update(aBuddyIconNode);
 ```
 

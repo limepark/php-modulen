@@ -14,7 +14,7 @@ This class has the following methods.
 Activates a subscription for the given Node.
 
 ```php
-$result = $subscriptionUtil->activateSubscription(aNode, subtreeScope, title, description);
+$subscriptionUtil->activateSubscription(aNode, subtreeScope, title, description);
 ```
 
 
@@ -22,7 +22,7 @@ $result = $subscriptionUtil->activateSubscription(aNode, subtreeScope, title, de
 Configures email properties for the subscription on the given node.
 
 ```php
-$result = $subscriptionUtil->configureSubscriptionEmail(aNode, from, fromAddress, subject, footer);
+$subscriptionUtil->configureSubscriptionEmail(aNode, from, fromAddress, subject, footer);
 ```
 
 
@@ -30,7 +30,7 @@ $result = $subscriptionUtil->configureSubscriptionEmail(aNode, from, fromAddress
 Deactivates the subscription for the given Node.
 
 ```php
-$result = $subscriptionUtil->deactivateSubscription(aNode);
+$subscriptionUtil->deactivateSubscription(aNode);
 ```
 
 
@@ -38,7 +38,7 @@ $result = $subscriptionUtil->deactivateSubscription(aNode);
 Returns the active subscription Node of a Node.
 
 ```php
-$result = $subscriptionUtil->getActiveSubscription(aNode);
+ $result = $subscriptionUtil->getActiveSubscription(aNode);
 ```
 
 
@@ -46,6 +46,6 @@ $result = $subscriptionUtil->getActiveSubscription(aNode);
 Notifies the subscribers of a given node with an active subscription.
 
 ```php
-$result = $subscriptionUtil->notifySubscribersOf(aNode, aNotificationText);
+ $result = $subscriptionUtil->notifySubscribersOf(aNode, aNotificationText);
 ```
 

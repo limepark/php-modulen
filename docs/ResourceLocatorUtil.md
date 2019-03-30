@@ -14,7 +14,7 @@ This class has the following methods.
 Gets the addon repository for the site of current node.
 
 ```php
-$result = $resourceLocatorUtil->getAddonRepository();
+ $result = $resourceLocatorUtil->getAddonRepository();
 ```
 
 
@@ -22,7 +22,7 @@ $result = $resourceLocatorUtil->getAddonRepository();
 Gets the color repository for the site of current node.
 
 ```php
-$result = $resourceLocatorUtil->getColorRepository();
+ $result = $resourceLocatorUtil->getColorRepository();
 ```
 
 
@@ -30,7 +30,7 @@ $result = $resourceLocatorUtil->getColorRepository();
 Gets the decoration repository for the site of current node.
 
 ```php
-$result = $resourceLocatorUtil->getDecorationRepository();
+ $result = $resourceLocatorUtil->getDecorationRepository();
 ```
 
 
@@ -38,7 +38,7 @@ $result = $resourceLocatorUtil->getDecorationRepository();
 Gets the default image repository for the site of current node.
 
 ```php
-$result = $resourceLocatorUtil->getDefaultImageRepository();
+ $result = $resourceLocatorUtil->getDefaultImageRepository();
 ```
 
 
@@ -46,7 +46,7 @@ $result = $resourceLocatorUtil->getDefaultImageRepository();
 Gets the LDAP directories repository for the site of current node
 
 ```php
-$result = $resourceLocatorUtil->getDirectoryRepository();
+ $result = $resourceLocatorUtil->getDirectoryRepository();
 ```
 
 
@@ -54,7 +54,7 @@ $result = $resourceLocatorUtil->getDirectoryRepository();
 Gets the file repository for the site of current node.
 
 ```php
-$result = $resourceLocatorUtil->getFileRepository();
+ $result = $resourceLocatorUtil->getFileRepository();
 ```
 
 
@@ -62,7 +62,7 @@ $result = $resourceLocatorUtil->getFileRepository();
 Gets the font repository for the site of current node.
 
 ```php
-$result = $resourceLocatorUtil->getFontRepository();
+ $result = $resourceLocatorUtil->getFontRepository();
 ```
 
 
@@ -70,7 +70,7 @@ $result = $resourceLocatorUtil->getFontRepository();
 Gets the icon repository for the site of current node.
 
 ```php
-$result = $resourceLocatorUtil->getIconRepository();
+ $result = $resourceLocatorUtil->getIconRepository();
 ```
 
 
@@ -78,7 +78,7 @@ $result = $resourceLocatorUtil->getIconRepository();
 Gets the image repository for the site of current node.
 
 ```php
-$result = $resourceLocatorUtil->getImageRepository();
+ $result = $resourceLocatorUtil->getImageRepository();
 ```
 
 
@@ -86,7 +86,7 @@ $result = $resourceLocatorUtil->getImageRepository();
 Gets the index repository for the site of current node.
 
 ```php
-$result = $resourceLocatorUtil->getIndexRepository();
+ $result = $resourceLocatorUtil->getIndexRepository();
 ```
 
 
@@ -94,7 +94,7 @@ $result = $resourceLocatorUtil->getIndexRepository();
 Gets the list style repository for the site of current node.
 
 ```php
-$result = $resourceLocatorUtil->getListStyleRepository();
+ $result = $resourceLocatorUtil->getListStyleRepository();
 ```
 
 
@@ -102,7 +102,7 @@ $result = $resourceLocatorUtil->getListStyleRepository();
 Gets the local file repository for a specified page node.
 
 ```php
-$result = $resourceLocatorUtil->getLocalFileRepository(aNode);
+ $result = $resourceLocatorUtil->getLocalFileRepository(aNode);
 ```
 
 
@@ -110,7 +110,7 @@ $result = $resourceLocatorUtil->getLocalFileRepository(aNode);
 Gets the local image repository for a specified page node.
 
 ```php
-$result = $resourceLocatorUtil->getLocalImageRepository(aNode);
+ $result = $resourceLocatorUtil->getLocalImageRepository(aNode);
 ```
 
 
@@ -118,7 +118,7 @@ $result = $resourceLocatorUtil->getLocalImageRepository(aNode);
 Gets the module element draft repository for the site of current node.
 
 ```php
-$result = $resourceLocatorUtil->getModuleElementDraftRepository();
+ $result = $resourceLocatorUtil->getModuleElementDraftRepository();
 ```
 
 
@@ -126,7 +126,7 @@ $result = $resourceLocatorUtil->getModuleElementDraftRepository();
 Gets the module element file repository for a specified module element node.
 
 ```php
-$result = $resourceLocatorUtil->getModuleElementFileRepository(aNode);
+ $result = $resourceLocatorUtil->getModuleElementFileRepository(aNode);
 ```
 
 
@@ -134,7 +134,7 @@ $result = $resourceLocatorUtil->getModuleElementFileRepository(aNode);
 Gets the module element image repository for a specified module element node.
 
 ```php
-$result = $resourceLocatorUtil->getModuleElementImageRepository(aNode);
+ $result = $resourceLocatorUtil->getModuleElementImageRepository(aNode);
 ```
 
 
@@ -142,7 +142,7 @@ $result = $resourceLocatorUtil->getModuleElementImageRepository(aNode);
 Gets the module element repository for the site of current node.
 
 ```php
-$result = $resourceLocatorUtil->getModuleElementRepository();
+ $result = $resourceLocatorUtil->getModuleElementRepository();
 ```
 
 
@@ -150,7 +150,7 @@ $result = $resourceLocatorUtil->getModuleElementRepository();
 Gets the named reference repository for the site of current node.
 
 ```php
-$result = $resourceLocatorUtil->getNamedReferenceRepository();
+ $result = $resourceLocatorUtil->getNamedReferenceRepository();
 ```
 
 
@@ -158,7 +158,7 @@ $result = $resourceLocatorUtil->getNamedReferenceRepository();
 Gets a Node given its identifier.
 
 ```php
-$result = $resourceLocatorUtil->getNodeByIdentifier(anIdentifier);
+ $result = $resourceLocatorUtil->getNodeByIdentifier(anIdentifier);
 ```
 
 
@@ -166,7 +166,7 @@ $result = $resourceLocatorUtil->getNodeByIdentifier(anIdentifier);
 Gets a Node given its absolute path.
 
 ```php
-$result = $resourceLocatorUtil->getNodeByPath(anAbsolutePath);
+ $result = $resourceLocatorUtil->getNodeByPath(anAbsolutePath);
 ```
 
 
@@ -174,7 +174,7 @@ $result = $resourceLocatorUtil->getNodeByPath(anAbsolutePath);
 Gets a Node given its URL
 
 ```php
-$result = $resourceLocatorUtil->getNodeByUrl(anUrl);
+ $result = $resourceLocatorUtil->getNodeByUrl(anUrl);
 ```
 
 
@@ -182,7 +182,7 @@ $result = $resourceLocatorUtil->getNodeByUrl(anUrl);
 Resolves the JCR identifier corresponding to the object (i.e. an internal object).
 
 ```php
-$result = $resourceLocatorUtil->getNodeId(anObject);
+ $result = $resourceLocatorUtil->getNodeId(anObject);
 ```
 
 
@@ -190,7 +190,7 @@ $result = $resourceLocatorUtil->getNodeId(anObject);
 Gets the page comment repository for a specified page node.
 
 ```php
-$result = $resourceLocatorUtil->getPageCommentRepository(aNode);
+ $result = $resourceLocatorUtil->getPageCommentRepository(aNode);
 ```
 
 
@@ -198,7 +198,7 @@ $result = $resourceLocatorUtil->getPageCommentRepository(aNode);
 Gets the personal file repository for a specified node.
 
 ```php
-$result = $resourceLocatorUtil->getPersonalFileRepository(aNode);
+ $result = $resourceLocatorUtil->getPersonalFileRepository(aNode);
 ```
 
 
@@ -206,7 +206,7 @@ $result = $resourceLocatorUtil->getPersonalFileRepository(aNode);
 Gets the personal image repository for a specified node.
 
 ```php
-$result = $resourceLocatorUtil->getPersonalImageRepository(aNode);
+ $result = $resourceLocatorUtil->getPersonalImageRepository(aNode);
 ```
 
 
@@ -214,7 +214,7 @@ $result = $resourceLocatorUtil->getPersonalImageRepository(aNode);
 Gets the RSS feed repository for the site of current node.
 
 ```php
-$result = $resourceLocatorUtil->getRssFeedRepository();
+ $result = $resourceLocatorUtil->getRssFeedRepository();
 ```
 
 
@@ -222,7 +222,7 @@ $result = $resourceLocatorUtil->getRssFeedRepository();
 Gets current site (i.e. the site node of the page for the currently executing portlet).
 
 ```php
-$result = $resourceLocatorUtil->getSite();
+ $result = $resourceLocatorUtil->getSite();
 ```
 
 
@@ -230,7 +230,7 @@ $result = $resourceLocatorUtil->getSite();
 Gets current site page (i.e. the site's start page node of the page for the currently executing portlet).
 
 ```php
-$result = $resourceLocatorUtil->getSitePage();
+ $result = $resourceLocatorUtil->getSitePage();
 ```
 
 
@@ -238,6 +238,6 @@ $result = $resourceLocatorUtil->getSitePage();
 Gets the template repository for the site of current node.
 
 ```php
-$result = $resourceLocatorUtil->getTemplateRepository();
+ $result = $resourceLocatorUtil->getTemplateRepository();
 ```
 

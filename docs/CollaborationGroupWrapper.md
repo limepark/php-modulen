@@ -9,7 +9,7 @@ This class has the following methods.
 Adds a user identity as member of the wrapped collaboration group.
 
 ```php
-$result = $collaborationGroupWrapper->addMember(aUserIdentity);
+ $result = $collaborationGroupWrapper->addMember(aUserIdentity);
 ```
 
 
@@ -17,7 +17,7 @@ $result = $collaborationGroupWrapper->addMember(aUserIdentity);
 Gets the wrapped collaboration group.
 
 ```php
-$result = $collaborationGroupWrapper->getCollaborationGroup();
+ $result = $collaborationGroupWrapper->getCollaborationGroup();
 ```
 
 
@@ -25,7 +25,7 @@ $result = $collaborationGroupWrapper->getCollaborationGroup();
 Gets the collaboration group state of the wrapped collaboration group.
 
 ```php
-$result = $collaborationGroupWrapper->getGroupState();
+ $result = $collaborationGroupWrapper->getGroupState();
 ```
 
 
@@ -33,7 +33,7 @@ $result = $collaborationGroupWrapper->getGroupState();
 Gets the collaboration group type of the wrapped collaboration group.
 
 ```php
-$result = $collaborationGroupWrapper->getGroupType();
+ $result = $collaborationGroupWrapper->getGroupType();
 ```
 
 
@@ -41,7 +41,7 @@ $result = $collaborationGroupWrapper->getGroupType();
 Checks if a user identity is admin of the wrapped collaboration group.
 
 ```php
-$result = $collaborationGroupWrapper->isAdmin(aUserIdentity);
+ $result = $collaborationGroupWrapper->isAdmin(aUserIdentity);
 ```
 
 
@@ -49,7 +49,7 @@ $result = $collaborationGroupWrapper->isAdmin(aUserIdentity);
 Checks if a user identity is a follower/eavesdropper of the wrapped collaboration group.
 
 ```php
-$result = $collaborationGroupWrapper->isFollower(aUserIdentity);
+ $result = $collaborationGroupWrapper->isFollower(aUserIdentity);
 ```
 
 
@@ -57,7 +57,7 @@ $result = $collaborationGroupWrapper->isFollower(aUserIdentity);
 Checks if a user identity is member of the wrapped collaboration group.
 
 ```php
-$result = $collaborationGroupWrapper->isMember(aUserIdentity);
+ $result = $collaborationGroupWrapper->isMember(aUserIdentity);
 ```
 
 
@@ -65,7 +65,7 @@ $result = $collaborationGroupWrapper->isMember(aUserIdentity);
 Removes a member from the wrapped collaboration group.
 
 ```php
-$result = $collaborationGroupWrapper->removeMember(aUserIdentity);
+ $result = $collaborationGroupWrapper->removeMember(aUserIdentity);
 ```
 
 
@@ -73,7 +73,7 @@ $result = $collaborationGroupWrapper->removeMember(aUserIdentity);
 Alters the name of the wrapped collaboration group.
 
 ```php
-$result = $collaborationGroupWrapper->renameGroup(aGroupName);
+ $result = $collaborationGroupWrapper->renameGroup(aGroupName);
 ```
 
 
@@ -81,7 +81,7 @@ $result = $collaborationGroupWrapper->renameGroup(aGroupName);
 Changes the collaboration group state of the wrapped collaboration group.
 
 ```php
-$result = $collaborationGroupWrapper->setGroupState(aCollaborationGroupState);
+$collaborationGroupWrapper->setGroupState(aCollaborationGroupState);
 ```
 
 
@@ -89,6 +89,6 @@ $result = $collaborationGroupWrapper->setGroupState(aCollaborationGroupState);
 Changes the collaboration group type of the wrapped collaboration group.
 
 ```php
-$result = $collaborationGroupWrapper->setGroupType(aCollaborationGroupType);
+$collaborationGroupWrapper->setGroupType(aCollaborationGroupType);
 ```
 

@@ -14,7 +14,7 @@ This class has the following methods.
 Creates an article with properties and web content.
 
 ```php
-$result = $articleUtil->createArticle(aParent, aTemplate, aName, properties, content);
+ $result = $articleUtil->createArticle(aParent, aTemplate, aName, properties, content);
 ```
 
 
@@ -22,7 +22,7 @@ $result = $articleUtil->createArticle(aParent, aTemplate, aName, properties, con
 Alters the name of an article.
 
 ```php
-$result = $articleUtil->renameArticle(anArticle, aName);
+$articleUtil->renameArticle(anArticle, aName);
 ```
 
 
@@ -30,6 +30,6 @@ $result = $articleUtil->renameArticle(anArticle, aName);
 Updates the properties of an article.
 
 ```php
-$result = $articleUtil->updateArticle(anArticle, properties);
+$articleUtil->updateArticle(anArticle, properties);
 ```
 

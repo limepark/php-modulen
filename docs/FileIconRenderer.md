@@ -14,7 +14,7 @@ This class has the following methods.
 Removes loaded default icon (does nothing if no default icon is loaded)
 
 ```php
-$result = $fileIconRenderer->clearDefaultIcon();
+$fileIconRenderer->clearDefaultIcon();
 ```
 
 
@@ -22,7 +22,7 @@ $result = $fileIconRenderer->clearDefaultIcon();
 Removes the CSS class name(-s).
 
 ```php
-$result = $fileIconRenderer->clearFontClass();
+$fileIconRenderer->clearFontClass();
 ```
 
 
@@ -30,7 +30,7 @@ $result = $fileIconRenderer->clearFontClass();
 Removes loaded icon (does nothing if no icon is loaded)
 
 ```php
-$result = $fileIconRenderer->clearIcon();
+$fileIconRenderer->clearIcon();
 ```
 
 
@@ -38,7 +38,7 @@ $result = $fileIconRenderer->clearIcon();
 Utility method for executing setUseDescription(false), i.e.
 
 ```php
-$result = $fileIconRenderer->clearUseDescription();
+$fileIconRenderer->clearUseDescription();
 ```
 
 
@@ -46,7 +46,7 @@ $result = $fileIconRenderer->clearUseDescription();
 Utility method for executing setUseSmallIcons(false), i.e.
 
 ```php
-$result = $fileIconRenderer->clearUseSmallIcons();
+$fileIconRenderer->clearUseSmallIcons();
 ```
 
 
@@ -54,7 +54,7 @@ $result = $fileIconRenderer->clearUseSmallIcons();
 Utility method for executing setUseDescription(true), i.e.
 
 ```php
-$result = $fileIconRenderer->forceUseDescription();
+$fileIconRenderer->forceUseDescription();
 ```
 
 
@@ -62,7 +62,7 @@ $result = $fileIconRenderer->forceUseDescription();
 Utility method for executing setUseSmallIcons(true), i.e.
 
 ```php
-$result = $fileIconRenderer->forceUseSmallIcons();
+$fileIconRenderer->forceUseSmallIcons();
 ```
 
 
@@ -70,7 +70,7 @@ $result = $fileIconRenderer->forceUseSmallIcons();
 Whether or not a default icon is loaded.
 
 ```php
-$result = $fileIconRenderer->isDefaultIconLoaded();
+ $result = $fileIconRenderer->isDefaultIconLoaded();
 ```
 
 
@@ -78,7 +78,7 @@ $result = $fileIconRenderer->isDefaultIconLoaded();
 Whether or not an icon is loaded.
 
 ```php
-$result = $fileIconRenderer->isIconLoaded();
+ $result = $fileIconRenderer->isIconLoaded();
 ```
 
 
@@ -86,7 +86,7 @@ $result = $fileIconRenderer->isIconLoaded();
 Uses a content type to load the fallback icon that should be used when rendering if no icon is loaded.
 
 ```php
-$result = $fileIconRenderer->loadDefaultIconByContentType(aContentType);
+ $result = $fileIconRenderer->loadDefaultIconByContentType(aContentType);
 ```
 
 
@@ -94,7 +94,7 @@ $result = $fileIconRenderer->loadDefaultIconByContentType(aContentType);
 Uses a file extension to load the fallback icon that should be used when rendering if no icon is loaded.
 
 ```php
-$result = $fileIconRenderer->loadDefaultIconByFileExtension(aFileExtension);
+ $result = $fileIconRenderer->loadDefaultIconByFileExtension(aFileExtension);
 ```
 
 
@@ -102,7 +102,7 @@ $result = $fileIconRenderer->loadDefaultIconByFileExtension(aFileExtension);
 Uses a URI to load the fallback icon that should be used when rendering if no icon is loaded.
 
 ```php
-$result = $fileIconRenderer->loadDefaultIconByURI(aURI);
+ $result = $fileIconRenderer->loadDefaultIconByURI(aURI);
 ```
 
 
@@ -110,7 +110,7 @@ $result = $fileIconRenderer->loadDefaultIconByURI(aURI);
 Uses a content type to load the icon that should be rendered.
 
 ```php
-$result = $fileIconRenderer->loadIconByContentType(aContentType);
+ $result = $fileIconRenderer->loadIconByContentType(aContentType);
 ```
 
 
@@ -118,7 +118,7 @@ $result = $fileIconRenderer->loadIconByContentType(aContentType);
 Uses a URI to load the icon that should be rendered.
 
 ```php
-$result = $fileIconRenderer->loadIconByFileExtension(aFileExtension);
+ $result = $fileIconRenderer->loadIconByFileExtension(aFileExtension);
 ```
 
 
@@ -126,7 +126,7 @@ $result = $fileIconRenderer->loadIconByFileExtension(aFileExtension);
 Uses a URI to load the icon that should be rendered.
 
 ```php
-$result = $fileIconRenderer->loadIconByURI(aURI);
+ $result = $fileIconRenderer->loadIconByURI(aURI);
 ```
 
 
@@ -134,7 +134,7 @@ $result = $fileIconRenderer->loadIconByURI(aURI);
 Builds a html img element based on current state.
 
 ```php
-$result = $fileIconRenderer->render();
+ $result = $fileIconRenderer->render();
 ```
 
 
@@ -142,7 +142,7 @@ $result = $fileIconRenderer->render();
 Sets the CSS class name(-s) to use when rendering.
 
 ```php
-$result = $fileIconRenderer->setFontClass(aFontClass);
+$fileIconRenderer->setFontClass(aFontClass);
 ```
 
 
@@ -150,7 +150,7 @@ $result = $fileIconRenderer->setFontClass(aFontClass);
 The locale to use when extracting the decription of file icons.
 
 ```php
-$result = $fileIconRenderer->setLocale(aLocale);
+$fileIconRenderer->setLocale(aLocale);
 ```
 
 
@@ -158,7 +158,7 @@ $result = $fileIconRenderer->setLocale(aLocale);
 If file icon descriptions should be used or not.
 
 ```php
-$result = $fileIconRenderer->setUseDescription(aUseDescription);
+$fileIconRenderer->setUseDescription(aUseDescription);
 ```
 
 
@@ -166,6 +166,6 @@ $result = $fileIconRenderer->setUseDescription(aUseDescription);
 Which type if file icons (small or large) that should be rendered.
 
 ```php
-$result = $fileIconRenderer->setUseSmallIcons(aUseSmallIcons);
+$fileIconRenderer->setUseSmallIcons(aUseSmallIcons);
 ```
 

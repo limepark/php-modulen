@@ -14,6 +14,6 @@ This class has the following methods.
 Gets the Internet Protocol (IP) address of the client (or last proxy) that initiated currently executing request.
 
 ```php
-$result = $clientUtil->getClientAddress();
+ $result = $clientUtil->getClientAddress();
 ```
 

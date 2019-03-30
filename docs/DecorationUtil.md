@@ -14,6 +14,6 @@ This class has the following methods.
 Gets the decoration with a given name
 
 ```php
-$result = $decorationUtil->getDecorationByName(aDecorationName);
+ $result = $decorationUtil->getDecorationByName(aDecorationName);
 ```
 

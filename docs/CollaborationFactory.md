@@ -14,7 +14,7 @@ This class has the following methods.
 Gets an instance of a collaboration group folder utility class
 
 ```php
-$result = $collaborationFactory->getCollaborationGroupFolderUtil();
+ $result = $collaborationFactory->getCollaborationGroupFolderUtil();
 ```
 
 
@@ -22,7 +22,7 @@ $result = $collaborationFactory->getCollaborationGroupFolderUtil();
 Gets an instance of a collaboration group template utility class
 
 ```php
-$result = $collaborationFactory->getCollaborationGroupTemplateUtil();
+ $result = $collaborationFactory->getCollaborationGroupTemplateUtil();
 ```
 
 
@@ -30,7 +30,7 @@ $result = $collaborationFactory->getCollaborationGroupTemplateUtil();
 Gets an instance of a collaboration group utility class
 
 ```php
-$result = $collaborationFactory->getCollaborationGroupUtil();
+ $result = $collaborationFactory->getCollaborationGroupUtil();
 ```
 
 
@@ -38,6 +38,6 @@ $result = $collaborationFactory->getCollaborationGroupUtil();
 Gets a collaboration group wrapper for a specified collaboration group.
 
 ```php
-$result = $collaborationFactory->getCollaborationGroupWrapper(aCollaborationGroup);
+ $result = $collaborationFactory->getCollaborationGroupWrapper(aCollaborationGroup);
 ```
 

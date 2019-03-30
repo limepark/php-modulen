@@ -15,7 +15,7 @@ Deprecated. 
 Use add(javax.jcr.Node), categories will be resolved from metadata.
 
 ```php
-$result = $bookmarkUtil->add(bookmark, categories);
+$bookmarkUtil->add(bookmark, categories);
 ```
 
 
@@ -23,7 +23,7 @@ $result = $bookmarkUtil->add(bookmark, categories);
 Checks if the current user has the provided bookmark
 
 ```php
-$result = $bookmarkUtil->contains(bookmark);
+ $result = $bookmarkUtil->contains(bookmark);
 ```
 
 
@@ -32,7 +32,7 @@ Returns a list of Node objects corresponding to the bookmarks for
  the current user and the provided categories.
 
 ```php
-$result = $bookmarkUtil->getBookmarks(category);
+ $result = $bookmarkUtil->getBookmarks(category);
 ```
 
 
@@ -40,7 +40,7 @@ $result = $bookmarkUtil->getBookmarks(category);
 Accesses a boolean indicating if the current site has a limited number of bookmarks.
 
 ```php
-$result = $bookmarkUtil->getLimitNofBookmarks();
+ $result = $bookmarkUtil->getLimitNofBookmarks();
 ```
 
 
@@ -48,7 +48,7 @@ $result = $bookmarkUtil->getLimitNofBookmarks();
 Accessor to max number of bookmarks for the current site.
 
 ```php
-$result = $bookmarkUtil->getMaxNofBookmarks();
+ $result = $bookmarkUtil->getMaxNofBookmarks();
 ```
 
 
@@ -56,6 +56,6 @@ $result = $bookmarkUtil->getMaxNofBookmarks();
 Removes a bookmark for the current user.
 
 ```php
-$result = $bookmarkUtil->remove(bookmark);
+$bookmarkUtil->remove(bookmark);
 ```
 

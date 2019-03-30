@@ -14,7 +14,7 @@ This class has the following methods.
 Creates a link page with properties as sub node of a specified parent.
 
 ```php
-$result = $linkPageUtil->createLinkPage(aParent, aName, aLinkTarget, aProperties);
+ $result = $linkPageUtil->createLinkPage(aParent, aName, aLinkTarget, aProperties);
 ```
 
 
@@ -22,7 +22,7 @@ $result = $linkPageUtil->createLinkPage(aParent, aName, aLinkTarget, aProperties
 Updates the name of a link page.
 
 ```php
-$result = $linkPageUtil->renameLinkPage(aLinkPage, aName);
+$linkPageUtil->renameLinkPage(aLinkPage, aName);
 ```
 
 
@@ -30,7 +30,7 @@ $result = $linkPageUtil->renameLinkPage(aLinkPage, aName);
 Updates the properties of a link page.
 
 ```php
-$result = $linkPageUtil->updateLinkPage(aLinkPage, aProperties);
+$linkPageUtil->updateLinkPage(aLinkPage, aProperties);
 ```
 
 
@@ -38,6 +38,6 @@ $result = $linkPageUtil->updateLinkPage(aLinkPage, aProperties);
 Updates the target of a link page.
 
 ```php
-$result = $linkPageUtil->updateLinkPageTarget(aLinkPage, aLinkTarget);
+$linkPageUtil->updateLinkPageTarget(aLinkPage, aLinkTarget);
 ```
 

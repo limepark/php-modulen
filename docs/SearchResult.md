@@ -9,7 +9,7 @@ This class has the following methods.
 Predicts the number of hits by disregarding expensive operations like node authorization etc.
 
 ```php
-$result = $searchResult->getApproximateCount();
+ $result = $searchResult->getApproximateCount();
 ```
 
 
@@ -17,7 +17,7 @@ $result = $searchResult->getApproximateCount();
 Returns the custom sorts for this search result.
 
 ```php
-$result = $searchResult->getCustomSorts();
+ $result = $searchResult->getCustomSorts();
 ```
 
 
@@ -25,7 +25,7 @@ $result = $searchResult->getCustomSorts();
 The "human friendly" variant of the query to display in search results.
 
 ```php
-$result = $searchResult->getDisplayQuery();
+ $result = $searchResult->getDisplayQuery();
 ```
 
 
@@ -33,7 +33,7 @@ $result = $searchResult->getDisplayQuery();
 Returns the exact hit count or the approximate hit count, given a specified count threshold.
 
 ```php
-$result = $searchResult->getEffectiveCount(aHitCountThreshold);
+ $result = $searchResult->getEffectiveCount(aHitCountThreshold);
 ```
 
 
@@ -41,7 +41,7 @@ $result = $searchResult->getEffectiveCount(aHitCountThreshold);
 Accessor to the exact number of hits.
 
 ```php
-$result = $searchResult->getExactCount();
+ $result = $searchResult->getExactCount();
 ```
 
 
@@ -49,7 +49,7 @@ $result = $searchResult->getExactCount();
 Returns the facet fields for this search result.
 
 ```php
-$result = $searchResult->getFacetFields();
+ $result = $searchResult->getFacetFields();
 ```
 
 
@@ -57,7 +57,7 @@ $result = $searchResult->getFacetFields();
 Accessor to the lazy loaded Iterator containing the search hits.
 
 ```php
-$result = $searchResult->getHits();
+ $result = $searchResult->getHits();
 ```
 
 
@@ -65,7 +65,7 @@ $result = $searchResult->getHits();
 The search query that was used to create this search result.
 
 ```php
-$result = $searchResult->getQuery();
+ $result = $searchResult->getQuery();
 ```
 
 
@@ -74,7 +74,7 @@ Deprecated. 
 since SiteVision 3.0
 
 ```php
-$result = $searchResult->getSearchHighlighter();
+ $result = $searchResult->getSearchHighlighter();
 ```
 
 
@@ -82,7 +82,7 @@ $result = $searchResult->getSearchHighlighter();
 The current status of the search.
 
 ```php
-$result = $searchResult->getStatus();
+ $result = $searchResult->getStatus();
 ```
 
 
@@ -90,7 +90,7 @@ $result = $searchResult->getStatus();
 Accessor to a string representation of the status code.
 
 ```php
-$result = $searchResult->getStatusMessage();
+ $result = $searchResult->getStatusMessage();
 ```
 
 
@@ -98,7 +98,7 @@ $result = $searchResult->getStatusMessage();
 Returns suggestions for this search result.
 
 ```php
-$result = $searchResult->getSuggestions();
+ $result = $searchResult->getSuggestions();
 ```
 
 
@@ -106,7 +106,7 @@ $result = $searchResult->getSuggestions();
 Whether the search result contains hits or not.
 
 ```php
-$result = $searchResult->hasHits();
+ $result = $searchResult->hasHits();
 ```
 
 
@@ -114,6 +114,6 @@ $result = $searchResult->hasHits();
 Convenience method for iterating search hits using the Java foreach loop construct.
 
 ```php
-$result = $searchResult->iterator();
+ $result = $searchResult->iterator();
 ```
 

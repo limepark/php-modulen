@@ -15,7 +15,7 @@ Adds an image to a sv:localImageRepository, sv:imageRepository, sv:personalImage
     or a sv:folder residing as sub node to an image repository.
 
 ```php
-$result = $imageUtil->createImage(aParent, aFileName, anUri);
+ $result = $imageUtil->createImage(aParent, aFileName, anUri);
 ```
 
 
@@ -24,7 +24,7 @@ Adds several images to a sv:localImageRepository, sv:imageRepository, sv:persona
     or a sv:folder residing as sub node to an image repository.
 
 ```php
-$result = $imageUtil->createImages(aParent, aImages);
+$imageUtil->createImages(aParent, aImages);
 ```
 
 
@@ -32,6 +32,6 @@ $result = $imageUtil->createImages(aParent, aImages);
 Updates the binary content of an existing image.
 
 ```php
-$result = $imageUtil->updateBinaryContent(anImage, anUri);
+$imageUtil->updateBinaryContent(anImage, anUri);
 ```
 

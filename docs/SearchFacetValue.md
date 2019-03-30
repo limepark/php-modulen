@@ -9,7 +9,7 @@ This class has the following methods.
 Returns the number of occurrences (number of expected hits when searching with this facet value).
 
 ```php
-$result = $searchFacetValue->getCount();
+ $result = $searchFacetValue->getCount();
 ```
 
 
@@ -17,7 +17,7 @@ $result = $searchFacetValue->getCount();
 Returns the query parameters for this facet value.
 
 ```php
-$result = $searchFacetValue->getFilterQueryParams();
+ $result = $searchFacetValue->getFilterQueryParams();
 ```
 
 
@@ -25,7 +25,7 @@ $result = $searchFacetValue->getFilterQueryParams();
 Returns the relative URL for executing a query for this facet value.
 
 ```php
-$result = $searchFacetValue->getFilterURL();
+ $result = $searchFacetValue->getFilterURL();
 ```
 
 
@@ -33,7 +33,7 @@ $result = $searchFacetValue->getFilterURL();
 Returns the name of this facet value
 
 ```php
-$result = $searchFacetValue->getName();
+ $result = $searchFacetValue->getName();
 ```
 
 
@@ -41,6 +41,6 @@ $result = $searchFacetValue->getName();
 Returns whether or not this facet value is selected.
 
 ```php
-$result = $searchFacetValue->isSelected();
+ $result = $searchFacetValue->isSelected();
 ```
 

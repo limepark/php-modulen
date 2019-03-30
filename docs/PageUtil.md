@@ -14,7 +14,7 @@ This class has the following methods.
 Creates a page with properties and web content.
 
 ```php
-$result = $pageUtil->createPage(aParent, aTemplate, aName, properties, content);
+ $result = $pageUtil->createPage(aParent, aTemplate, aName, properties, content);
 ```
 
 
@@ -22,7 +22,7 @@ $result = $pageUtil->createPage(aParent, aTemplate, aName, properties, content);
 Alters the name of a page.
 
 ```php
-$result = $pageUtil->renamePage(aPage, aName);
+$pageUtil->renamePage(aPage, aName);
 ```
 
 
@@ -30,6 +30,6 @@ $result = $pageUtil->renamePage(aPage, aName);
 Updates the properties of a page.
 
 ```php
-$result = $pageUtil->updatePage(aPage, properties);
+$pageUtil->updatePage(aPage, properties);
 ```
 

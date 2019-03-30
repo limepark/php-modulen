@@ -14,7 +14,7 @@ This class has the following methods.
 Creates an archive as sub node of the specified parent.
 
 ```php
-$result = $archiveUtil->createArchive(aParent, aName);
+ $result = $archiveUtil->createArchive(aParent, aName);
 ```
 
 
@@ -22,6 +22,6 @@ $result = $archiveUtil->createArchive(aParent, aName);
 Alters the name of an archive.
 
 ```php
-$result = $archiveUtil->renameArchive(anArchive, aName);
+$archiveUtil->renameArchive(anArchive, aName);
 ```
 

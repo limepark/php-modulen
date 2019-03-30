@@ -14,7 +14,7 @@ This class has the following methods.
 Add an alternative to a definition
 
 ```php
-$result = $metadataDefinitionUtil->addAlternative(aNode, aDefinitionName, aAlternativeName);
+$metadataDefinitionUtil->addAlternative(aNode, aDefinitionName, aAlternativeName);
 ```
 
 
@@ -22,7 +22,7 @@ $result = $metadataDefinitionUtil->addAlternative(aNode, aDefinitionName, aAlter
 Gets a metadata definition as a Node from a Node with a fallback value if the definition does not exist.
 
 ```php
-$result = $metadataDefinitionUtil->getDefinition(aNode, aDefinitionName, aDefaultValue);
+ $result = $metadataDefinitionUtil->getDefinition(aNode, aDefinitionName, aDefaultValue);
 ```
 
 
@@ -30,6 +30,6 @@ $result = $metadataDefinitionUtil->getDefinition(aNode, aDefinitionName, aDefaul
 Gets all metadata definitions available for the current user on a Node
 
 ```php
-$result = $metadataDefinitionUtil->getDefinitions(aNode);
+ $result = $metadataDefinitionUtil->getDefinitions(aNode);
 ```
 

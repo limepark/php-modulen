@@ -14,7 +14,7 @@ This class has the following methods.
 Gets the font with a given class name with a fallback value if no font matches
 
 ```php
-$result = $fontUtil->getFontByClassName(aClassName, aDefaultValue);
+ $result = $fontUtil->getFontByClassName(aClassName, aDefaultValue);
 ```
 
 
@@ -22,6 +22,6 @@ $result = $fontUtil->getFontByClassName(aClassName, aDefaultValue);
 Gets the font with a given font name with a fallback value if no font matches
 
 ```php
-$result = $fontUtil->getFontByName(aFontName, aDefaultValue);
+ $result = $fontUtil->getFontByName(aFontName, aDefaultValue);
 ```
 
