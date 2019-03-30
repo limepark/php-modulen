@@ -14,7 +14,7 @@ This class has the following methods.
 Checks if a non-authenticated user has read permission on a certain page tree node.
 
 ```php
- $result = $permissionUtil->hasAnonymousReadPermission(aPageNode);
+$result = $permissionUtil->hasAnonymousReadPermission(aPageNode);
 ```
 
 
@@ -22,7 +22,7 @@ Checks if a non-authenticated user has read permission on a certain page tree no
 Checks if a certain user has create archive permission on a certain page tree node.
 
 ```php
- $result = $permissionUtil->hasCreateArchivePermission(aParentNode, aUserNode);
+$result = $permissionUtil->hasCreateArchivePermission(aParentNode, aUserNode);
 ```
 
 
@@ -30,7 +30,7 @@ Checks if a certain user has create archive permission on a certain page tree no
 Checks if a certain user has create article permission on a certain page tree node.
 
 ```php
- $result = $permissionUtil->hasCreateArticlePermission(aParentNode, aUserNode);
+$result = $permissionUtil->hasCreateArticlePermission(aParentNode, aUserNode);
 ```
 
 
@@ -38,7 +38,7 @@ Checks if a certain user has create article permission on a certain page tree no
 Checks if a certain user has create folder permission on a certain page tree node.
 
 ```php
- $result = $permissionUtil->hasCreateFolderPermission(aParentNode, aUserNode);
+$result = $permissionUtil->hasCreateFolderPermission(aParentNode, aUserNode);
 ```
 
 
@@ -46,7 +46,7 @@ Checks if a certain user has create folder permission on a certain page tree nod
 Checks if a certain user has create page permission on a certain page tree node.
 
 ```php
- $result = $permissionUtil->hasCreatePagePermission(aParentNode, aUserNode);
+$result = $permissionUtil->hasCreatePagePermission(aParentNode, aUserNode);
 ```
 
 
@@ -54,7 +54,7 @@ Checks if a certain user has create page permission on a certain page tree node.
 Checks if a certain user has delete permission on a certain page tree node.
 
 ```php
- $result = $permissionUtil->hasDeletePermission(aNode, aUserNode);
+$result = $permissionUtil->hasDeletePermission(aNode, aUserNode);
 ```
 
 
@@ -62,7 +62,7 @@ Checks if a certain user has delete permission on a certain page tree node.
 Checks if current user has a certain permission on current page.
 
 ```php
- $result = $permissionUtil->hasPermission(aPermission);
+$result = $permissionUtil->hasPermission(aPermission);
 ```
 
 
@@ -70,7 +70,7 @@ Checks if current user has a certain permission on current page.
 Checks if current user has certain permissions on current page.
 
 ```php
- $result = $permissionUtil->hasPermissions(aPermissions);
+$result = $permissionUtil->hasPermissions(aPermissions);
 ```
 
 
@@ -78,7 +78,7 @@ Checks if current user has certain permissions on current page.
 Checks if a certain user has publish permission on a certain page tree node.
 
 ```php
- $result = $permissionUtil->hasPublishPermission(aNode, aUserNode);
+$result = $permissionUtil->hasPublishPermission(aNode, aUserNode);
 ```
 
 
@@ -86,7 +86,7 @@ Checks if a certain user has publish permission on a certain page tree node.
 Checks if a certain user has read permission on a certain page tree node.
 
 ```php
- $result = $permissionUtil->hasReadPermission(aPageNode, aUserNode);
+$result = $permissionUtil->hasReadPermission(aPageNode, aUserNode);
 ```
 
 
@@ -94,7 +94,7 @@ Checks if a certain user has read permission on a certain page tree node.
 Checks if a certain user has write permission (i.e. permission to edit page content) on a certain page tree node.
 
 ```php
- $result = $permissionUtil->hasWritePermission(aPageNode, aUserNode);
+$result = $permissionUtil->hasWritePermission(aPageNode, aUserNode);
 ```
 
 
@@ -102,6 +102,6 @@ Checks if a certain user has write permission (i.e. permission to edit page cont
 Checks if a certain user has write subscription permission on a certain page tree node.
 
 ```php
- $result = $permissionUtil->hasWriteSubscriptionPermission(aNode, aUserNode);
+$result = $permissionUtil->hasWriteSubscriptionPermission(aNode, aUserNode);
 ```
 

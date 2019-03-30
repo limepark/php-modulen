@@ -14,7 +14,7 @@ This class has the following methods.
 Gets the color with a given html hex value (i.e. a '#' followed by 6 characters [0-9,a-f,A-F]) with a fallback value if no color matches.
 
 ```php
- $result = $colorUtil->getColorByHtmlHexValue(aHexString, aDefaultValue);
+$result = $colorUtil->getColorByHtmlHexValue(aHexString, aDefaultValue);
 ```
 
 
@@ -22,6 +22,6 @@ Gets the color with a given html hex value (i.e. a '#' followed by 6 characters 
 Gets the color with a given name with a fallback value if no color matches
 
 ```php
- $result = $colorUtil->getColorByName(aColorName, aDefaultValue);
+$result = $colorUtil->getColorByName(aColorName, aDefaultValue);
 ```
 

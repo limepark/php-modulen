@@ -14,6 +14,6 @@ This class has the following methods.
 Creates a collaboration group.
 
 ```php
- $result = $collaborationGroupUtil->createCollaborationGroup(aGroupTemplate, aGroupFolder, aGroupName, aGroupType);
+$result = $collaborationGroupUtil->createCollaborationGroup(aGroupTemplate, aGroupFolder, aGroupName, aGroupType);
 ```
 

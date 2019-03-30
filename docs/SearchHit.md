@@ -9,7 +9,7 @@ This class has the following methods.
 Checks if the value(-s) for a specified field contains a specific value.
 
 ```php
- $result = $searchHit->fieldContains(aFieldName, aValue);
+$result = $searchHit->fieldContains(aFieldName, aValue);
 ```
 
 
@@ -17,7 +17,7 @@ Checks if the value(-s) for a specified field contains a specific value.
 Checks if the value(-s) for a specified field equals a specific value.
 
 ```php
- $result = $searchHit->fieldEquals(aFieldName, aValue);
+$result = $searchHit->fieldEquals(aFieldName, aValue);
 ```
 
 
@@ -25,7 +25,7 @@ Checks if the value(-s) for a specified field equals a specific value.
 Checks if the value(-s) for a specified field equals a specific value, case-insensitively.
 
 ```php
- $result = $searchHit->fieldEqualsIgnoreCase(aFieldName, aValue);
+$result = $searchHit->fieldEqualsIgnoreCase(aFieldName, aValue);
 ```
 
 
@@ -33,7 +33,7 @@ Checks if the value(-s) for a specified field equals a specific value, case-inse
 Checks if the value(-s) for a specified field matches a specified regular expression.
 
 ```php
- $result = $searchHit->fieldMatches(aFieldName, aRegularExpression);
+$result = $searchHit->fieldMatches(aFieldName, aRegularExpression);
 ```
 
 
@@ -41,7 +41,7 @@ Checks if the value(-s) for a specified field matches a specified regular expres
 The indexed content as Boolean for a specified field.
 
 ```php
- $result = $searchHit->getBooleanField(aFieldName);
+$result = $searchHit->getBooleanField(aFieldName);
 ```
 
 
@@ -49,7 +49,7 @@ The indexed content as Boolean for a specified field.
 The indexed contents as a list of Boolean values for a specified field.
 
 ```php
- $result = $searchHit->getBooleanFields(aFieldName);
+$result = $searchHit->getBooleanFields(aFieldName);
 ```
 
 
@@ -57,7 +57,7 @@ The indexed contents as a list of Boolean values for a specified field.
 Returns a jQuery expression with a token that enables tracking of search hit clicks.
 
 ```php
- $result = $searchHit->getClickTrackingCallback();
+$result = $searchHit->getClickTrackingCallback();
 ```
 
 
@@ -65,7 +65,7 @@ Returns a jQuery expression with a token that enables tracking of search hit cli
 The indexed contents as a list of Date values for a specified field.
 
 ```php
- $result = $searchHit->getDateFields(aFieldName);
+$result = $searchHit->getDateFields(aFieldName);
 ```
 
 
@@ -73,7 +73,7 @@ The indexed contents as a list of Date values for a specified field.
 The indexed content as string for a specified field, or a default value if no such field exist.
 
 ```php
- $result = $searchHit->getField(aFieldName, aDefaultValue);
+$result = $searchHit->getField(aFieldName, aDefaultValue);
 ```
 
 
@@ -81,7 +81,7 @@ The indexed content as string for a specified field, or a default value if no su
 The indexed content as XML escaped string for a specified field, or a default value if no such field exist.
 
 ```php
- $result = $searchHit->getFieldEscaped(aFieldName, aDefaultValue);
+$result = $searchHit->getFieldEscaped(aFieldName, aDefaultValue);
 ```
 
 
@@ -89,7 +89,7 @@ The indexed content as XML escaped string for a specified field, or a default va
 The names of all fields available in this search hit.
 
 ```php
- $result = $searchHit->getFieldNames();
+$result = $searchHit->getFieldNames();
 ```
 
 
@@ -97,7 +97,7 @@ The names of all fields available in this search hit.
 The indexed content as a list of strings for a specified field.
 
 ```php
- $result = $searchHit->getFields(aFieldName);
+$result = $searchHit->getFields(aFieldName);
 ```
 
 
@@ -105,7 +105,7 @@ The indexed content as a list of strings for a specified field.
 The indexed content as a list of XML escaped strings for a specified field.
 
 ```php
- $result = $searchHit->getFieldsEscaped(aFieldName);
+$result = $searchHit->getFieldsEscaped(aFieldName);
 ```
 
 
@@ -113,7 +113,7 @@ The indexed content as a list of XML escaped strings for a specified field.
 The indexed content as a list of truncated (lenient or not) strings for a specified field.
 
 ```php
- $result = $searchHit->getFieldsTruncated(aFieldName, maxContentLength, useLenientTruncation);
+$result = $searchHit->getFieldsTruncated(aFieldName, maxContentLength, useLenientTruncation);
 ```
 
 
@@ -121,7 +121,7 @@ The indexed content as a list of truncated (lenient or not) strings for a specif
 The indexed content as string for a specified field, truncated to a lenient max size.
 
 ```php
- $result = $searchHit->getFieldTruncated(aFieldName, maxContentLength);
+$result = $searchHit->getFieldTruncated(aFieldName, maxContentLength);
 ```
 
 
@@ -129,7 +129,7 @@ The indexed content as string for a specified field, truncated to a lenient max 
 The indexed content as Float for a specified field.
 
 ```php
- $result = $searchHit->getFloatField(aFieldName);
+$result = $searchHit->getFloatField(aFieldName);
 ```
 
 
@@ -137,7 +137,7 @@ The indexed content as Float for a specified field.
 The indexed contents as a list of Float values for a specified field.
 
 ```php
- $result = $searchHit->getFloatFields(aFieldName);
+$result = $searchHit->getFloatFields(aFieldName);
 ```
 
 
@@ -145,7 +145,7 @@ The indexed contents as a list of Float values for a specified field.
 The encoded and highlighted content of a highlighted field.
 
 ```php
- $result = $searchHit->getHighlightedField(aFieldName, maxNonHighlightedLength);
+$result = $searchHit->getHighlightedField(aFieldName, maxNonHighlightedLength);
 ```
 
 
@@ -153,7 +153,7 @@ The encoded and highlighted content of a highlighted field.
 The encoded and highlighted contents of a highlighted field.
 
 ```php
- $result = $searchHit->getHighlightedFields(aFieldName, maxNonHighlightedLength);
+$result = $searchHit->getHighlightedFields(aFieldName, maxNonHighlightedLength);
 ```
 
 
@@ -161,7 +161,7 @@ The encoded and highlighted contents of a highlighted field.
 The indexed content as Long for a specified field.
 
 ```php
- $result = $searchHit->getLongField(aFieldName);
+$result = $searchHit->getLongField(aFieldName);
 ```
 
 
@@ -169,7 +169,7 @@ The indexed content as Long for a specified field.
 The indexed contents as a list of Long values for a specified field.
 
 ```php
- $result = $searchHit->getLongFields(aFieldName);
+$result = $searchHit->getLongFields(aFieldName);
 ```
 
 
@@ -177,7 +177,7 @@ The indexed contents as a list of Long values for a specified field.
 Accesses the Node corresponding to a TYPE_INTERNAL hit.
 
 ```php
- $result = $searchHit->getNode();
+$result = $searchHit->getNode();
 ```
 
 
@@ -185,7 +185,7 @@ Accesses the Node corresponding to a TYPE_INTERNAL hit.
 The relative search score of the hit.
 
 ```php
- $result = $searchHit->getScore();
+$result = $searchHit->getScore();
 ```
 
 
@@ -193,7 +193,7 @@ The relative search score of the hit.
 The type of SearchHit object.
 
 ```php
- $result = $searchHit->getType();
+$result = $searchHit->getType();
 ```
 
 
@@ -201,6 +201,6 @@ The type of SearchHit object.
 Whether or not the search hit was elevated in the query result.
 
 ```php
- $result = $searchHit->isElevated();
+$result = $searchHit->isElevated();
 ```
 

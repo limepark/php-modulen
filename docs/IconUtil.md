@@ -14,7 +14,7 @@ This class has the following methods.
 Gets the file icon node for a given file extension.
 
 ```php
- $result = $iconUtil->getFileIcons(aFileExtension);
+$result = $iconUtil->getFileIcons(aFileExtension);
 ```
 
 
@@ -22,7 +22,7 @@ Gets the file icon node for a given file extension.
 Gets the large file icon URI for a given file extension
 
 ```php
- $result = $iconUtil->getLargeFileIconURI(aFileExtension);
+$result = $iconUtil->getLargeFileIconURI(aFileExtension);
 ```
 
 
@@ -30,6 +30,6 @@ Gets the large file icon URI for a given file extension
 Gets the small file icon URI for a given file extension
 
 ```php
- $result = $iconUtil->getSmallFileIconURI(aFileExtension);
+$result = $iconUtil->getSmallFileIconURI(aFileExtension);
 ```
 

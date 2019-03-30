@@ -14,6 +14,6 @@ This class has the following methods.
 Checks if current user is member of a virtual group with a specific id.
 
 ```php
- $result = $simpleUserUtil->isMemberOfVirtualGroup(aVirtualGroupId);
+$result = $simpleUserUtil->isMemberOfVirtualGroup(aVirtualGroupId);
 ```
 

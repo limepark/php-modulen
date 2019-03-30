@@ -14,7 +14,7 @@ This class has the following methods.
 Decodes a base64 encoded string
 
 ```php
- $result = $endecUtil->base64decode(aString);
+$result = $endecUtil->base64decode(aString);
 ```
 
 
@@ -22,7 +22,7 @@ Decodes a base64 encoded string
 Encodes a string using base64 encoding
 
 ```php
- $result = $endecUtil->base64encode(aString);
+$result = $endecUtil->base64encode(aString);
 ```
 
 
@@ -30,7 +30,7 @@ Encodes a string using base64 encoding
 Converts line breaks to xhtml <br /> elements.
 
 ```php
- $result = $endecUtil->br(aString);
+$result = $endecUtil->br(aString);
 ```
 
 
@@ -38,7 +38,7 @@ Converts line breaks to xhtml <br /> elements.
 Decodes a URL safe String into its original form using the default charset.
 
 ```php
- $result = $endecUtil->decodeURL(aURL);
+$result = $endecUtil->decodeURL(aURL);
 ```
 
 
@@ -46,7 +46,7 @@ Decodes a URL safe String into its original form using the default charset.
 Encodes a String into its URL safe form using the default charset.
 
 ```php
- $result = $endecUtil->encodeURL(aURL);
+$result = $endecUtil->encodeURL(aURL);
 ```
 
 
@@ -54,7 +54,7 @@ Encodes a String into its URL safe form using the default charset.
 Escapes/encodes an identifier.
 
 ```php
- $result = $endecUtil->escapeIdentifier(aPrefix, anIdentifier);
+$result = $endecUtil->escapeIdentifier(aPrefix, anIdentifier);
 ```
 
 
@@ -62,7 +62,7 @@ Escapes/encodes an identifier.
 Escapes/encodes a jcr name (property name or node name) that might contain illegal characters.
 
 ```php
- $result = $endecUtil->escapeJcrName(aJcrName);
+$result = $endecUtil->escapeJcrName(aJcrName);
 ```
 
 
@@ -70,7 +70,7 @@ Escapes/encodes a jcr name (property name or node name) that might contain illeg
 Escapes/encodes the characters in a String using XML entities.
 
 ```php
- $result = $endecUtil->escapeXML(aString);
+$result = $endecUtil->escapeXML(aString);
 ```
 
 
@@ -78,7 +78,7 @@ Escapes/encodes the characters in a String using XML entities.
 Replaces characters to their base subtitute.
 
 ```php
- $result = $endecUtil->getBaseSubstitute(aString);
+$result = $endecUtil->getBaseSubstitute(aString);
 ```
 
 
@@ -86,7 +86,7 @@ Replaces characters to their base subtitute.
 Unescapes/decodes a string containing HTML 4 entities to a string containing the actual Unicode characters corresponding to the entities.
 
 ```php
- $result = $endecUtil->unEscapeHTML4(aString);
+$result = $endecUtil->unEscapeHTML4(aString);
 ```
 
 
@@ -94,7 +94,7 @@ Unescapes/decodes a string containing HTML 4 entities to a string containing the
 Unescapes/decodes an escaped/encoded identifier.
 
 ```php
- $result = $endecUtil->unEscapeIdentifier(aPrefix, anIdentifier);
+$result = $endecUtil->unEscapeIdentifier(aPrefix, anIdentifier);
 ```
 
 
@@ -102,7 +102,7 @@ Unescapes/decodes an escaped/encoded identifier.
 Unescapes/decodes a jcr name (property name or node name) that might be escape/encoded.
 
 ```php
- $result = $endecUtil->unEscapeJcrName(aJcrName);
+$result = $endecUtil->unEscapeJcrName(aJcrName);
 ```
 
 
@@ -110,6 +110,6 @@ Unescapes/decodes a jcr name (property name or node name) that might be escape/e
 Unescapes/decodes a string containing basic XML entities to a string containing the actual Unicode characters corresponding to the entities.
 
 ```php
- $result = $endecUtil->unEscapeXML(aString);
+$result = $endecUtil->unEscapeXML(aString);
 ```
 

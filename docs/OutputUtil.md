@@ -14,7 +14,7 @@ This class has the following methods.
 Gets a text escaped and embedded in a html element with a class attribute and a style attribute.
 
 ```php
- $result = $outputUtil->getEscapedHtmlText(aPlainText, aFontNode, aStyle);
+$result = $outputUtil->getEscapedHtmlText(aPlainText, aFontNode, aStyle);
 ```
 
 
@@ -22,7 +22,7 @@ Gets a text escaped and embedded in a html element with a class attribute and a 
 Gets a text embedded in a html element with a class attribute and a style attribute.
 
 ```php
- $result = $outputUtil->getHtmlText(aText, aFontNode, aStyle);
+$result = $outputUtil->getHtmlText(aText, aFontNode, aStyle);
 ```
 
 
@@ -30,7 +30,7 @@ Gets a text embedded in a html element with a class attribute and a style attrib
 Hyperlinks text and uses a specified css class for created anchors.
 
 ```php
- $result = $outputUtil->getHyperlinkedText(aText, aClass, aStyle);
+$result = $outputUtil->getHyperlinkedText(aText, aClass, aStyle);
 ```
 
 
@@ -39,7 +39,7 @@ Deprecated. 
 Use getNodeOutput(javax.jcr.Node, javax.jcr.Node, int)
 
 ```php
- $result = $outputUtil->getNodeAsText(aNode);
+$result = $outputUtil->getNodeAsText(aNode);
 ```
 
 
@@ -48,7 +48,7 @@ Debug method that returns info about the properties of a node and all its sub no
  aDepth is reached.
 
 ```php
- $result = $outputUtil->getNodeInfoAsHTML(aNode, aDepth);
+$result = $outputUtil->getNodeInfoAsHTML(aNode, aDepth);
 ```
 
 
@@ -56,7 +56,7 @@ Debug method that returns info about the properties of a node and all its sub no
 Gets the output as a specific content-type from a page node or a page content node
 
 ```php
- $result = $outputUtil->getNodeOutput(aPageNode, aPagePartNode, aContentType);
+$result = $outputUtil->getNodeOutput(aPageNode, aPagePartNode, aContentType);
 ```
 
 
@@ -64,6 +64,6 @@ Gets the output as a specific content-type from a page node or a page content no
 Convenience method for rendering a linked web path to a specified node.
 
 ```php
- $result = $outputUtil->renderWebPathNodes(aDescendantNode, aLinkRenderer, aSeparator);
+$result = $outputUtil->renderWebPathNodes(aDescendantNode, aLinkRenderer, aSeparator);
 ```
 

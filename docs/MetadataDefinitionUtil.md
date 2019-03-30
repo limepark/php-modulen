@@ -22,7 +22,7 @@ $metadataDefinitionUtil->addAlternative(aNode, aDefinitionName, aAlternativeName
 Gets a metadata definition as a Node from a Node with a fallback value if the definition does not exist.
 
 ```php
- $result = $metadataDefinitionUtil->getDefinition(aNode, aDefinitionName, aDefaultValue);
+$result = $metadataDefinitionUtil->getDefinition(aNode, aDefinitionName, aDefaultValue);
 ```
 
 
@@ -30,6 +30,6 @@ Gets a metadata definition as a Node from a Node with a fallback value if the de
 Gets all metadata definitions available for the current user on a Node
 
 ```php
- $result = $metadataDefinitionUtil->getDefinitions(aNode);
+$result = $metadataDefinitionUtil->getDefinitions(aNode);
 ```
 

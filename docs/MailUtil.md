@@ -14,7 +14,7 @@ This class has the following methods.
 Gets the server from mail address.
 
 ```php
- $result = $mailUtil->getServerFromAddress();
+$result = $mailUtil->getServerFromAddress();
 ```
 
 
@@ -22,7 +22,7 @@ Gets the server from mail address.
 Gets the mail address of the server responsible.
 
 ```php
- $result = $mailUtil->getServerResponsibleAddress();
+$result = $mailUtil->getServerResponsibleAddress();
 ```
 
 
@@ -30,7 +30,7 @@ Gets the mail address of the server responsible.
 Gets the from mail address of current site.
 
 ```php
- $result = $mailUtil->getSiteFromAddress();
+$result = $mailUtil->getSiteFromAddress();
 ```
 
 
@@ -38,7 +38,7 @@ Gets the from mail address of current site.
 Gets the mail address of the site responsible.
 
 ```php
- $result = $mailUtil->getSiteResponsibleAddress();
+$result = $mailUtil->getSiteResponsibleAddress();
 ```
 
 
@@ -46,6 +46,6 @@ Gets the mail address of the site responsible.
 Checks if a mail address has a valid format.
 
 ```php
- $result = $mailUtil->isValidAddress(aMailAddress);
+$result = $mailUtil->isValidAddress(aMailAddress);
 ```
 

@@ -14,7 +14,7 @@ This class has the following methods.
 Gets the default index for a specified index type.
 
 ```php
- $result = $indexUtil->getDefaultIndex(aIndexType);
+$result = $indexUtil->getDefaultIndex(aIndexType);
 ```
 
 
@@ -22,6 +22,6 @@ Gets the default index for a specified index type.
 Gets an index by name.
 
 ```php
- $result = $indexUtil->getIndexByName(aIndexName);
+$result = $indexUtil->getIndexByName(aIndexName);
 ```
 

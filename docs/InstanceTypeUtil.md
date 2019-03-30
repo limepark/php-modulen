@@ -14,7 +14,7 @@ This class has the following methods.
 Checks if an object is a Boolean.
 
 ```php
- $result = $instanceTypeUtil->isBoolean(aObject);
+$result = $instanceTypeUtil->isBoolean(aObject);
 ```
 
 
@@ -22,7 +22,7 @@ Checks if an object is a Boolean.
 Checks if an object is a Calendar.
 
 ```php
- $result = $instanceTypeUtil->isCalendar(aObject);
+$result = $instanceTypeUtil->isCalendar(aObject);
 ```
 
 
@@ -30,7 +30,7 @@ Checks if an object is a Calendar.
 Checks if an object is a Collection.
 
 ```php
- $result = $instanceTypeUtil->isCollection(aObject);
+$result = $instanceTypeUtil->isCollection(aObject);
 ```
 
 
@@ -38,7 +38,7 @@ Checks if an object is a Collection.
 Checks if an object is a Comparable.
 
 ```php
- $result = $instanceTypeUtil->isComparable(aObject);
+$result = $instanceTypeUtil->isComparable(aObject);
 ```
 
 
@@ -46,7 +46,7 @@ Checks if an object is a Comparable.
 Checks if an object is a Comparator.
 
 ```php
- $result = $instanceTypeUtil->isComparator(aObject);
+$result = $instanceTypeUtil->isComparator(aObject);
 ```
 
 
@@ -54,7 +54,7 @@ Checks if an object is a Comparator.
 Checks if an object is a Date.
 
 ```php
- $result = $instanceTypeUtil->isDate(aObject);
+$result = $instanceTypeUtil->isDate(aObject);
 ```
 
 
@@ -62,7 +62,7 @@ Checks if an object is a Date.
 Checks if an object is a Double.
 
 ```php
- $result = $instanceTypeUtil->isDouble(aObject);
+$result = $instanceTypeUtil->isDouble(aObject);
 ```
 
 
@@ -70,7 +70,7 @@ Checks if an object is a Double.
 Checks if an object is an Exception.
 
 ```php
- $result = $instanceTypeUtil->isException(aObject);
+$result = $instanceTypeUtil->isException(aObject);
 ```
 
 
@@ -78,7 +78,7 @@ Checks if an object is an Exception.
 Checks if an object is a Float.
 
 ```php
- $result = $instanceTypeUtil->isFloat(aObject);
+$result = $instanceTypeUtil->isFloat(aObject);
 ```
 
 
@@ -86,7 +86,7 @@ Checks if an object is a Float.
 Checks if an object is an Integer.
 
 ```php
- $result = $instanceTypeUtil->isInteger(aObject);
+$result = $instanceTypeUtil->isInteger(aObject);
 ```
 
 
@@ -94,7 +94,7 @@ Checks if an object is an Integer.
 Checks if an object is an Iterable.
 
 ```php
- $result = $instanceTypeUtil->isIterable(aObject);
+$result = $instanceTypeUtil->isIterable(aObject);
 ```
 
 
@@ -102,7 +102,7 @@ Checks if an object is an Iterable.
 Checks if an object is an Iterator.
 
 ```php
- $result = $instanceTypeUtil->isIterator(aObject);
+$result = $instanceTypeUtil->isIterator(aObject);
 ```
 
 
@@ -110,7 +110,7 @@ Checks if an object is an Iterator.
 Checks if an object is a List.
 
 ```php
- $result = $instanceTypeUtil->isList(aObject);
+$result = $instanceTypeUtil->isList(aObject);
 ```
 
 
@@ -118,7 +118,7 @@ Checks if an object is a List.
 Checks if an object is a Long.
 
 ```php
- $result = $instanceTypeUtil->isLong(aObject);
+$result = $instanceTypeUtil->isLong(aObject);
 ```
 
 
@@ -126,7 +126,7 @@ Checks if an object is a Long.
 Checks if an object is a Map.
 
 ```php
- $result = $instanceTypeUtil->isMap(aObject);
+$result = $instanceTypeUtil->isMap(aObject);
 ```
 
 
@@ -134,7 +134,7 @@ Checks if an object is a Map.
 Checks if an object is a Node.
 
 ```php
- $result = $instanceTypeUtil->isNode(aObject);
+$result = $instanceTypeUtil->isNode(aObject);
 ```
 
 
@@ -142,7 +142,7 @@ Checks if an object is a Node.
 Checks if an object is a Number.
 
 ```php
- $result = $instanceTypeUtil->isNumber(aObject);
+$result = $instanceTypeUtil->isNumber(aObject);
 ```
 
 
@@ -150,7 +150,7 @@ Checks if an object is a Number.
 Checks if an object is a Property.
 
 ```php
- $result = $instanceTypeUtil->isProperty(aObject);
+$result = $instanceTypeUtil->isProperty(aObject);
 ```
 
 
@@ -158,7 +158,7 @@ Checks if an object is a Property.
 Checks if an object is a Serializable.
 
 ```php
- $result = $instanceTypeUtil->isSerializable(aObject);
+$result = $instanceTypeUtil->isSerializable(aObject);
 ```
 
 
@@ -166,7 +166,7 @@ Checks if an object is a Serializable.
 Checks if an object is a Set.
 
 ```php
- $result = $instanceTypeUtil->isSet(aObject);
+$result = $instanceTypeUtil->isSet(aObject);
 ```
 
 
@@ -174,7 +174,7 @@ Checks if an object is a Set.
 Checks if an object is a String.
 
 ```php
- $result = $instanceTypeUtil->isString(aObject);
+$result = $instanceTypeUtil->isString(aObject);
 ```
 
 
@@ -182,6 +182,6 @@ Checks if an object is a String.
 Checks if an object is a Throwable.
 
 ```php
- $result = $instanceTypeUtil->isThrowable(aObject);
+$result = $instanceTypeUtil->isThrowable(aObject);
 ```
 

@@ -23,7 +23,7 @@ $bookmarkUtil->add(bookmark, categories);
 Checks if the current user has the provided bookmark
 
 ```php
- $result = $bookmarkUtil->contains(bookmark);
+$result = $bookmarkUtil->contains(bookmark);
 ```
 
 
@@ -32,7 +32,7 @@ Returns a list of Node objects corresponding to the bookmarks for
  the current user and the provided categories.
 
 ```php
- $result = $bookmarkUtil->getBookmarks(category);
+$result = $bookmarkUtil->getBookmarks(category);
 ```
 
 
@@ -40,7 +40,7 @@ Returns a list of Node objects corresponding to the bookmarks for
 Accesses a boolean indicating if the current site has a limited number of bookmarks.
 
 ```php
- $result = $bookmarkUtil->getLimitNofBookmarks();
+$result = $bookmarkUtil->getLimitNofBookmarks();
 ```
 
 
@@ -48,7 +48,7 @@ Accesses a boolean indicating if the current site has a limited number of bookma
 Accessor to max number of bookmarks for the current site.
 
 ```php
- $result = $bookmarkUtil->getMaxNofBookmarks();
+$result = $bookmarkUtil->getMaxNofBookmarks();
 ```
 
 

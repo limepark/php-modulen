@@ -14,7 +14,7 @@ This class has the following methods.
 Creates a folder as sub node of the specified parent.
 
 ```php
- $result = $folderUtil->createFolder(aParent, aName);
+$result = $folderUtil->createFolder(aParent, aName);
 ```
 
 

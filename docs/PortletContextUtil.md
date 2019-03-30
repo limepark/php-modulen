@@ -14,7 +14,7 @@ This class has the following methods.
 Gets current module element (module element draft or module element).
 
 ```php
- $result = $portletContextUtil->getCurrentModuleElement();
+$result = $portletContextUtil->getCurrentModuleElement();
 ```
 
 
@@ -22,7 +22,7 @@ Gets current module element (module element draft or module element).
 Gets current page (i.e. the page node for the currently executing portlet).
 
 ```php
- $result = $portletContextUtil->getCurrentPage();
+$result = $portletContextUtil->getCurrentPage();
 ```
 
 
@@ -30,7 +30,7 @@ Gets current page (i.e. the page node for the currently executing portlet).
 Gets current portlet.
 
 ```php
- $result = $portletContextUtil->getCurrentPortlet();
+$result = $portletContextUtil->getCurrentPortlet();
 ```
 
 
@@ -38,7 +38,7 @@ Gets current portlet.
 Gets current user.
 
 ```php
- $result = $portletContextUtil->getCurrentUser();
+$result = $portletContextUtil->getCurrentUser();
 ```
 
 
@@ -46,7 +46,7 @@ Gets current user.
 Gets current user identity.
 
 ```php
- $result = $portletContextUtil->getCurrentUserIdentity();
+$result = $portletContextUtil->getCurrentUserIdentity();
 ```
 
 
@@ -55,7 +55,7 @@ Deprecated. 
 Use VersionUtil.getCurrentVersion()
 
 ```php
- $result = $portletContextUtil->getCurrentVersion();
+$result = $portletContextUtil->getCurrentVersion();
 ```
 
 
@@ -63,6 +63,6 @@ Use VersionUtil.getCurrentVersion()
 Gets a unique namespace for the specific portlet that is rendering.
 
 ```php
- $result = $portletContextUtil->getPortletNamespace(aPrefix);
+$result = $portletContextUtil->getPortletNamespace(aPrefix);
 ```
 

@@ -14,7 +14,7 @@ This class has the following methods.
 Formats a calendar according to the ISO8601 specification.
 
 ```php
- $result = $dateUtil->getCalendarAsISO8601String(aCalendar);
+$result = $dateUtil->getCalendarAsISO8601String(aCalendar);
 ```
 
 
@@ -22,7 +22,7 @@ Formats a calendar according to the ISO8601 specification.
 Formats the date of a calendar according to a SimpleDateFormat pattern.
 
 ```php
- $result = $dateUtil->getCalendarAsString(aFormatPattern, aCalendar);
+$result = $dateUtil->getCalendarAsString(aFormatPattern, aCalendar);
 ```
 
 
@@ -30,7 +30,7 @@ Formats the date of a calendar according to a SimpleDateFormat pattern.
 Formats a date according to the ISO8601 specification.
 
 ```php
- $result = $dateUtil->getDateAsISO8601String(aDate);
+$result = $dateUtil->getDateAsISO8601String(aDate);
 ```
 
 
@@ -38,7 +38,7 @@ Formats a date according to the ISO8601 specification.
 Formats a date according to a SimpleDateFormat pattern.
 
 ```php
- $result = $dateUtil->getDateAsString(aFormatPattern, aDate);
+$result = $dateUtil->getDateAsString(aFormatPattern, aDate);
 ```
 
 
@@ -46,6 +46,6 @@ Formats a date according to a SimpleDateFormat pattern.
 Gets the date format pattern used in the SiteVision editor for a specific Locale.
 
 ```php
- $result = $dateUtil->getEditorFormatPattern(aLocale);
+$result = $dateUtil->getEditorFormatPattern(aLocale);
 ```
 

@@ -14,7 +14,7 @@ This class has the following methods.
 Gets a filter that matches by an after value for a specified Calendar property.
 
 ```php
- $result = $nodeFilterUtil->getAfterCalendarPropertyFilter(aPropertyName, aAfterThresholdValue);
+$result = $nodeFilterUtil->getAfterCalendarPropertyFilter(aPropertyName, aAfterThresholdValue);
 ```
 
 
@@ -22,7 +22,7 @@ Gets a filter that matches by an after value for a specified Calendar property.
 Gets a filter that matches by an after value of a nested node's specified Calendar property.
 
 ```php
- $result = $nodeFilterUtil->getAfterNestedCalendarPropertyFilter(aNodePropertyName, aPropertyName, aAfterThresholdValue);
+$result = $nodeFilterUtil->getAfterNestedCalendarPropertyFilter(aNodePropertyName, aPropertyName, aAfterThresholdValue);
 ```
 
 
@@ -30,7 +30,7 @@ Gets a filter that matches by an after value of a nested node's specified Calend
 Gets a filter that always matches.
 
 ```php
- $result = $nodeFilterUtil->getAlwaysAcceptFilter();
+$result = $nodeFilterUtil->getAlwaysAcceptFilter();
 ```
 
 
@@ -38,7 +38,7 @@ Gets a filter that always matches.
 Gets a filter that matches by a before value for a specified Calendar property.
 
 ```php
- $result = $nodeFilterUtil->getBeforeCalendarPropertyFilter(aPropertyName, aBeforeThresholdValue);
+$result = $nodeFilterUtil->getBeforeCalendarPropertyFilter(aPropertyName, aBeforeThresholdValue);
 ```
 
 
@@ -46,7 +46,7 @@ Gets a filter that matches by a before value for a specified Calendar property.
 Gets a filter that matches by a before value of a nested node's specified Calendar property.
 
 ```php
- $result = $nodeFilterUtil->getBeforeNestedCalendarPropertyFilter(aNodePropertyName, aPropertyName, aBeforeThresholdValue);
+$result = $nodeFilterUtil->getBeforeNestedCalendarPropertyFilter(aNodePropertyName, aPropertyName, aBeforeThresholdValue);
 ```
 
 
@@ -54,7 +54,7 @@ Gets a filter that matches by a before value of a nested node's specified Calend
 Gets a filter that matches by a specified boolean property.
 
 ```php
- $result = $nodeFilterUtil->getBooleanPropertyFilter(aPropertyName, aMatchValue);
+$result = $nodeFilterUtil->getBooleanPropertyFilter(aPropertyName, aMatchValue);
 ```
 
 
@@ -62,7 +62,7 @@ Gets a filter that matches by a specified boolean property.
 Gets a filter that matches by a specified Calendar property.
 
 ```php
- $result = $nodeFilterUtil->getCalendarPropertyFilter(aPropertyName, aMatchValue);
+$result = $nodeFilterUtil->getCalendarPropertyFilter(aPropertyName, aMatchValue);
 ```
 
 
@@ -70,7 +70,7 @@ Gets a filter that matches by a specified Calendar property.
 Gets a filter that matches by the value-contains of a specified multi-valued string property.
 
 ```php
- $result = $nodeFilterUtil->getContainsStringMultiPropertyFilter(aPropertyName, aContainsValue);
+$result = $nodeFilterUtil->getContainsStringMultiPropertyFilter(aPropertyName, aContainsValue);
 ```
 
 
@@ -78,7 +78,7 @@ Gets a filter that matches by the value-contains of a specified multi-valued str
 Gets a filter that matches by the value-contains of a specified string property.
 
 ```php
- $result = $nodeFilterUtil->getContainsStringPropertyFilter(aPropertyName, aContainsValue);
+$result = $nodeFilterUtil->getContainsStringPropertyFilter(aPropertyName, aContainsValue);
 ```
 
 
@@ -86,7 +86,7 @@ Gets a filter that matches by the value-contains of a specified string property.
 Gets a filter that matches by a specified double property.
 
 ```php
- $result = $nodeFilterUtil->getDoublePropertyFilter(aPropertyName, aMatchValue);
+$result = $nodeFilterUtil->getDoublePropertyFilter(aPropertyName, aMatchValue);
 ```
 
 
@@ -94,7 +94,7 @@ Gets a filter that matches by a specified double property.
 Gets a filter that matches by the value-ends-with of a specified string property.
 
 ```php
- $result = $nodeFilterUtil->getEndsWithStringPropertyFilter(aPropertyName, aEndsWithValue);
+$result = $nodeFilterUtil->getEndsWithStringPropertyFilter(aPropertyName, aEndsWithValue);
 ```
 
 
@@ -102,7 +102,7 @@ Gets a filter that matches by the value-ends-with of a specified string property
 Applies a node filter to a Map with Node keys and gets the result.
 
 ```php
- $result = $nodeFilterUtil->getFilteredKeyMap(aNodeKeyMap, aNodeFilter);
+$result = $nodeFilterUtil->getFilteredKeyMap(aNodeKeyMap, aNodeFilter);
 ```
 
 
@@ -110,7 +110,7 @@ Applies a node filter to a Map with Node keys and gets the result.
 Applies a node filter to a list and gets the result.
 
 ```php
- $result = $nodeFilterUtil->getFilteredList(aNodeList, aNodeFilter);
+$result = $nodeFilterUtil->getFilteredList(aNodeList, aNodeFilter);
 ```
 
 
@@ -118,7 +118,7 @@ Applies a node filter to a list and gets the result.
 Applies a node filter to a Map with Node values and gets the result.
 
 ```php
- $result = $nodeFilterUtil->getFilteredValueMap(aNodeValueMap, aNodeFilter);
+$result = $nodeFilterUtil->getFilteredValueMap(aNodeValueMap, aNodeFilter);
 ```
 
 
@@ -126,7 +126,7 @@ Applies a node filter to a Map with Node values and gets the result.
 Gets a filter that matches by the existence of a specified property.
 
 ```php
- $result = $nodeFilterUtil->getHasPropertyFilter(aPropertyName);
+$result = $nodeFilterUtil->getHasPropertyFilter(aPropertyName);
 ```
 
 
@@ -134,7 +134,7 @@ Gets a filter that matches by the existence of a specified property.
 Gets a filter that matches by a specified node identifier.
 
 ```php
- $result = $nodeFilterUtil->getIdentifierFilter(aIdentifier);
+$result = $nodeFilterUtil->getIdentifierFilter(aIdentifier);
 ```
 
 
@@ -142,7 +142,7 @@ Gets a filter that matches by a specified node identifier.
 Gets a filter that matches by a specified node identifier prefix.
 
 ```php
- $result = $nodeFilterUtil->getIdentifierPrefixFilter(aIdentifierPrefix);
+$result = $nodeFilterUtil->getIdentifierPrefixFilter(aIdentifierPrefix);
 ```
 
 
@@ -150,7 +150,7 @@ Gets a filter that matches by a specified node identifier prefix.
 Gets a filter that matches by a specified node identifier suffix.
 
 ```php
- $result = $nodeFilterUtil->getIdentifierSuffixFilter(aIdentifierSuffix);
+$result = $nodeFilterUtil->getIdentifierSuffixFilter(aIdentifierSuffix);
 ```
 
 
@@ -158,7 +158,7 @@ Gets a filter that matches by a specified node identifier suffix.
 Gets a filter that matches case-insensitive by a specified string property.
 
 ```php
- $result = $nodeFilterUtil->getIgnoreCaseStringPropertyFilter(aPropertyName, aCaseInsensitiveValue);
+$result = $nodeFilterUtil->getIgnoreCaseStringPropertyFilter(aPropertyName, aCaseInsensitiveValue);
 ```
 
 
@@ -166,7 +166,7 @@ Gets a filter that matches case-insensitive by a specified string property.
 Gets a filter that matches by a specified int property.
 
 ```php
- $result = $nodeFilterUtil->getIntPropertyFilter(aPropertyName, aMatchValue);
+$result = $nodeFilterUtil->getIntPropertyFilter(aPropertyName, aMatchValue);
 ```
 
 
@@ -174,7 +174,7 @@ Gets a filter that matches by a specified int property.
 Gets a filter that inverts the result of another filter.
 
 ```php
- $result = $nodeFilterUtil->getInvertedFilter(aFilter);
+$result = $nodeFilterUtil->getInvertedFilter(aFilter);
 ```
 
 
@@ -182,7 +182,7 @@ Gets a filter that inverts the result of another filter.
 Gets a filter that matches by the max value of a specified double property.
 
 ```php
- $result = $nodeFilterUtil->getMaxDoublePropertyFilter(aPropertyName, aMaxValue);
+$result = $nodeFilterUtil->getMaxDoublePropertyFilter(aPropertyName, aMaxValue);
 ```
 
 
@@ -190,7 +190,7 @@ Gets a filter that matches by the max value of a specified double property.
 Gets a filter that matches by the max value of a specified int property.
 
 ```php
- $result = $nodeFilterUtil->getMaxIntPropertyFilter(aPropertyName, aMaxValue);
+$result = $nodeFilterUtil->getMaxIntPropertyFilter(aPropertyName, aMaxValue);
 ```
 
 
@@ -198,7 +198,7 @@ Gets a filter that matches by the max value of a specified int property.
 Gets a filter that matches by a nested node's max value of a specified int property.
 
 ```php
- $result = $nodeFilterUtil->getMaxNestedIntPropertyFilter(aNodePropertyName, aPropertyName, aMaxValue);
+$result = $nodeFilterUtil->getMaxNestedIntPropertyFilter(aNodePropertyName, aPropertyName, aMaxValue);
 ```
 
 
@@ -206,7 +206,7 @@ Gets a filter that matches by a nested node's max value of a specified int prope
 Gets a filter that matches by the min value of a specified double property.
 
 ```php
- $result = $nodeFilterUtil->getMinDoublePropertyFilter(aPropertyName, aMinValue);
+$result = $nodeFilterUtil->getMinDoublePropertyFilter(aPropertyName, aMinValue);
 ```
 
 
@@ -214,7 +214,7 @@ Gets a filter that matches by the min value of a specified double property.
 Gets a filter that matches by the min value of a specified int property.
 
 ```php
- $result = $nodeFilterUtil->getMinIntPropertyFilter(aPropertyName, aMinValue);
+$result = $nodeFilterUtil->getMinIntPropertyFilter(aPropertyName, aMinValue);
 ```
 
 
@@ -222,7 +222,7 @@ Gets a filter that matches by the min value of a specified int property.
 Gets a filter that matches by a nested node's min value of a specified int property.
 
 ```php
- $result = $nodeFilterUtil->getMinNestedIntPropertyFilter(aNodePropertyName, aPropertyName, aMinValue);
+$result = $nodeFilterUtil->getMinNestedIntPropertyFilter(aNodePropertyName, aPropertyName, aMinValue);
 ```
 
 
@@ -230,7 +230,7 @@ Gets a filter that matches by a nested node's min value of a specified int prope
 Gets a filter that matches by a nested node's specified boolean property.
 
 ```php
- $result = $nodeFilterUtil->getNestedBooleanPropertyFilter(aNodePropertyName, aPropertyName, aMatchValue);
+$result = $nodeFilterUtil->getNestedBooleanPropertyFilter(aNodePropertyName, aPropertyName, aMatchValue);
 ```
 
 
@@ -238,7 +238,7 @@ Gets a filter that matches by a nested node's specified boolean property.
 Gets a filter that matches by a nested node's specified Calendar property.
 
 ```php
- $result = $nodeFilterUtil->getNestedCalendarPropertyFilter(aNodePropertyName, aPropertyName, aMatchValue);
+$result = $nodeFilterUtil->getNestedCalendarPropertyFilter(aNodePropertyName, aPropertyName, aMatchValue);
 ```
 
 
@@ -246,7 +246,7 @@ Gets a filter that matches by a nested node's specified Calendar property.
 Gets a filter that matches by a nested node's specified double property.
 
 ```php
- $result = $nodeFilterUtil->getNestedDoublePropertyFilter(aNodePropertyName, aPropertyName, aMatchValue);
+$result = $nodeFilterUtil->getNestedDoublePropertyFilter(aNodePropertyName, aPropertyName, aMatchValue);
 ```
 
 
@@ -254,7 +254,7 @@ Gets a filter that matches by a nested node's specified double property.
 Gets a filter that matches by a nested node's specified int property.
 
 ```php
- $result = $nodeFilterUtil->getNestedIntPropertyFilter(aNodePropertyName, aPropertyName, aMatchValue);
+$result = $nodeFilterUtil->getNestedIntPropertyFilter(aNodePropertyName, aPropertyName, aMatchValue);
 ```
 
 
@@ -262,7 +262,7 @@ Gets a filter that matches by a nested node's specified int property.
 Gets a filter that never matches.
 
 ```php
- $result = $nodeFilterUtil->getNeverAcceptFilter();
+$result = $nodeFilterUtil->getNeverAcceptFilter();
 ```
 
 
@@ -270,7 +270,7 @@ Gets a filter that never matches.
 Gets a filter that matches non-null nodes.
 
 ```php
- $result = $nodeFilterUtil->getNonNullFilter();
+$result = $nodeFilterUtil->getNonNullFilter();
 ```
 
 
@@ -278,7 +278,7 @@ Gets a filter that matches non-null nodes.
 Gets a filter that matches null nodes.
 
 ```php
- $result = $nodeFilterUtil->getNullFilter();
+$result = $nodeFilterUtil->getNullFilter();
 ```
 
 
@@ -286,7 +286,7 @@ Gets a filter that matches null nodes.
 Gets a filter that matches by a regular expression of a specified multi-valued string property.
 
 ```php
- $result = $nodeFilterUtil->getPatternStringMultiPropertyFilter(aPropertyName, aRegularExpression);
+$result = $nodeFilterUtil->getPatternStringMultiPropertyFilter(aPropertyName, aRegularExpression);
 ```
 
 
@@ -294,7 +294,7 @@ Gets a filter that matches by a regular expression of a specified multi-valued s
 Gets a filter that matches by a regular expression of a specified string property.
 
 ```php
- $result = $nodeFilterUtil->getPatternStringPropertyFilter(aPropertyName, aRegularExpression);
+$result = $nodeFilterUtil->getPatternStringPropertyFilter(aPropertyName, aRegularExpression);
 ```
 
 
@@ -302,7 +302,7 @@ Gets a filter that matches by a regular expression of a specified string propert
 Gets a filter that matches by a specified primary node type.
 
 ```php
- $result = $nodeFilterUtil->getPrimaryNodeTypeFilter(aPrimaryNodeTypeName);
+$result = $nodeFilterUtil->getPrimaryNodeTypeFilter(aPrimaryNodeTypeName);
 ```
 
 
@@ -310,7 +310,7 @@ Gets a filter that matches by a specified primary node type.
 Gets a filter that matches by the between range of a specified Calendar property.
 
 ```php
- $result = $nodeFilterUtil->getRangeCalendarPropertyFilter(aPropertyName, aAfterThresholdValue, aBeforeThresholdValue);
+$result = $nodeFilterUtil->getRangeCalendarPropertyFilter(aPropertyName, aAfterThresholdValue, aBeforeThresholdValue);
 ```
 
 
@@ -318,7 +318,7 @@ Gets a filter that matches by the between range of a specified Calendar property
 Gets a filter that matches by the range of a specified double property.
 
 ```php
- $result = $nodeFilterUtil->getRangeDoublePropertyFilter(aPropertyName, aMinValue, aMaxValue);
+$result = $nodeFilterUtil->getRangeDoublePropertyFilter(aPropertyName, aMinValue, aMaxValue);
 ```
 
 
@@ -326,7 +326,7 @@ Gets a filter that matches by the range of a specified double property.
 Gets a filter that matches by the range of a specified int property.
 
 ```php
- $result = $nodeFilterUtil->getRangeIntPropertyFilter(aPropertyName, aMinValue, aMaxValue);
+$result = $nodeFilterUtil->getRangeIntPropertyFilter(aPropertyName, aMinValue, aMaxValue);
 ```
 
 
@@ -334,7 +334,7 @@ Gets a filter that matches by the range of a specified int property.
 Gets a filter that matches by the between range of a nested node's specified Calendar property.
 
 ```php
- $result = $nodeFilterUtil->getRangeNestedCalendarPropertyFilter(aNodePropertyName, aPropertyName, aAfterThresholdValue, aBeforeThresholdValue);
+$result = $nodeFilterUtil->getRangeNestedCalendarPropertyFilter(aNodePropertyName, aPropertyName, aAfterThresholdValue, aBeforeThresholdValue);
 ```
 
 
@@ -342,7 +342,7 @@ Gets a filter that matches by the between range of a nested node's specified Cal
 Gets a filter that matches by a nested node's range of a specified int property.
 
 ```php
- $result = $nodeFilterUtil->getRangeNestedIntPropertyFilter(aNodePropertyName, aPropertyName, aMinValue, aMaxValue);
+$result = $nodeFilterUtil->getRangeNestedIntPropertyFilter(aNodePropertyName, aPropertyName, aMinValue, aMaxValue);
 ```
 
 
@@ -350,7 +350,7 @@ Gets a filter that matches by a nested node's range of a specified int property.
 Gets a filter that matches by the value-starts-with of a specified string property.
 
 ```php
- $result = $nodeFilterUtil->getStartsWithStringPropertyFilter(aPropertyName, aStartsWithValue);
+$result = $nodeFilterUtil->getStartsWithStringPropertyFilter(aPropertyName, aStartsWithValue);
 ```
 
 
@@ -358,7 +358,7 @@ Gets a filter that matches by the value-starts-with of a specified string proper
 Gets a filter that matches by a specified multi-valued string property.
 
 ```php
- $result = $nodeFilterUtil->getStringMultiPropertyFilter(aPropertyName, aMatchValue);
+$result = $nodeFilterUtil->getStringMultiPropertyFilter(aPropertyName, aMatchValue);
 ```
 
 
@@ -366,7 +366,7 @@ Gets a filter that matches by a specified multi-valued string property.
 Gets a filter that matches by a specified string property.
 
 ```php
- $result = $nodeFilterUtil->getStringPropertyFilter(aPropertyName, aMatchValue);
+$result = $nodeFilterUtil->getStringPropertyFilter(aPropertyName, aMatchValue);
 ```
 
 
@@ -374,6 +374,6 @@ Gets a filter that matches by a specified string property.
 Gets the filtering result of a split operation for a collection of nodes with a node filter as divider.
 
 ```php
- $result = $nodeFilterUtil->split(aNodeCollection, aNodeFilter);
+$result = $nodeFilterUtil->split(aNodeCollection, aNodeFilter);
 ```
 

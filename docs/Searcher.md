@@ -9,6 +9,6 @@ This class has the following methods.
 Executes a paginated search using the components/behaviour that was specified when the Searcher was created.
 
 ```php
- $result = $searcher->search(aQuery, aDisplayQuery, aStartAtHit, aMaxHitsToReturn);
+$result = $searcher->search(aQuery, aDisplayQuery, aStartAtHit, aMaxHitsToReturn);
 ```
 

@@ -9,7 +9,7 @@ This class has the following methods.
 Returns the facet values for this facet field.
 
 ```php
- $result = $searchFacetField->getFacetValues();
+$result = $searchFacetField->getFacetValues();
 ```
 
 
@@ -17,7 +17,7 @@ Returns the facet values for this facet field.
 Returns the name of this facet field.
 
 ```php
- $result = $searchFacetField->getName();
+$result = $searchFacetField->getName();
 ```
 
 
@@ -25,6 +25,6 @@ Returns the name of this facet field.
 Convenience method for getting the number of values for this facet field.
 
 ```php
- $result = $searchFacetField->getValueCount();
+$result = $searchFacetField->getValueCount();
 ```
 

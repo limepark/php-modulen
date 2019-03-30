@@ -70,7 +70,7 @@ $fileIconRenderer->forceUseSmallIcons();
 Whether or not a default icon is loaded.
 
 ```php
- $result = $fileIconRenderer->isDefaultIconLoaded();
+$result = $fileIconRenderer->isDefaultIconLoaded();
 ```
 
 
@@ -78,7 +78,7 @@ Whether or not a default icon is loaded.
 Whether or not an icon is loaded.
 
 ```php
- $result = $fileIconRenderer->isIconLoaded();
+$result = $fileIconRenderer->isIconLoaded();
 ```
 
 
@@ -86,7 +86,7 @@ Whether or not an icon is loaded.
 Uses a content type to load the fallback icon that should be used when rendering if no icon is loaded.
 
 ```php
- $result = $fileIconRenderer->loadDefaultIconByContentType(aContentType);
+$result = $fileIconRenderer->loadDefaultIconByContentType(aContentType);
 ```
 
 
@@ -94,7 +94,7 @@ Uses a content type to load the fallback icon that should be used when rendering
 Uses a file extension to load the fallback icon that should be used when rendering if no icon is loaded.
 
 ```php
- $result = $fileIconRenderer->loadDefaultIconByFileExtension(aFileExtension);
+$result = $fileIconRenderer->loadDefaultIconByFileExtension(aFileExtension);
 ```
 
 
@@ -102,7 +102,7 @@ Uses a file extension to load the fallback icon that should be used when renderi
 Uses a URI to load the fallback icon that should be used when rendering if no icon is loaded.
 
 ```php
- $result = $fileIconRenderer->loadDefaultIconByURI(aURI);
+$result = $fileIconRenderer->loadDefaultIconByURI(aURI);
 ```
 
 
@@ -110,7 +110,7 @@ Uses a URI to load the fallback icon that should be used when rendering if no ic
 Uses a content type to load the icon that should be rendered.
 
 ```php
- $result = $fileIconRenderer->loadIconByContentType(aContentType);
+$result = $fileIconRenderer->loadIconByContentType(aContentType);
 ```
 
 
@@ -118,7 +118,7 @@ Uses a content type to load the icon that should be rendered.
 Uses a URI to load the icon that should be rendered.
 
 ```php
- $result = $fileIconRenderer->loadIconByFileExtension(aFileExtension);
+$result = $fileIconRenderer->loadIconByFileExtension(aFileExtension);
 ```
 
 
@@ -126,7 +126,7 @@ Uses a URI to load the icon that should be rendered.
 Uses a URI to load the icon that should be rendered.
 
 ```php
- $result = $fileIconRenderer->loadIconByURI(aURI);
+$result = $fileIconRenderer->loadIconByURI(aURI);
 ```
 
 
@@ -134,7 +134,7 @@ Uses a URI to load the icon that should be rendered.
 Builds a html img element based on current state.
 
 ```php
- $result = $fileIconRenderer->render();
+$result = $fileIconRenderer->render();
 ```
 
 

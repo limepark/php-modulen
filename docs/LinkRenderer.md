@@ -206,7 +206,7 @@ $linkRenderer->forceUseResourceDecorationSettings();
 Checks if a Node is a renderable target or not (node type accepted).
 
 ```php
- $result = $linkRenderer->isRenderableTarget(aNode);
+$result = $linkRenderer->isRenderableTarget(aNode);
 ```
 
 
@@ -214,7 +214,7 @@ Checks if a Node is a renderable target or not (node type accepted).
 Checks if a Node is a valid target or not (node type accepted and target is valid).
 
 ```php
- $result = $linkRenderer->isValidTarget(aNode);
+$result = $linkRenderer->isValidTarget(aNode);
 ```
 
 
@@ -230,7 +230,7 @@ $linkRenderer->removeTitle();
 Builds a html link based on current state.
 
 ```php
- $result = $linkRenderer->render();
+$result = $linkRenderer->render();
 ```
 
 

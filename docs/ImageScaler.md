@@ -9,7 +9,7 @@ This class has the following methods.
 Returns max height in pixels for images scaled with instances of this interface.
 
 ```php
- $result = $imageScaler->getMaxHeight();
+$result = $imageScaler->getMaxHeight();
 ```
 
 
@@ -17,7 +17,7 @@ Returns max height in pixels for images scaled with instances of this interface.
 Returns max width in pixels for images scaled with instances of this interface.
 
 ```php
- $result = $imageScaler->getMaxWidth();
+$result = $imageScaler->getMaxWidth();
 ```
 
 
@@ -25,6 +25,6 @@ Returns max width in pixels for images scaled with instances of this interface.
 Creates a scaled image using the width and height of this scaler.
 
 ```php
- $result = $imageScaler->getScaledImage(aImageNode);
+$result = $imageScaler->getScaledImage(aImageNode);
 ```
 

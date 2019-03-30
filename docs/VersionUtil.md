@@ -14,6 +14,6 @@ This class has the following methods.
 Gets current version
 
 ```php
- $result = $versionUtil->getCurrentVersion();
+$result = $versionUtil->getCurrentVersion();
 ```
 

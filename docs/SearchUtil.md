@@ -14,6 +14,6 @@ This class has the following methods.
 Searches the default index using the single-field ("standard") parser with a specified default field.
 
 ```php
- $result = $searchUtil->search(aQuery, aFieldName, sortFields, aStartAtHit, aMaxHitsToReturn);
+$result = $searchUtil->search(aQuery, aFieldName, sortFields, aStartAtHit, aMaxHitsToReturn);
 ```
 

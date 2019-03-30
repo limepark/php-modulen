@@ -14,7 +14,7 @@ This class has the following methods.
 Gets a directory attribute value for a directory node object as Property.
 
 ```php
- $result = $directoryUtil->getAttributeAsProperty(aDirectoryObjectNode, anAttributeName);
+$result = $directoryUtil->getAttributeAsProperty(aDirectoryObjectNode, anAttributeName);
 ```
 
 
@@ -22,7 +22,7 @@ Gets a directory attribute value for a directory node object as Property.
 Gets a directory node object with a specific distinguished name, dn.
 
 ```php
- $result = $directoryUtil->getNodeByDN(aDirectoryObjectDN);
+$result = $directoryUtil->getNodeByDN(aDirectoryObjectDN);
 ```
 
 
@@ -30,7 +30,7 @@ Gets a directory node object with a specific distinguished name, dn.
 Searches for objects in a specified search base in a specified LDAP directory.
 
 ```php
- $result = $directoryUtil->search(aSearchFilter, aDirectoryNode, aSearchBase);
+$result = $directoryUtil->search(aSearchFilter, aDirectoryNode, aSearchBase);
 ```
 
 
@@ -38,6 +38,6 @@ Searches for objects in a specified search base in a specified LDAP directory.
 Searches for ids in a specified search base in all directories.
 
 ```php
- $result = $directoryUtil->simpleSearch(aSearchFilter, searchBase, attributes);
+$result = $directoryUtil->simpleSearch(aSearchFilter, searchBase, attributes);
 ```
 

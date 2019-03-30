@@ -14,7 +14,7 @@ This class has the following methods.
 Returns a Node for a link metadata on a specified Node.
 
 ```php
- $result = $metadataUtil->getLinkMetadataPropertyValue(aNode, aPropertyName);
+$result = $metadataUtil->getLinkMetadataPropertyValue(aNode, aPropertyName);
 ```
 
 
@@ -23,7 +23,7 @@ Returns a boolean indicating that the metadata value in a specified version on t
  inherited from a parent node.
 
 ```php
- $result = $metadataUtil->isMetadataValueInherited(aNode, aPropertyName, aVersion);
+$result = $metadataUtil->isMetadataValueInherited(aNode, aPropertyName, aVersion);
 ```
 
 

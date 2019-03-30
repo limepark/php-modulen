@@ -38,7 +38,7 @@ $subscriptionUtil->deactivateSubscription(aNode);
 Returns the active subscription Node of a Node.
 
 ```php
- $result = $subscriptionUtil->getActiveSubscription(aNode);
+$result = $subscriptionUtil->getActiveSubscription(aNode);
 ```
 
 
@@ -46,6 +46,6 @@ Returns the active subscription Node of a Node.
 Notifies the subscribers of a given node with an active subscription.
 
 ```php
- $result = $subscriptionUtil->notifySubscribersOf(aNode, aNotificationText);
+$result = $subscriptionUtil->notifySubscribersOf(aNode, aNotificationText);
 ```
 

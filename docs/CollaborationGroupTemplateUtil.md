@@ -14,7 +14,7 @@ This class has the following methods.
 Gets the first found collaboration group template that matches a given name.
 
 ```php
- $result = $collaborationGroupTemplateUtil->getCollaborationGroupTemplateByName(aCollaborationGroupTemplateName);
+$result = $collaborationGroupTemplateUtil->getCollaborationGroupTemplateByName(aCollaborationGroupTemplateName);
 ```
 
 
@@ -22,7 +22,7 @@ Gets the first found collaboration group template that matches a given name.
 Gets all collaboration group templates.
 
 ```php
- $result = $collaborationGroupTemplateUtil->getCollaborationGroupTemplates();
+$result = $collaborationGroupTemplateUtil->getCollaborationGroupTemplates();
 ```
 
 
@@ -30,6 +30,6 @@ Gets all collaboration group templates.
 Gets the default collaboration group template.
 
 ```php
- $result = $collaborationGroupTemplateUtil->getDefaultCollaborationGroupTemplate();
+$result = $collaborationGroupTemplateUtil->getDefaultCollaborationGroupTemplate();
 ```
 

@@ -9,7 +9,7 @@ This class has the following methods.
 Number of expected hits for this suggestion
 
 ```php
- $result = $searchSuggestion->getCount();
+$result = $searchSuggestion->getCount();
 ```
 
 
@@ -17,6 +17,6 @@ Number of expected hits for this suggestion
 The name/expression of the suggestion
 
 ```php
- $result = $searchSuggestion->getName();
+$result = $searchSuggestion->getName();
 ```
 

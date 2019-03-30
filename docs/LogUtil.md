@@ -38,7 +38,7 @@ $logUtil->info(aMessage, aThrowable);
 Checks if debug logging is enabled.
 
 ```php
- $result = $logUtil->isDebugEnabled();
+$result = $logUtil->isDebugEnabled();
 ```
 
 
@@ -46,7 +46,7 @@ Checks if debug logging is enabled.
 Checks if error logging is enabled.
 
 ```php
- $result = $logUtil->isErrorEnabled();
+$result = $logUtil->isErrorEnabled();
 ```
 
 
@@ -54,7 +54,7 @@ Checks if error logging is enabled.
 Checks if info logging is enabled.
 
 ```php
- $result = $logUtil->isInfoEnabled();
+$result = $logUtil->isInfoEnabled();
 ```
 
 
@@ -62,7 +62,7 @@ Checks if info logging is enabled.
 Checks if trace logging is enabled.
 
 ```php
- $result = $logUtil->isTraceEnabled();
+$result = $logUtil->isTraceEnabled();
 ```
 
 
@@ -70,7 +70,7 @@ Checks if trace logging is enabled.
 Checks if warn logging is enabled.
 
 ```php
- $result = $logUtil->isWarnEnabled();
+$result = $logUtil->isWarnEnabled();
 ```
 
 

@@ -14,7 +14,7 @@ This class has the following methods.
 Gets a list of all Locales that are set up for translations on the current site.
 
 ```php
- $result = $translationUtil->getSiteTranslationLocales();
+$result = $translationUtil->getSiteTranslationLocales();
 ```
 
 
@@ -22,7 +22,7 @@ Gets a list of all Locales that are set up for translations on the current site.
 Gets the page node a given node is potentially translated from (the translation source).
 
 ```php
- $result = $translationUtil->getTranslatedFrom(aPageNode);
+$result = $translationUtil->getTranslatedFrom(aPageNode);
 ```
 
 
@@ -30,7 +30,7 @@ Gets the page node a given node is potentially translated from (the translation 
 Gets the translation mappings for a given page node.
 
 ```php
- $result = $translationUtil->getTranslations(aPageNode, aIncludePageNode);
+$result = $translationUtil->getTranslations(aPageNode, aIncludePageNode);
 ```
 
 
@@ -38,6 +38,6 @@ Gets the translation mappings for a given page node.
 Sets the translated from node to the page node provided as translation node.
 
 ```php
- $result = $translationUtil->setTranslatedFrom(aOriginalPageNode, aTranslationPageNode);
+$result = $translationUtil->setTranslatedFrom(aOriginalPageNode, aTranslationPageNode);
 ```
 

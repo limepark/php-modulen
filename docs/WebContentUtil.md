@@ -23,7 +23,7 @@ Resolves an unresolved URL to a resource (potentially needed for all resource re
  updated or appended as raw HTML).
 
 ```php
- $result = $webContentUtil->resolveToResourceURL(aNode, anUnresolvedURL);
+$result = $webContentUtil->resolveToResourceURL(aNode, anUnresolvedURL);
 ```
 
 

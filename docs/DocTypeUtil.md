@@ -14,7 +14,7 @@ This class has the following methods.
 Gets the doctype for a certain page.
 
 ```php
- $result = $docTypeUtil->getDocType(aPageNode);
+$result = $docTypeUtil->getDocType(aPageNode);
 ```
 
 
@@ -22,7 +22,7 @@ Gets the doctype for a certain page.
 Checks if the doctype for a certain page matches a certain DocType.
 
 ```php
- $result = $docTypeUtil->isDocType(aPageNode, aDocType);
+$result = $docTypeUtil->isDocType(aPageNode, aDocType);
 ```
 
 
@@ -30,7 +30,7 @@ Checks if the doctype for a certain page matches a certain DocType.
 Checks if the doctype for a certain page is HTML 4.01 Transitional or HTML5.
 
 ```php
- $result = $docTypeUtil->isHtml(aPageNode);
+$result = $docTypeUtil->isHtml(aPageNode);
 ```
 
 
@@ -38,7 +38,7 @@ Checks if the doctype for a certain page is HTML 4.01 Transitional or HTML5.
 Checks if the doctype for a certain page is HTML 4.01 Transitional.
 
 ```php
- $result = $docTypeUtil->isHtml4(aPageNode);
+$result = $docTypeUtil->isHtml4(aPageNode);
 ```
 
 
@@ -46,7 +46,7 @@ Checks if the doctype for a certain page is HTML 4.01 Transitional.
 Checks if the doctype for a certain page is HTML5.
 
 ```php
- $result = $docTypeUtil->isHtml5(aPageNode);
+$result = $docTypeUtil->isHtml5(aPageNode);
 ```
 
 
@@ -54,7 +54,7 @@ Checks if the doctype for a certain page is HTML5.
 Checks if the doctype for a certain page is XHTML 1.0 Transitional or XHTML 1.0 Strict.
 
 ```php
- $result = $docTypeUtil->isXhtml(aPageNode);
+$result = $docTypeUtil->isXhtml(aPageNode);
 ```
 
 
@@ -62,7 +62,7 @@ Checks if the doctype for a certain page is XHTML 1.0 Transitional or XHTML 1.0 
 Checks if the doctype for a certain page is XHTML 1.0 Strict.
 
 ```php
- $result = $docTypeUtil->isXhtmlStrict(aPageNode);
+$result = $docTypeUtil->isXhtmlStrict(aPageNode);
 ```
 
 
@@ -70,6 +70,6 @@ Checks if the doctype for a certain page is XHTML 1.0 Strict.
 Checks if the doctype for a certain page is XHTML 1.0 Transitional.
 
 ```php
- $result = $docTypeUtil->isXhtmlTransitional(aPageNode);
+$result = $docTypeUtil->isXhtmlTransitional(aPageNode);
 ```
 

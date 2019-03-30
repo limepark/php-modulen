@@ -142,7 +142,7 @@ $imageRenderer->forceUseTitleRendering();
 Whether or not a hover image is loaded.
 
 ```php
- $result = $imageRenderer->isHoverImageLoaded();
+$result = $imageRenderer->isHoverImageLoaded();
 ```
 
 
@@ -150,7 +150,7 @@ Whether or not a hover image is loaded.
 Whether or not an image is loaded.
 
 ```php
- $result = $imageRenderer->isImageLoaded();
+$result = $imageRenderer->isImageLoaded();
 ```
 
 
@@ -158,7 +158,7 @@ Whether or not an image is loaded.
 Whether or not an image scaler is loaded.
 
 ```php
- $result = $imageRenderer->isImageScalerLoaded();
+$result = $imageRenderer->isImageScalerLoaded();
 ```
 
 
@@ -166,7 +166,7 @@ Whether or not an image scaler is loaded.
 Builds a xhtml img element based on current state.
 
 ```php
- $result = $imageRenderer->render();
+$result = $imageRenderer->render();
 ```
 
 

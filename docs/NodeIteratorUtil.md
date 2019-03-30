@@ -14,7 +14,7 @@ This class has the following methods.
 Gets a list of all nodes from a node iterator that matches a specified filter.
 
 ```php
- $result = $nodeIteratorUtil->findAll(aNodeIterator, aFilter);
+$result = $nodeIteratorUtil->findAll(aNodeIterator, aFilter);
 ```
 
 
@@ -22,7 +22,7 @@ Gets a list of all nodes from a node iterator that matches a specified filter.
 Gets the first node from a node iterator that matches a specified filter.
 
 ```php
- $result = $nodeIteratorUtil->findFirst(aNodeIterator, aFilter);
+$result = $nodeIteratorUtil->findFirst(aNodeIterator, aFilter);
 ```
 
 
@@ -30,7 +30,7 @@ Gets the first node from a node iterator that matches a specified filter.
 Gets a max-sized node list from a node iterator that matches a specified filter.
 
 ```php
- $result = $nodeIteratorUtil->findNodes(aNodeIterator, aFilter, aMaxNodesToFind);
+$result = $nodeIteratorUtil->findNodes(aNodeIterator, aFilter, aMaxNodesToFind);
 ```
 
 
@@ -38,7 +38,7 @@ Gets a max-sized node list from a node iterator that matches a specified filter.
 Gets an iterator for default menu items (i.e. non-hidden pages, link pages etc. where current user has read permission)
 
 ```php
- $result = $nodeIteratorUtil->getMenuItems(aParent);
+$result = $nodeIteratorUtil->getMenuItems(aParent);
 ```
 
 
@@ -46,7 +46,7 @@ Gets an iterator for default menu items (i.e. non-hidden pages, link pages etc. 
 Gets an iterator for default menu items via a node identifier.
 
 ```php
- $result = $nodeIteratorUtil->getMenuItemsByIdentifier(aIdentifier);
+$result = $nodeIteratorUtil->getMenuItemsByIdentifier(aIdentifier);
 ```
 
 
@@ -54,7 +54,7 @@ Gets an iterator for default menu items via a node identifier.
 Gets an iterator for default menu items (i.e. getMenuItems(Node)), including folders
 
 ```php
- $result = $nodeIteratorUtil->getMenuItemsIncludingFolders(aParent);
+$result = $nodeIteratorUtil->getMenuItemsIncludingFolders(aParent);
 ```
 
 
@@ -62,7 +62,7 @@ Gets an iterator for default menu items (i.e. getMenuItems(Node)), including fol
 Gets an iterator for default menu items (including folders) via a node identifier.
 
 ```php
- $result = $nodeIteratorUtil->getMenuItemsIncludingFoldersByIdentifier(aIdentifier);
+$result = $nodeIteratorUtil->getMenuItemsIncludingFoldersByIdentifier(aIdentifier);
 ```
 
 
@@ -70,7 +70,7 @@ Gets an iterator for default menu items (including folders) via a node identifie
 Gets a node iterator via a node identifier.
 
 ```php
- $result = $nodeIteratorUtil->getNodeIteratorByIdentifier(aIdentifier);
+$result = $nodeIteratorUtil->getNodeIteratorByIdentifier(aIdentifier);
 ```
 
 
@@ -78,7 +78,7 @@ Gets a node iterator via a node identifier.
 Gets the filtering result of a split operation for a node iterator with a node filter as divider.
 
 ```php
- $result = $nodeIteratorUtil->split(aNodeIterator, aFilter);
+$result = $nodeIteratorUtil->split(aNodeIterator, aFilter);
 ```
 
 
@@ -86,6 +86,6 @@ Gets the filtering result of a split operation for a node iterator with a node f
 Gets a list of all nodes of a node iterator.
 
 ```php
- $result = $nodeIteratorUtil->toList(aNodeIterator);
+$result = $nodeIteratorUtil->toList(aNodeIterator);
 ```
 

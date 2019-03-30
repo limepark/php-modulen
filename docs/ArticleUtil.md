@@ -14,7 +14,7 @@ This class has the following methods.
 Creates an article with properties and web content.
 
 ```php
- $result = $articleUtil->createArticle(aParent, aTemplate, aName, properties, content);
+$result = $articleUtil->createArticle(aParent, aTemplate, aName, properties, content);
 ```
 
 

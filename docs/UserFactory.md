@@ -14,7 +14,7 @@ This class has the following methods.
 Gets an instance of a simple user utility class.
 
 ```php
- $result = $userFactory->getSimpleUserUtil();
+$result = $userFactory->getSimpleUserUtil();
 ```
 
 
@@ -22,7 +22,7 @@ Gets an instance of a simple user utility class.
 Gets an instance of a system user utility class.
 
 ```php
- $result = $userFactory->getSystemUserUtil();
+$result = $userFactory->getSystemUserUtil();
 ```
 
 
@@ -30,7 +30,7 @@ Gets an instance of a system user utility class.
 Gets an instance of a user data utility class.
 
 ```php
- $result = $userFactory->getUserDataUtil();
+$result = $userFactory->getUserDataUtil();
 ```
 
 
@@ -38,7 +38,7 @@ Gets an instance of a user data utility class.
 Gets an instance of a user identity utility class.
 
 ```php
- $result = $userFactory->getUserIdentityUtil();
+$result = $userFactory->getUserIdentityUtil();
 ```
 
 
@@ -46,7 +46,7 @@ Gets an instance of a user identity utility class.
 Gets an instance of a user identity wrapper.
 
 ```php
- $result = $userFactory->getUserIdentityWrapper(aUserIdentity);
+$result = $userFactory->getUserIdentityWrapper(aUserIdentity);
 ```
 
 
@@ -54,6 +54,6 @@ Gets an instance of a user identity wrapper.
 Gets an instance of a user utility class.
 
 ```php
- $result = $userFactory->getUserUtil();
+$result = $userFactory->getUserUtil();
 ```
 

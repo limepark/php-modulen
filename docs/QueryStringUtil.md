@@ -14,7 +14,7 @@ This class has the following methods.
 Returns a date formatted according to the Solr date string representation.
 
 ```php
- $result = $queryStringUtil->getDateAsString(aDate);
+$result = $queryStringUtil->getDateAsString(aDate);
 ```
 
 
@@ -22,7 +22,7 @@ Returns a date formatted according to the Solr date string representation.
 Returns a field query that is properly grouped.
 
 ```php
- $result = $queryStringUtil->getFieldQuery(aFieldName, aValueExpression);
+$result = $queryStringUtil->getFieldQuery(aFieldName, aValueExpression);
 ```
 
 
@@ -30,7 +30,7 @@ Returns a field query that is properly grouped.
 Removes query syntax characters from a query string and trims the result.
 
 ```php
- $result = $queryStringUtil->removeQuerySyntaxChars(aQueryString);
+$result = $queryStringUtil->removeQuerySyntaxChars(aQueryString);
 ```
 
 
@@ -38,7 +38,7 @@ Removes query syntax characters from a query string and trims the result.
 Transforms multiple strings with delimiters to a string that could be used in a field-grouped query expression.
 
 ```php
- $result = $queryStringUtil->splitCollectionToQueryParts(aStringsToSplit, aSplitExpression);
+$result = $queryStringUtil->splitCollectionToQueryParts(aStringsToSplit, aSplitExpression);
 ```
 
 
@@ -46,6 +46,6 @@ Transforms multiple strings with delimiters to a string that could be used in a 
 Transforms a string with delimiters to a string that could be used in a field-grouped query expression.
 
 ```php
- $result = $queryStringUtil->splitToQueryParts(aStringToSplit, aSplitExpression);
+$result = $queryStringUtil->splitToQueryParts(aStringToSplit, aSplitExpression);
 ```
 

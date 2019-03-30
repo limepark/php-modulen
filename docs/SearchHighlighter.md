@@ -11,6 +11,6 @@ As of SiteVision 3.0 this method will always return null. Do not use this interf
  it will be completely removed in future releases of SiteVision.
 
 ```php
- $result = $searchHighlighter->getHighlightedFragment(aHighlightPreElement, aHighlightPostElement, aSearchHit, aHighlightingFieldName);
+$result = $searchHighlighter->getHighlightedFragment(aHighlightPreElement, aHighlightPostElement, aSearchHit, aHighlightingFieldName);
 ```
 

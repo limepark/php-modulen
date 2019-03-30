@@ -14,7 +14,7 @@ This class has the following methods.
 Creates a page with properties and web content.
 
 ```php
- $result = $pageUtil->createPage(aParent, aTemplate, aName, properties, content);
+$result = $pageUtil->createPage(aParent, aTemplate, aName, properties, content);
 ```
 
 

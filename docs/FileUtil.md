@@ -15,7 +15,7 @@ Adds a file to a sv:localFileRepository, sv:fileRepository, sv:personalFileRepos
     as sub node to a file repository.
 
 ```php
- $result = $fileUtil->createFile(aParent, aFileName, anUri);
+$result = $fileUtil->createFile(aParent, aFileName, anUri);
 ```
 
 
@@ -32,7 +32,7 @@ $fileUtil->createFiles(aParent, aFileMappings);
 Gets the contents of a file as a String using a given character encoding.
 
 ```php
- $result = $fileUtil->getContentAsString(aFile, aCharacterEncoding);
+$result = $fileUtil->getContentAsString(aFile, aCharacterEncoding);
 ```
 
 

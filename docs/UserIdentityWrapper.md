@@ -9,7 +9,7 @@ This class has the following methods.
 Adds a contact for the wrapped user identity.
 
 ```php
- $result = $userIdentityWrapper->addContact(aUserIdentity);
+$result = $userIdentityWrapper->addContact(aUserIdentity);
 ```
 
 
@@ -17,7 +17,7 @@ Adds a contact for the wrapped user identity.
 The wrapped user identity follows/eavesdrops a collaboration group.
 
 ```php
- $result = $userIdentityWrapper->followGroup(aCollaborationGroup);
+$result = $userIdentityWrapper->followGroup(aCollaborationGroup);
 ```
 
 
@@ -25,7 +25,7 @@ The wrapped user identity follows/eavesdrops a collaboration group.
 Gets the profile image of the wrapped user identity.
 
 ```php
- $result = $userIdentityWrapper->getProfileImage();
+$result = $userIdentityWrapper->getProfileImage();
 ```
 
 
@@ -33,7 +33,7 @@ Gets the profile image of the wrapped user identity.
 Gets the profile images folder of the wrapped user identity.
 
 ```php
- $result = $userIdentityWrapper->getProfileImagesFolder();
+$result = $userIdentityWrapper->getProfileImagesFolder();
 ```
 
 
@@ -41,7 +41,7 @@ Gets the profile images folder of the wrapped user identity.
 Gets the wrapped user identity.
 
 ```php
- $result = $userIdentityWrapper->getUserIdentity();
+$result = $userIdentityWrapper->getUserIdentity();
 ```
 
 
@@ -49,7 +49,7 @@ Gets the wrapped user identity.
 Checks if wrapped user identity is admin of a collaboration group.
 
 ```php
- $result = $userIdentityWrapper->isAdminOf(aCollaborationGroup);
+$result = $userIdentityWrapper->isAdminOf(aCollaborationGroup);
 ```
 
 
@@ -57,7 +57,7 @@ Checks if wrapped user identity is admin of a collaboration group.
 Checks if the wrapped user identity is contact with a specified user identity.
 
 ```php
- $result = $userIdentityWrapper->isContact(aUserIdentity);
+$result = $userIdentityWrapper->isContact(aUserIdentity);
 ```
 
 
@@ -65,7 +65,7 @@ Checks if the wrapped user identity is contact with a specified user identity.
 Checks if the wrapped user identity is disabled or not.
 
 ```php
- $result = $userIdentityWrapper->isDisabled();
+$result = $userIdentityWrapper->isDisabled();
 ```
 
 
@@ -73,7 +73,7 @@ Checks if the wrapped user identity is disabled or not.
 Checks if wrapped user identity is following/eavesdropping a collaboration group.
 
 ```php
- $result = $userIdentityWrapper->isFollowing(aCollaborationGroup);
+$result = $userIdentityWrapper->isFollowing(aCollaborationGroup);
 ```
 
 
@@ -81,7 +81,7 @@ Checks if wrapped user identity is following/eavesdropping a collaboration group
 Checks if wrapped user identity is member of a collaboration group.
 
 ```php
- $result = $userIdentityWrapper->isMemberOf(aCollaborationGroup);
+$result = $userIdentityWrapper->isMemberOf(aCollaborationGroup);
 ```
 
 
@@ -89,7 +89,7 @@ Checks if wrapped user identity is member of a collaboration group.
 The wrapped user identity joins a collaboration group.
 
 ```php
- $result = $userIdentityWrapper->joinGroup(aCollaborationGroup);
+$result = $userIdentityWrapper->joinGroup(aCollaborationGroup);
 ```
 
 
@@ -97,7 +97,7 @@ The wrapped user identity joins a collaboration group.
 The wrapped user identity leaves a collaboration group.
 
 ```php
- $result = $userIdentityWrapper->leaveGroup(aCollaborationGroup);
+$result = $userIdentityWrapper->leaveGroup(aCollaborationGroup);
 ```
 
 
@@ -105,7 +105,7 @@ The wrapped user identity leaves a collaboration group.
 Removes a contact of the wrapped user identity.
 
 ```php
- $result = $userIdentityWrapper->removeContact(aUserIdentity);
+$result = $userIdentityWrapper->removeContact(aUserIdentity);
 ```
 
 
@@ -113,7 +113,7 @@ Removes a contact of the wrapped user identity.
 Sets the availability of the wrapped user identity.
 
 ```php
- $result = $userIdentityWrapper->setDisabled(aDisabled);
+$result = $userIdentityWrapper->setDisabled(aDisabled);
 ```
 
 
@@ -121,7 +121,7 @@ Sets the availability of the wrapped user identity.
 Sets the visibility of the wrapped user identity in search results.
 
 ```php
- $result = $userIdentityWrapper->setHidden(aHidden);
+$result = $userIdentityWrapper->setHidden(aHidden);
 ```
 
 
@@ -129,7 +129,7 @@ Sets the visibility of the wrapped user identity in search results.
 Sets the profile image of the wrapped user identity.
 
 ```php
- $result = $userIdentityWrapper->setProfileImage(aProfileImage);
+$result = $userIdentityWrapper->setProfileImage(aProfileImage);
 ```
 
 
@@ -137,6 +137,6 @@ Sets the profile image of the wrapped user identity.
 The wrapped user identity stops following/eavesdropping a collaboration group.
 
 ```php
- $result = $userIdentityWrapper->unfollowGroup(aCollaborationGroup);
+$result = $userIdentityWrapper->unfollowGroup(aCollaborationGroup);
 ```
 

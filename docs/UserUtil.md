@@ -10,7 +10,7 @@ Deprecated. 
 use UserIdentityUtil.getUserIdentity(javax.jcr.Node) instead
 
 ```php
- $result = $userUtil->getUserIdentity(aUserNode);
+$result = $userUtil->getUserIdentity(aUserNode);
 ```
 
 
@@ -19,7 +19,7 @@ Deprecated. 
 use SystemUserUtil.isAnonymous(javax.jcr.Node) instead
 
 ```php
- $result = $userUtil->isAnonymous(aUserNode);
+$result = $userUtil->isAnonymous(aUserNode);
 ```
 
 
@@ -28,7 +28,7 @@ Deprecated. 
 use SystemUserUtil.isExtractor(javax.jcr.Node) instead
 
 ```php
- $result = $userUtil->isExtractor(aUserNode);
+$result = $userUtil->isExtractor(aUserNode);
 ```
 
 
@@ -37,7 +37,7 @@ Deprecated. 
 use SystemUserUtil.isIndexer(javax.jcr.Node) instead
 
 ```php
- $result = $userUtil->isIndexer(aUserNode);
+$result = $userUtil->isIndexer(aUserNode);
 ```
 
 
@@ -46,6 +46,6 @@ Deprecated. 
 use SystemUserUtil.isSystem(javax.jcr.Node) instead
 
 ```php
- $result = $userUtil->isSystem(aUserNode);
+$result = $userUtil->isSystem(aUserNode);
 ```
 

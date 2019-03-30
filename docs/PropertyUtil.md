@@ -14,7 +14,7 @@ This class has the following methods.
 Gets a Binary property from a node with a fallback value if the property doesn't exist.
 
 ```php
- $result = $propertyUtil->getBinary(aNode, aPropertyName, aDefaultValue);
+$result = $propertyUtil->getBinary(aNode, aPropertyName, aDefaultValue);
 ```
 
 
@@ -22,7 +22,7 @@ Gets a Binary property from a node with a fallback value if the property doesn't
 Gets a boolean property from a Node with a fallback value if the property doesn't exist or is incompatible with the boolean type.
 
 ```php
- $result = $propertyUtil->getBoolean(aNode, aPropertyName, aDefaultValue);
+$result = $propertyUtil->getBoolean(aNode, aPropertyName, aDefaultValue);
 ```
 
 
@@ -30,7 +30,7 @@ Gets a boolean property from a Node with a fallback value if the property doesn'
 Gets a double property from a node with a fallback value if the property doesn't exist or is incompatible with the double type.
 
 ```php
- $result = $propertyUtil->getDouble(aNode, aPropertyName, aDefaultValue);
+$result = $propertyUtil->getDouble(aNode, aPropertyName, aDefaultValue);
 ```
 
 
@@ -38,7 +38,7 @@ Gets a double property from a node with a fallback value if the property doesn't
 Gets a Node property from a Node if an enabling property allows it, with a fallback Node value.
 
 ```php
- $result = $propertyUtil->getEnabledNode(aNode, aEnablingPropertyName, aNodePropertyName, aDefaultValue);
+$result = $propertyUtil->getEnabledNode(aNode, aEnablingPropertyName, aNodePropertyName, aDefaultValue);
 ```
 
 
@@ -46,7 +46,7 @@ Gets a Node property from a Node if an enabling property allows it, with a fallb
 Gets a String property from a Node if an enabling boolean property allows it, with a fallback value.
 
 ```php
- $result = $propertyUtil->getEnabledString(aNode, aEnablingPropertyName, aStringPropertyName, aDefaultValue);
+$result = $propertyUtil->getEnabledString(aNode, aEnablingPropertyName, aStringPropertyName, aDefaultValue);
 ```
 
 
@@ -54,7 +54,7 @@ Gets a String property from a Node if an enabling boolean property allows it, wi
 Gets a String property from a Node if an enabling boolean property allows it, and returns it XML escaped with a fallback value.
 
 ```php
- $result = $propertyUtil->getEnabledStringEscaped(aNode, aEnablingPropertyName, aStringPropertyName, aDefaultValue);
+$result = $propertyUtil->getEnabledStringEscaped(aNode, aEnablingPropertyName, aStringPropertyName, aDefaultValue);
 ```
 
 
@@ -62,7 +62,7 @@ Gets a String property from a Node if an enabling boolean property allows it, an
 Gets an int property from a node with a fallback value if the property doesn't exist or is incompatible with the int type.
 
 ```php
- $result = $propertyUtil->getInt(aNode, aPropertyName, aDefaultValue);
+$result = $propertyUtil->getInt(aNode, aPropertyName, aDefaultValue);
 ```
 
 
@@ -70,7 +70,7 @@ Gets an int property from a node with a fallback value if the property doesn't e
 Gets a Binary property from a "nested" Node's property with a fallback value if the property doesn't exist.
 
 ```php
- $result = $propertyUtil->getNestedBinary(aNode, aNodePropertyName, aPropertyName, aDefaultValue);
+$result = $propertyUtil->getNestedBinary(aNode, aNodePropertyName, aPropertyName, aDefaultValue);
 ```
 
 
@@ -79,7 +79,7 @@ Gets a boolean property from a "nested" Node's property with a fallback value if
  with the boolean type.
 
 ```php
- $result = $propertyUtil->getNestedBoolean(aNode, aNodePropertyName, aPropertyName, aDefaultValue);
+$result = $propertyUtil->getNestedBoolean(aNode, aNodePropertyName, aPropertyName, aDefaultValue);
 ```
 
 
@@ -88,7 +88,7 @@ Gets a double property from a "nested" Node's property with a fallback value if 
  with the double type.
 
 ```php
- $result = $propertyUtil->getNestedDouble(aNode, aNodePropertyName, aPropertyName, aDefaultValue);
+$result = $propertyUtil->getNestedDouble(aNode, aNodePropertyName, aPropertyName, aDefaultValue);
 ```
 
 
@@ -96,7 +96,7 @@ Gets a double property from a "nested" Node's property with a fallback value if 
 Gets an int property from a "nested" Node's property with a fallback value if the property doesn't exist or is incompatible with the int type.
 
 ```php
- $result = $propertyUtil->getNestedInt(aNode, aNodePropertyName, aPropertyName, aDefaultValue);
+$result = $propertyUtil->getNestedInt(aNode, aNodePropertyName, aPropertyName, aDefaultValue);
 ```
 
 
@@ -104,7 +104,7 @@ Gets an int property from a "nested" Node's property with a fallback value if th
 Gets a Node property from a "nested" Node's property with a fallback value if the property doesn't exist.
 
 ```php
- $result = $propertyUtil->getNestedNode(aNode, aNodePropertyName, aPropertyName, aDefaultValue);
+$result = $propertyUtil->getNestedNode(aNode, aNodePropertyName, aPropertyName, aDefaultValue);
 ```
 
 
@@ -112,7 +112,7 @@ Gets a Node property from a "nested" Node's property with a fallback value if th
 Gets a String property from a "nested" Node's property with a fallback value if the property doesn't exist.
 
 ```php
- $result = $propertyUtil->getNestedString(aNode, aNodePropertyName, aPropertyName, aDefaultValue);
+$result = $propertyUtil->getNestedString(aNode, aNodePropertyName, aPropertyName, aDefaultValue);
 ```
 
 
@@ -120,7 +120,7 @@ Gets a String property from a "nested" Node's property with a fallback value if 
 Gets a String property from a "nested" Node's property with a fallback value if the property doesn't exist, and returns it XML escaped.
 
 ```php
- $result = $propertyUtil->getNestedStringEscaped(aNode, aNodePropertyName, aPropertyName, aDefaultValue);
+$result = $propertyUtil->getNestedStringEscaped(aNode, aNodePropertyName, aPropertyName, aDefaultValue);
 ```
 
 
@@ -128,7 +128,7 @@ Gets a String property from a "nested" Node's property with a fallback value if 
 Gets a List of property values from a "nested" Node's property with a fallback value if the property doesn't exist.
 
 ```php
- $result = $propertyUtil->getNestedStrings(aNode, aNodePropertyName, aPropertyName, aDefaultValue);
+$result = $propertyUtil->getNestedStrings(aNode, aNodePropertyName, aPropertyName, aDefaultValue);
 ```
 
 
@@ -137,7 +137,7 @@ Gets a List of property values from a "nested" Node's property with a fallback v
  and returns it XML escaped.
 
 ```php
- $result = $propertyUtil->getNestedStringsEscaped(aNode, aNodePropertyName, aPropertyName, aDefaultValue);
+$result = $propertyUtil->getNestedStringsEscaped(aNode, aNodePropertyName, aPropertyName, aDefaultValue);
 ```
 
 
@@ -145,7 +145,7 @@ Gets a List of property values from a "nested" Node's property with a fallback v
 Gets a Node property from a Node with a fallback value if the property doesn't exist.
 
 ```php
- $result = $propertyUtil->getNode(aNode, aPropertyName, aDefaultValue);
+$result = $propertyUtil->getNode(aNode, aPropertyName, aDefaultValue);
 ```
 
 
@@ -153,7 +153,7 @@ Gets a Node property from a Node with a fallback value if the property doesn't e
 Gets a String property from a node with a fallback value if the property doesn't exist.
 
 ```php
- $result = $propertyUtil->getString(aNode, aPropertyName, aDefaultValue);
+$result = $propertyUtil->getString(aNode, aPropertyName, aDefaultValue);
 ```
 
 
@@ -161,7 +161,7 @@ Gets a String property from a node with a fallback value if the property doesn't
 Gets a String property from a Node, with a fallback value, and returns it XML escaped.
 
 ```php
- $result = $propertyUtil->getStringEscaped(aNode, aPropertyName, aDefaultValue);
+$result = $propertyUtil->getStringEscaped(aNode, aPropertyName, aDefaultValue);
 ```
 
 
@@ -169,7 +169,7 @@ Gets a String property from a Node, with a fallback value, and returns it XML es
 Gets a List of property values from a Node with a fallback value if the property doesn't exist.
 
 ```php
- $result = $propertyUtil->getStrings(aNode, aPropertyName, aDefaultValue);
+$result = $propertyUtil->getStrings(aNode, aPropertyName, aDefaultValue);
 ```
 
 
@@ -177,6 +177,6 @@ Gets a List of property values from a Node with a fallback value if the property
 Gets a List of XML escaped property values from a Node with a fallback value if the property doesn't exist.
 
 ```php
- $result = $propertyUtil->getStringsEscaped(aNode, aPropertyName, aDefaultValue);
+$result = $propertyUtil->getStringsEscaped(aNode, aPropertyName, aDefaultValue);
 ```
 

@@ -9,7 +9,7 @@ This class has the following methods.
 Gets the name of the index field this custom sort uses.
 
 ```php
- $result = $customSort->getField();
+$result = $customSort->getField();
 ```
 
 
@@ -17,7 +17,7 @@ Gets the name of the index field this custom sort uses.
 Gets the name of this custom sort.
 
 ```php
- $result = $customSort->getName();
+$result = $customSort->getName();
 ```
 
 
@@ -25,7 +25,7 @@ Gets the name of this custom sort.
 Gets the identifier of this custom sort.
 
 ```php
- $result = $customSort->getSortId();
+$result = $customSort->getSortId();
 ```
 
 
@@ -33,7 +33,7 @@ Gets the identifier of this custom sort.
 Returns the query parameters for this custom sort.
 
 ```php
- $result = $customSort->getSortQueryParams();
+$result = $customSort->getSortQueryParams();
 ```
 
 
@@ -41,7 +41,7 @@ Returns the query parameters for this custom sort.
 Gets the relative URL for this custom sort.
 
 ```php
- $result = $customSort->getSortURL();
+$result = $customSort->getSortURL();
 ```
 
 
@@ -49,7 +49,7 @@ Gets the relative URL for this custom sort.
 Whether the sort order is descending or not.
 
 ```php
- $result = $customSort->isDescending();
+$result = $customSort->isDescending();
 ```
 
 
@@ -57,6 +57,6 @@ Whether the sort order is descending or not.
 Whether or not this custom sort is selected.
 
 ```php
- $result = $customSort->isSelected();
+$result = $customSort->isSelected();
 ```
 

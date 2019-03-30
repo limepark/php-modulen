@@ -14,7 +14,7 @@ This class has the following methods.
 Creates a link page with properties as sub node of a specified parent.
 
 ```php
- $result = $linkPageUtil->createLinkPage(aParent, aName, aLinkTarget, aProperties);
+$result = $linkPageUtil->createLinkPage(aParent, aName, aLinkTarget, aProperties);
 ```
 
 

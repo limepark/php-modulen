@@ -15,7 +15,7 @@ Adds an image to a sv:localImageRepository, sv:imageRepository, sv:personalImage
     or a sv:folder residing as sub node to an image repository.
 
 ```php
- $result = $imageUtil->createImage(aParent, aFileName, anUri);
+$result = $imageUtil->createImage(aParent, aFileName, anUri);
 ```
 
 

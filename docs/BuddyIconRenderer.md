@@ -46,7 +46,7 @@ $buddyIconRenderer->forceUseSmallBuddyIconSize();
 Whether or not this renderer contains a node that can be rendered.
 
 ```php
- $result = $buddyIconRenderer->isLoaded();
+$result = $buddyIconRenderer->isLoaded();
 ```
 
 
@@ -54,7 +54,7 @@ Whether or not this renderer contains a node that can be rendered.
 Helper method to check if a certain node can be rendered as a buddy icon.
 
 ```php
- $result = $buddyIconRenderer->isRenderable(aNode);
+$result = $buddyIconRenderer->isRenderable(aNode);
 ```
 
 
@@ -62,7 +62,7 @@ Helper method to check if a certain node can be rendered as a buddy icon.
 Builds a html string based on current state.
 
 ```php
- $result = $buddyIconRenderer->render();
+$result = $buddyIconRenderer->render();
 ```
 
 

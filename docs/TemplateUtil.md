@@ -14,7 +14,7 @@ This class has the following methods.
 Gets first found page template with a given name.
 
 ```php
- $result = $templateUtil->getPageTemplateByName(aPageTemplateName);
+$result = $templateUtil->getPageTemplateByName(aPageTemplateName);
 ```
 
 
@@ -22,7 +22,7 @@ Gets first found page template with a given name.
 Gets the page templates.
 
 ```php
- $result = $templateUtil->getPageTemplates();
+$result = $templateUtil->getPageTemplates();
 ```
 
 
@@ -30,7 +30,7 @@ Gets the page templates.
 Gets first found template with a given name.
 
 ```php
- $result = $templateUtil->getTemplateByName(aTemplateName);
+$result = $templateUtil->getTemplateByName(aTemplateName);
 ```
 
 
@@ -38,7 +38,7 @@ Gets first found template with a given name.
 Gets all templates.
 
 ```php
- $result = $templateUtil->getTemplates();
+$result = $templateUtil->getTemplates();
 ```
 
 
@@ -46,6 +46,6 @@ Gets all templates.
 Whether or not a node is a page template.
 
 ```php
- $result = $templateUtil->isPageTemplate(aTemplate);
+$result = $templateUtil->isPageTemplate(aTemplate);
 ```
 

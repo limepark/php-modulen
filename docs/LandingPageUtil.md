@@ -14,7 +14,7 @@ This class has the following methods.
 Gets the error page (404) of current site.
 
 ```php
- $result = $landingPageUtil->getErrorPage();
+$result = $landingPageUtil->getErrorPage();
 ```
 
 
@@ -22,7 +22,7 @@ Gets the error page (404) of current site.
 Gets the login page (401) of current site.
 
 ```php
- $result = $landingPageUtil->getLoginPage();
+$result = $landingPageUtil->getLoginPage();
 ```
 
 
@@ -30,6 +30,6 @@ Gets the login page (401) of current site.
 Gets the profile page (information about current/specified user identity) of current site.
 
 ```php
- $result = $landingPageUtil->getProfilePage();
+$result = $landingPageUtil->getProfilePage();
 ```
 

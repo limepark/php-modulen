@@ -14,7 +14,7 @@ This class has the following methods.
 Creates and returns an instance of a specified Java class using a single argument constructor.
 
 ```php
- $result = $instanceCreatorUtil->getArgumentInstance(aQualifiedClassName, aConstructorArgument);
+$result = $instanceCreatorUtil->getArgumentInstance(aQualifiedClassName, aConstructorArgument);
 ```
 
 
@@ -22,7 +22,7 @@ Creates and returns an instance of a specified Java class using a single argumen
 Creates and returns an instance of a specified Java class using a multiple argument constructor.
 
 ```php
- $result = $instanceCreatorUtil->getArgumentsInstance(aQualifiedClassName, aConstructorArguments);
+$result = $instanceCreatorUtil->getArgumentsInstance(aQualifiedClassName, aConstructorArguments);
 ```
 
 
@@ -30,7 +30,7 @@ Creates and returns an instance of a specified Java class using a multiple argum
 Gets a java.util.Arrays wrapper instance.
 
 ```php
- $result = $instanceCreatorUtil->getArraysInstance();
+$result = $instanceCreatorUtil->getArraysInstance();
 ```
 
 
@@ -38,7 +38,7 @@ Gets a java.util.Arrays wrapper instance.
 Gets a typed argument for a boolean primitive.
 
 ```php
- $result = $instanceCreatorUtil->getBooleanArgument(aBoolean);
+$result = $instanceCreatorUtil->getBooleanArgument(aBoolean);
 ```
 
 
@@ -46,7 +46,7 @@ Gets a typed argument for a boolean primitive.
 Gets a typed argument for a byte primitive.
 
 ```php
- $result = $instanceCreatorUtil->getByteArgument(aByte);
+$result = $instanceCreatorUtil->getByteArgument(aByte);
 ```
 
 
@@ -54,7 +54,7 @@ Gets a typed argument for a byte primitive.
 Gets a typed argument for a char primitive.
 
 ```php
- $result = $instanceCreatorUtil->getCharArgument(aChar);
+$result = $instanceCreatorUtil->getCharArgument(aChar);
 ```
 
 
@@ -62,7 +62,7 @@ Gets a typed argument for a char primitive.
 Gets a java.util.Collections wrapper instance.
 
 ```php
- $result = $instanceCreatorUtil->getCollectionsInstance();
+$result = $instanceCreatorUtil->getCollectionsInstance();
 ```
 
 
@@ -70,7 +70,7 @@ Gets a java.util.Collections wrapper instance.
 Gets a typed argument that specifies a certain class/interface for an object.
 
 ```php
- $result = $instanceCreatorUtil->getCustomArgument(aQualifiedClassName, aValue);
+$result = $instanceCreatorUtil->getCustomArgument(aQualifiedClassName, aValue);
 ```
 
 
@@ -78,7 +78,7 @@ Gets a typed argument that specifies a certain class/interface for an object.
 Creates and returns an instance of a specified Java class using the default constructor.
 
 ```php
- $result = $instanceCreatorUtil->getDefaultInstance(aQualifiedClassName);
+$result = $instanceCreatorUtil->getDefaultInstance(aQualifiedClassName);
 ```
 
 
@@ -86,7 +86,7 @@ Creates and returns an instance of a specified Java class using the default cons
 Gets a typed argument for a double primitive.
 
 ```php
- $result = $instanceCreatorUtil->getDoubleArgument(aDouble);
+$result = $instanceCreatorUtil->getDoubleArgument(aDouble);
 ```
 
 
@@ -94,7 +94,7 @@ Gets a typed argument for a double primitive.
 Gets a typed argument for an Enum value for a specified enum class.
 
 ```php
- $result = $instanceCreatorUtil->getEnumArgument(aQualifiedEnumClassName, anEnum);
+$result = $instanceCreatorUtil->getEnumArgument(aQualifiedEnumClassName, anEnum);
 ```
 
 
@@ -102,7 +102,7 @@ Gets a typed argument for an Enum value for a specified enum class.
 Gets an enum instance for a specified enum class.
 
 ```php
- $result = $instanceCreatorUtil->getEnumInstance(aQualifiedEnumClassName, anEnumName);
+$result = $instanceCreatorUtil->getEnumInstance(aQualifiedEnumClassName, anEnumName);
 ```
 
 
@@ -110,7 +110,7 @@ Gets an enum instance for a specified enum class.
 Gets a typed argument for a float primitive.
 
 ```php
- $result = $instanceCreatorUtil->getFloatArgument(aFloat);
+$result = $instanceCreatorUtil->getFloatArgument(aFloat);
 ```
 
 
@@ -118,7 +118,7 @@ Gets a typed argument for a float primitive.
 Gets a typed argument for a int primitive.
 
 ```php
- $result = $instanceCreatorUtil->getIntArgument(anInt);
+$result = $instanceCreatorUtil->getIntArgument(anInt);
 ```
 
 
@@ -126,7 +126,7 @@ Gets a typed argument for a int primitive.
 Gets a ListWrapper instance.
 
 ```php
- $result = $instanceCreatorUtil->getListWrapper();
+$result = $instanceCreatorUtil->getListWrapper();
 ```
 
 
@@ -134,7 +134,7 @@ Gets a ListWrapper instance.
 Gets a typed argument for a long primitive.
 
 ```php
- $result = $instanceCreatorUtil->getLongArgument(aLong);
+$result = $instanceCreatorUtil->getLongArgument(aLong);
 ```
 
 
@@ -142,7 +142,7 @@ Gets a typed argument for a long primitive.
 Gets a java.lang.Math wrapper instance.
 
 ```php
- $result = $instanceCreatorUtil->getMathInstance();
+$result = $instanceCreatorUtil->getMathInstance();
 ```
 
 
@@ -150,7 +150,7 @@ Gets a java.lang.Math wrapper instance.
 Gets a typed argument for a null value for a specified class/interface.
 
 ```php
- $result = $instanceCreatorUtil->getNullArgument(aQualifiedClassName);
+$result = $instanceCreatorUtil->getNullArgument(aQualifiedClassName);
 ```
 
 
@@ -158,7 +158,7 @@ Gets a typed argument for a null value for a specified class/interface.
 Gets a typed argument for an Object.
 
 ```php
- $result = $instanceCreatorUtil->getObjectArgument(aValue);
+$result = $instanceCreatorUtil->getObjectArgument(aValue);
 ```
 
 
@@ -166,6 +166,6 @@ Gets a typed argument for an Object.
 Gets a typed argument for a short primitive.
 
 ```php
- $result = $instanceCreatorUtil->getShortArgument(aShort);
+$result = $instanceCreatorUtil->getShortArgument(aShort);
 ```
 
