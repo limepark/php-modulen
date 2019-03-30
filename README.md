@@ -1,5 +1,5 @@
 # PHP Modulen
-Ända sedan 2002, när vi gick över ifrån PHP och började utveckla i Java och Javascript i Sitevision, så har jag kännt att något saknas mig. Därför känns det som att SiteVision äntligen kommer ikapp utvecklingen nu när man kommer kunna göra utvecklingen i PHP istället för allt det här nya och effektiva. Ett stort steg frammåt! Äntligen!
+Ända sedan 2002, när vi gick över ifrån PHP och började utveckla i Java och Javascript i Sitevision, så har vi känt att något saknats. Därför känns det som att SiteVision äntligen kommer ikapp utvecklingen nu när man kommer kunna göra utvecklingen i PHP istället för allt det här nya och effektiva. Ett stort steg frammåt! Äntligen!
 
 Därför lanserar Limepark den 1 april 2019 PHP-modulen Beta som en lösning för att kunna köra PHP-kod i SiteVision.
 
