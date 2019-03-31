@@ -26,6 +26,14 @@ $result = $propertyUtil->getBoolean(aNode, aPropertyName, aDefaultValue);
 ```
 
 
+### Calendar getCalendar (Node aNode, string aPropertyName, [Calendar aDefaultValue])
+Gets a Calendar property from a Node with a fallback value if the property doesn't exist or is incompatible with the Calendar type.
+
+```php
+$result = $propertyUtil->getCalendar(aNode, aPropertyName, aDefaultValue);
+```
+
+
 ### double getDouble (Node aNode, string aPropertyName, [double aDefaultValue])
 Gets a double property from a node with a fallback value if the property doesn't exist or is incompatible with the double type.
 
@@ -80,6 +88,14 @@ Gets a boolean property from a "nested" Node's property with a fallback value if
 
 ```php
 $result = $propertyUtil->getNestedBoolean(aNode, aNodePropertyName, aPropertyName, aDefaultValue);
+```
+
+
+### Calendar getNestedCalendar (Node aNode, string aNodePropertyName, string aPropertyName, [Calendar aDefaultValue])
+Gets a Calendar property from a "nested" Node's property with a fallback value if the property doesn't exist.
+
+```php
+$result = $propertyUtil->getNestedCalendar(aNode, aNodePropertyName, aPropertyName, aDefaultValue);
 ```
 
 

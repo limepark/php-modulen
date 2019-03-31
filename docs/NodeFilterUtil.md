@@ -10,7 +10,7 @@ $nodeFilterUtil = new NodeFilterUtil();
 This class has the following methods.
 
 
-### Filter getAfterCalendarPropertyFilter (string aPropertyName, java.util.calendar aAfterThresholdValue)
+### Filter getAfterCalendarPropertyFilter (string aPropertyName, Calendar aAfterThresholdValue)
 Gets a filter that matches by an after value for a specified Calendar property.
 
 ```php
@@ -18,7 +18,7 @@ $result = $nodeFilterUtil->getAfterCalendarPropertyFilter(aPropertyName, aAfterT
 ```
 
 
-### Filter getAfterNestedCalendarPropertyFilter (string aNodePropertyName, string aPropertyName, java.util.calendar aAfterThresholdValue)
+### Filter getAfterNestedCalendarPropertyFilter (string aNodePropertyName, string aPropertyName, Calendar aAfterThresholdValue)
 Gets a filter that matches by an after value of a nested node's specified Calendar property.
 
 ```php
@@ -34,7 +34,7 @@ $result = $nodeFilterUtil->getAlwaysAcceptFilter();
 ```
 
 
-### Filter getBeforeCalendarPropertyFilter (string aPropertyName, java.util.calendar aBeforeThresholdValue)
+### Filter getBeforeCalendarPropertyFilter (string aPropertyName, Calendar aBeforeThresholdValue)
 Gets a filter that matches by a before value for a specified Calendar property.
 
 ```php
@@ -42,7 +42,7 @@ $result = $nodeFilterUtil->getBeforeCalendarPropertyFilter(aPropertyName, aBefor
 ```
 
 
-### Filter getBeforeNestedCalendarPropertyFilter (string aNodePropertyName, string aPropertyName, java.util.calendar aBeforeThresholdValue)
+### Filter getBeforeNestedCalendarPropertyFilter (string aNodePropertyName, string aPropertyName, Calendar aBeforeThresholdValue)
 Gets a filter that matches by a before value of a nested node's specified Calendar property.
 
 ```php
@@ -58,7 +58,7 @@ $result = $nodeFilterUtil->getBooleanPropertyFilter(aPropertyName, aMatchValue);
 ```
 
 
-### Filter getCalendarPropertyFilter (string aPropertyName, java.util.calendar aMatchValue)
+### Filter getCalendarPropertyFilter (string aPropertyName, Calendar aMatchValue)
 Gets a filter that matches by a specified Calendar property.
 
 ```php
@@ -234,7 +234,7 @@ $result = $nodeFilterUtil->getNestedBooleanPropertyFilter(aNodePropertyName, aPr
 ```
 
 
-### Filter getNestedCalendarPropertyFilter (string aNodePropertyName, string aPropertyName, java.util.calendar aMatchValue)
+### Filter getNestedCalendarPropertyFilter (string aNodePropertyName, string aPropertyName, Calendar aMatchValue)
 Gets a filter that matches by a nested node's specified Calendar property.
 
 ```php
@@ -306,7 +306,7 @@ $result = $nodeFilterUtil->getPrimaryNodeTypeFilter(aPrimaryNodeTypeName);
 ```
 
 
-### Filter getRangeCalendarPropertyFilter (string aPropertyName, java.util.calendar aAfterThresholdValue, java.util.calendar aBeforeThresholdValue)
+### Filter getRangeCalendarPropertyFilter (string aPropertyName, Calendar aAfterThresholdValue, Calendar aBeforeThresholdValue)
 Gets a filter that matches by the between range of a specified Calendar property.
 
 ```php
@@ -330,7 +330,7 @@ $result = $nodeFilterUtil->getRangeIntPropertyFilter(aPropertyName, aMinValue, a
 ```
 
 
-### Filter getRangeNestedCalendarPropertyFilter (string aNodePropertyName, string aPropertyName, java.util.calendar aAfterThresholdValue, java.util.calendar aBeforeThresholdValue)
+### Filter getRangeNestedCalendarPropertyFilter (string aNodePropertyName, string aPropertyName, Calendar aAfterThresholdValue, Calendar aBeforeThresholdValue)
 Gets a filter that matches by the between range of a nested node's specified Calendar property.
 
 ```php

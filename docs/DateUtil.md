@@ -10,7 +10,7 @@ $dateUtil = new DateUtil();
 This class has the following methods.
 
 
-### string getCalendarAsISO8601String (java.util.calendar aCalendar)
+### string getCalendarAsISO8601String (Calendar aCalendar)
 Formats a calendar according to the ISO8601 specification.
 
 ```php
@@ -18,7 +18,7 @@ $result = $dateUtil->getCalendarAsISO8601String(aCalendar);
 ```
 
 
-### string getCalendarAsString (string aFormatPattern, java.util.calendar aCalendar)
+### string getCalendarAsString (string aFormatPattern, Calendar aCalendar)
 Formats the date of a calendar according to a SimpleDateFormat pattern.
 
 ```php
