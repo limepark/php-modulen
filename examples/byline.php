@@ -13,7 +13,7 @@ if ($isPublished) {
   echo "<p class=\"normal\">Sidan publicerades $publishDateString av $publishedBy.</p>";
 } else {
   $creationDate = $propertyUtil->getCalendar($currentPage, 'creationDate');
-  $$creationDateString = $dateUtil->getCalendarAsString('yyyy-MM-dd', $creationDate);
+  $creationDateString = $dateUtil->getCalendarAsString('yyyy-MM-dd', $creationDate);
   echo "<p class=\"normal\">Sidan skapades $$creationDateString av $publishedBy.</p>";
 }
 ?>
