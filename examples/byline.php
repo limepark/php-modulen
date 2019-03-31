@@ -1,7 +1,7 @@
 <?php
 $portletContextUtil = new PortletContextUtil();
 $propertyUtil       = new PropertyUtil();
-$dateUtil			= new DateUtil();
+$dateUtil           = new DateUtil();
 $currentPage        = $portletContextUtil->getCurrentPage();
 
 $publishedBy = $propertyUtil->getNestedString($currentPage, 'publishedBy', 'displayName');
