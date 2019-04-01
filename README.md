@@ -11,6 +11,8 @@ Då webappen släpps som en Beta så är den inte heller signerad med ett certif
 
 I dagsläget ligger dessutom en begränsning som gör att webappen enbart körs ifall användaren som försöker se innehållet har skrivrättigheter på sidan: `permissionUtil.hasWritePermission()`.
 
+**OBS!** Denna modul är _inte_ redo att köras i produktion utan bör endast testas i din lokala Sitevision-instans.
+
 ## Status
 - En begränsad del av SiteVisions publika API har implementerats i modulen.
 - En begränsad del av PHPs standardbibliotek är implementerat.
